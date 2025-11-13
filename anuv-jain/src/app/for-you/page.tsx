@@ -82,7 +82,7 @@ export default function Foryou() {
         <div className="paperimg">
 
           <div className="imgpaper">
-            <img src="amitimg/paper1.svg">
+            <img src="amitimg/paper1.svg"/>
           </div>
 
           <div className="content-paper">
@@ -125,7 +125,7 @@ export default function Foryou() {
         <div className="paperimg">
 
           <div className="imgpaper">
-            <img src="amitimg/paper2.svg">
+            <img src="amitimg/paper2.svg"/>
           </div>
 
           <div className="content-paper">
