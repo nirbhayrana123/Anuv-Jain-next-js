@@ -82,14 +82,60 @@ export default function Foryou() {
         </div>
       </section>
 
-      <section className="paper2 paperclass">
+   <section className="paper1 paperclass">
         <div className="paperimg">
+
           <div className="imgpaper">
-            <img src="amitimg/paper2.svg" />
+            <img src="amitimg/paper1.svg">
           </div>
+
+          <div className="content-paper">
+            <p>1.</p>
+            <h5>Your ideal evening looks like...</h5>
+
+            <div className="wrapper first">
+              <div className="checkbox-wrap">
+                <input type="checkbox" id="writing" />
+                <label htmlFor="writing">Writing a letter you’ll never send</label>
+              </div>
+
+              <div className="checkbox-wrap">
+                <input type="checkbox" id="taking" />
+                <label htmlFor="taking">Taking a long walk alone</label>
+              </div>
+
+              <div className="checkbox-wrap">
+                <input type="checkbox" id="sitting" />
+                <label htmlFor="sitting">Sitting at a cafe, people-watching</label>
+              </div>
+              <div className="checkbox-wrap">
+                <input type="checkbox" id="staring" />
+                <label htmlFor="staring">Staring at the sky with music on</label>
+              </div>
+              <div className="checkbox-wrap">
+                <input type="checkbox" id="lying" />
+                <label htmlFor="lying">Lying in bed with a storm in your
+                  mind</label>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section className="paper2 paperclass">
+
+        <div className="paperimg">
+
+          <div className="imgpaper">
+            <img src="amitimg/paper2.svg">
+          </div>
+
           <div className="content-paper">
             <p>2.</p>
             <h5>What do you find comfort in the most?</h5>
+
             <div className="wrapper first">
               <div className="checkbox-wrap">
                 <input type="checkbox" id="words" />
@@ -111,27 +157,29 @@ export default function Foryou() {
               </div>
               <div className="checkbox-wrap">
                 <input type="checkbox" id="thoughts" />
-                <label htmlFor="thoughts">Late-night thoughts that feel like the truth</label>
+                <label htmlFor="thoughts">Late-night thoughts that feel like the
+                  truth</label>
               </div>
 
-
             </div>
-
-
 
           </div>
         </div>
       </section>
 
       <section className="paper3 paperclass">
+
         <div className="paperimg">
+
           <div className="imgpaper">
-            <img src="amitimg/paper3.svg" />
+            <img src="amitimg/paper3.svg"/>
           </div>
+
           <div className="content-paper">
             <p>3.</p>
             <h5>What best describes your current
               state of mind?</h5>
+
             <div className="wrapper first">
               <div className="checkbox-wrap">
                 <input type="checkbox" id="reflecting" />
@@ -156,10 +204,7 @@ export default function Foryou() {
                 <label htmlFor="quietly">Quietly overthinking everything</label>
               </div>
 
-
             </div>
-
-
 
           </div>
         </div>
@@ -170,13 +215,12 @@ export default function Foryou() {
         <div className="paperimg">
 
           <div className="imgpaper">
-            <img src="amitimg/paper4.svg" />
+            <img src="amitimg/paper4.svg"/>
           </div>
 
           <div className="content-paper">
             <p>4.</p>
             <h5>When you listen to music, you’re usually...</h5>
-
 
             <div className="wrapper first">
               <div className="checkbox-wrap">
@@ -199,13 +243,11 @@ export default function Foryou() {
               </div>
               <div className="checkbox-wrap">
                 <input type="checkbox" id="thinking" />
-                <label htmlFor="thinking">Thinking about things you havent said yet</label>
+                <label htmlFor="thinking">Thinking about things you havent said
+                  yet</label>
               </div>
 
-
             </div>
-
-
 
           </div>
         </div>
