@@ -485,7 +485,13 @@ ul.dates-list li {
     background-size: cover;
     margin-top: -115px;
     background-position: center center;
-    height: 185vh;
+    height: auto;
+}
+.tiltefou img {
+    width: 460px;
+}
+.discriptioncontent img {
+    width: 440px;
 }
 
 .afsos {

@@ -57,7 +57,7 @@ export default function Header() {
 
       <div className="navbox for-you-nav">
         <div className="relative">
-         <Link href="/foryou" className="link _4">For You</Link>
+         <Link href="/for-you" className="link _4">For You</Link>
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
-import Header from "./Header";
-import Footer from "./Footer";
+
 
 export default function Home() {
 
@@ -14,7 +13,6 @@ export default function Home() {
     };
   return (
     <>
-      <Header />
       <main>
         <section className="main-banner">
           <img className="top-img" src="images/banner-top.png" />
@@ -332,7 +330,6 @@ export default function Home() {
 
   </section>
       </main>
-      <Footer />
     </>
   );
 }
