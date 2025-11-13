@@ -4,46 +4,42 @@ import $ from "jquery";
 
 
 export default function Foryou() {
- useEffect(() => {
-    // Hide all papers initially
-    $(".paper1, .paper2, .paper3, .paper4").hide().css("opacity", "0");
 
-    // Step 1 → Button click → show paper1
-    const handleForButtonClick = () => {
-      $(".formeyou").fadeOut(300, () => {
-        $(".paper1").fadeIn(600).css("opacity", 1).addClass("show");
+  useEffect(() => {
+    // jQuery logic runs only on client
+    $(document).ready(function () {
+      // Initially hide all papers
+      $(".paper1, .paper2, .paper3, .paper4").hide().css("opacity", "0");
+
+      // Step 1 → Button click → show paper1
+      $(".forbutton").on("click", function () {
+        $(".formeyou").fadeOut(300);
+        $(".paper1").show().animate({ opacity: 1 }, 600).addClass("show");
       });
-    };
 
-    // Step 2 → Checkbox in paper1 → show paper2
-    const handlePaper1Change = () => {
-      $(".paper2").fadeIn(300).css("opacity", 1).addClass("show");
-    };
+      // Step 2 → Checkbox in paper1 → show paper2
+      $(".paper1").on("change", "input[type='checkbox']", function () {
+        $(".paper1").animate({ opacity: 1 }, 300);
+        $(".paper2").show().animate({ opacity: 1 }, 300).addClass("show");
+      });
 
-    // Step 3 → Checkbox in paper2 → show paper3
-    const handlePaper2Change = () => {
-      $(".paper3").fadeIn(300).css("opacity", 1).addClass("show");
-    };
+      // Step 3 → Checkbox in paper2 → show paper3
+      $(".paper2").on("change", "input[type='checkbox']", function () {
+        $(".paper2").animate({ opacity: 1 }, 300);
+        $(".paper3").show().animate({ opacity: 1 }, 300).addClass("show");
+      });
 
-    // Step 4 → Checkbox in paper3 → show paper4
-    const handlePaper3Change = () => {
-      $(".paper4").fadeIn(300).css("opacity", 1).addClass("show");
-    };
-
-    // Bind events
-    $(".forbutton").on("click", handleForButtonClick);
-    $(".paper1").on("change", "input[type='checkbox']", handlePaper1Change);
-    $(".paper2").on("change", "input[type='checkbox']", handlePaper2Change);
-    $(".paper3").on("change", "input[type='checkbox']", handlePaper3Change);
-
-    // Cleanup (important!)
-    return () => {
-      $(".forbutton").off("click", handleForButtonClick);
-      $(".paper1").off("change", "input[type='checkbox']", handlePaper1Change);
-      $(".paper2").off("change", "input[type='checkbox']", handlePaper2Change);
-      $(".paper3").off("change", "input[type='checkbox']", handlePaper3Change);
-    };
+      // Step 4 → Checkbox in paper3 → show paper4
+      $(".paper3").on("change", "input[type='checkbox']", function () {
+        $(".paper3").animate({ opacity: 1 }, 300);
+        $(".paper4").show().animate({ opacity: 1 }, 300).addClass("show");
+      });
+    });
   }, []);
+
+
+
+
 
   return (
     <>
