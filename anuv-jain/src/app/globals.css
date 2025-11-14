@@ -1,10 +1,7 @@
 
-
-
-* { margin: 0; padding: 0;}
-.main-wrapper { overflow: hidden;}
-body { background: #333;}
-
+* { margin: 0; padding: 0; }
+main {  overflow: hidden; }
+body {  background: #333;}
 
 html,
 body {
@@ -12,7 +9,6 @@ body {
     scroll-behavior: auto;
     /* font-family: "Bodoni Moda", serif; */
     font-family: "Noto Sans", sans-serif;
-
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -39,7 +35,6 @@ body {
         opacity: 0.9;
     }
 }
-
 
 .letestllestion {
     background-color: #1a2320;
@@ -112,19 +107,18 @@ body {
 }
 
 @keyframes rotateanimation3 {
-   0% {
-     margin-left: 1px;
-     margin-top: 2px;
-    
+    0% {
+        margin-left: 1px;
+        margin-top: 2px;
+
     }
-   100% { 
-     margin-left: -1px;
-     margin-top: -3px;
-    
-    } 
+
+    100% {
+        margin-left: -1px;
+        margin-top: -3px;
+
+    }
 }
-
-
 
 .rotateanimation {
     animation: rotateanimation 1.8s steps(4, end) infinite alternate;
@@ -177,9 +171,6 @@ body {
     transform-origin: center;
 }
 
-/*==============slider=====================*/
-
-
 .slider {
     position: relative;
     width: 800px;
@@ -219,8 +210,6 @@ button.prev img {
 .next {
     right: -80px;
 }
-
-/************************/
 
 .navbar {
     grid-column-gap: 10px;
@@ -308,15 +297,16 @@ button.prev img {
 }
 
 .link._4 {
-    background-image: url('/classNameimages/menu-bg4.svg');
+    background-image: url('/images/menu-bg4.svg');
     color: #fff;
     right: 30px;
     position: absolute;
 }
+
 .foryou::after {
     content: "";
     position: fixed;
-    background-image: url('/classNameimages/foryou-bg.png');
+    background-image: url('/images/foryou-bg.png');
     top: 0;
     left: 0;
     width: 100%;
@@ -335,7 +325,6 @@ button.prev img {
     width: 405px;
 }
 
-/*********banner *********/
 
 .main-banner {
     width: 100%;
@@ -352,7 +341,7 @@ img {
     width: 420px;
     position: absolute;
     height: 100px;
-    background-image: url(/classNameimages/bg-line.svg);
+    background-image: url('/images/bg-line.svg'); 
     top: 20%;
     background-repeat: no-repeat;
 }
@@ -383,11 +372,13 @@ img.text {
     top: -32px;
     left: 25px;
 }
+
 .overflow-x {
     overflow: hidden;
 }
+
 .second-section {
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
     height: 120vh;
     display: flex;
@@ -503,7 +494,6 @@ ul.dates-list li {
     background-position: center;
     background-repeat: no-repeat;
 }
- 
 
 .afsos {
     width: 33%;
@@ -670,7 +660,7 @@ ul.dates-list li {
     right: 279px;
     width: 94px;
     height: 70px;
-    background: url(/classNameimages/titli.svg) no-repeat center center / contain;
+    background: url(/images/titli.svg) no-repeat center center / contain;
 }
 
 .paper-clip {
@@ -679,7 +669,7 @@ ul.dates-list li {
     left: 420px;
     top: 19px;
 }
-/**************section 4****************/
+
 .music-section {
     width: 100%;
     height: 100vh;
@@ -747,7 +737,6 @@ ul.dates-list li {
     box-shadow: inset 0 0 0 0 #fff;
 }
 
-/************end setion 4***************/
 
 .stam img {
     width: 60px;
@@ -768,8 +757,6 @@ ul.dates-list li {
     height: auto;
     animation: rotateCircle 20s linear infinite alternate;
 }
-
-
 
 @keyframes rotateCircle {
     from {
@@ -867,7 +854,7 @@ section.mains-music-bg {
 
 section.mains-music-bg::before {
     content: "";
-    background-image: url(/classNameimages/bottom-boder.png);
+    background-image: url(/images/bottom-boder.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -876,12 +863,11 @@ section.mains-music-bg::before {
     top: 0;
     z-index: 0;
 }
-  
 
-/***********third-section *****************/
+/*=====================third-section ===================*/  
 .third-section {
-    position: relative; 
-} 
+    position: relative;
+}
 
 img.gig-bg {
     position: absolute;
@@ -898,8 +884,7 @@ img.rotateanimation3.gig-bg.bottoms {
     height: 103vh;
     top: 0;
 }
-
-/***********footer *****************/ 
+/*======================== footer CSS ===================*/ 
 .social-icons a {
     position: relative;
     display: inline-block;
@@ -956,16 +941,15 @@ img.rotateanimation3.gig-bg.bottoms {
     }
 }
 
-
-
-/****************************** animetion csss *********************************/
+/*======================== animetion css ===================*/
 
 .auto-text path {
-  transform-box: fill-box;
-  transform-origin: 50% 50%;
-  animation: pichkana 7s ease-in-out infinite;
-  animation-delay: calc(var(--i) * 3s);
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+    animation: pichkana 7s ease-in-out infinite;
+    animation-delay: calc(var(--i) * 3s);
 }
+
 img.top-img {
     position: relative;
     top: -88px;
@@ -980,35 +964,37 @@ img.bottom-img {
     z-index: -1;
     pointer-events: none;
 }
+
 img.bottom-img.active {
     transform: rotate(3deg);
     top: 40px;
 }
 
-/* squash & stretch effect */
+
 
 @keyframes pichkana {
-  0% {
-    transform: scale(1, 1);
-  }
-  25% {
-    transform: scale(1.111, 0.8); 
-  }
-  50% {
-    transform: scale(1, 1); 
-  }
-  75% {
-    transform: scale(1.1, 0.8);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
+    0% {
+        transform: scale(1, 1);
+    }
 
- 
+    25% {
+        transform: scale(1.111, 0.8);
+    }
 
+    50% {
+        transform: scale(1, 1);
+    }
+
+    75% {
+        transform: scale(1.1, 0.8);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
 }
 
-/**************************css custom css*********************************************/
+/*================custom css======================*/
 
 .paper1 {
     visibility: hidden;
@@ -1056,7 +1042,6 @@ img.bottom-img.active {
     cursor: pointer;
 }
 
-/* Box design */
 .checkbox-wrap input[type=checkbox]+label:before {
     content: "";
     width: 31px;
@@ -1066,13 +1051,12 @@ img.bottom-img.active {
     top: 1px;
     margin-right: 10px;
     box-sizing: border-box;
-    background-image: url(/classNameamitimg/checkbox.svg);
+        background-image: url('/images/checkbox.svg'); 
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-/* Checkmark */
 .checkbox-wrap input[type=checkbox]:checked+label:after {
     content: "\2713";
     color: #000000;
@@ -1082,7 +1066,6 @@ img.bottom-img.active {
     top: 0px;
 }
 
-/* Label styling */
 .checkbox-wrap label {
     position: relative;
     cursor: pointer;
@@ -1148,8 +1131,8 @@ main.archivemain {
     justify-content: center;
     position: sticky;
     height: 100vh;
-    top: 0;
-    background-image: url(/classNameamitimg/playlistbg.svg);
+    top: 0; 
+     background-image: url('/images/playlistbg.svg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1198,8 +1181,8 @@ main.archivemain {
 }
 
 .listsocial {
-    padding: 30px 16px 4px 16px;
-    background-image: url(/classNameamitimg/bgshapesocil.svg);
+    padding: 30px 16px 4px 16px; 
+      background-image: url('/images/bgshapesocil.svg'); 
     background-repeat: no-repeat;
     background-position: center top 0px;
     background-size: 100% 100%;
@@ -1222,8 +1205,8 @@ main.archivemain {
 }
 
 .unionsocial {
-    padding: 30px 15px 5px 15px;
-    background-image: url(/classNameamitimg/musicbg.svg);
+    padding: 30px 15px 5px 15px; 
+          background-image: url('/images/musicbg.svg'); 
     background-repeat: no-repeat;
     background-position: center top 0px;
     background-size: 100% 100%;
@@ -1249,10 +1232,10 @@ main.archivemain {
 .textanimationply {
     animation: float 2s ease-in-out infinite;
 }
- 
+
 .swiper {
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
 }
 
 .swiper-slide {
@@ -1291,8 +1274,6 @@ img.recording-img1 {
     width: 270px;
     left: 3px;
 }
-
-
 
 .flexcard {
     display: flex;
@@ -1337,6 +1318,7 @@ img.recording-img1 {
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
 }
+
 p.caveat {
     color: #fff;
     font-family: "Caveat";
@@ -1347,6 +1329,7 @@ p.caveat {
     text-align: end;
     line-height: 2;
 }
+
 .cardimg {
     width: 250px;
     margin: 0 auto;
@@ -1401,15 +1384,21 @@ img.recording-img2 {
 }
 
 .swiper-button-next {
-    top: 54px !important;
-    left: 45px !important;
-    transform: rotate(0deg);
+    transform: rotate(0);
+    width: 16px !important;
+    top: 35px !important;
+    left: 75px !important;
+    color: #ffffff !important;
+
 }
 
 .swiper-button-prev {
-    transform: rotate(0deg) !important;
-    top: -50px !important;
-    left: 45px !important;
+    top: -73px !important;
+    left: 75px !important;
+    transform: rotate(0) !important;
+    width: 16px !important;
+    color: #ffffff !important;
+
 }
 
 .firstcontent {
@@ -1419,8 +1408,6 @@ img.recording-img2 {
 .slidercontent.firstcontent {
     width: 300px;
 }
-
-
 
 section.formeyou {
     padding: 63px 270px;
@@ -1453,35 +1440,11 @@ button.forbutton {
     background-color: transparent;
 }
 
-
 .textanimationply svg {
     width: 294px;
     height: 300px;
     box-shadow: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @keyframes float {
     0% {
