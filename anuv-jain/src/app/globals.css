@@ -1,9 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+.main-wrapper {
+    overflow: hidden;
+}
 
-
-* { margin: 0; padding: 0;}
-.main-wrapper { overflow: hidden;}
-body { background: #333;}
+body {
+    background: #333;
+}
 
 
 html,
@@ -112,16 +118,17 @@ body {
 }
 
 @keyframes rotateanimation3 {
-   0% {
-     margin-left: 1px;
-     margin-top: 2px;
-    
+    0% {
+        margin-left: 1px;
+        margin-top: 2px;
+
     }
-   100% { 
-     margin-left: -1px;
-     margin-top: -3px;
-    
-    } 
+
+    100% {
+        margin-left: -1px;
+        margin-top: -3px;
+
+    }
 }
 
 
@@ -313,6 +320,7 @@ button.prev img {
     right: 30px;
     position: absolute;
 }
+
 .foryou::after {
     content: "";
     position: fixed;
@@ -377,11 +385,13 @@ img.text {
     top: -32px;
     left: 25px;
 }
+
 .overflow-x {
     overflow: hidden;
 }
+
 .second-section {
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
     height: 120vh;
     display: flex;
@@ -497,7 +507,7 @@ ul.dates-list li {
     background-position: center;
     background-repeat: no-repeat;
 }
- 
+
 
 .afsos {
     width: 33%;
@@ -673,6 +683,7 @@ ul.dates-list li {
     left: 420px;
     top: 19px;
 }
+
 /**************section 4****************/
 .music-section {
     width: 100%;
@@ -870,12 +881,12 @@ section.mains-music-bg::before {
     top: 0;
     z-index: 0;
 }
-  
+
 
 /***********third-section *****************/
 .third-section {
-    position: relative; 
-} 
+    position: relative;
+}
 
 img.gig-bg {
     position: absolute;
@@ -893,7 +904,7 @@ img.rotateanimation3.gig-bg.bottoms {
     top: 0;
 }
 
-/***********footer *****************/ 
+/***********footer *****************/
 .social-icons a {
     position: relative;
     display: inline-block;
@@ -955,11 +966,12 @@ img.rotateanimation3.gig-bg.bottoms {
 /****************************** animetion csss *********************************/
 
 .auto-text path {
-  transform-box: fill-box;
-  transform-origin: 50% 50%;
-  animation: pichkana 7s ease-in-out infinite;
-  animation-delay: calc(var(--i) * 3s);
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+    animation: pichkana 7s ease-in-out infinite;
+    animation-delay: calc(var(--i) * 3s);
 }
+
 img.top-img {
     position: relative;
     top: -88px;
@@ -974,6 +986,7 @@ img.bottom-img {
     z-index: -1;
     pointer-events: none;
 }
+
 img.bottom-img.active {
     transform: rotate(3deg);
     top: 40px;
@@ -982,23 +995,27 @@ img.bottom-img.active {
 /* squash & stretch effect */
 
 @keyframes pichkana {
-  0% {
-    transform: scale(1, 1);
-  }
-  25% {
-    transform: scale(1.111, 0.8); 
-  }
-  50% {
-    transform: scale(1, 1); 
-  }
-  75% {
-    transform: scale(1.1, 0.8);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
+    0% {
+        transform: scale(1, 1);
+    }
 
- 
+    25% {
+        transform: scale(1.111, 0.8);
+    }
+
+    50% {
+        transform: scale(1, 1);
+    }
+
+    75% {
+        transform: scale(1.1, 0.8);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+
+
 
 }
 
@@ -1243,10 +1260,10 @@ main.archivemain {
 .textanimationply {
     animation: float 2s ease-in-out infinite;
 }
- 
+
 .swiper {
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
 }
 
 .swiper-slide {
@@ -1331,6 +1348,7 @@ img.recording-img1 {
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
 }
+
 p.caveat {
     color: #fff;
     font-family: "Caveat";
@@ -1341,6 +1359,7 @@ p.caveat {
     text-align: end;
     line-height: 2;
 }
+
 .cardimg {
     width: 250px;
     margin: 0 auto;
@@ -1395,15 +1414,21 @@ img.recording-img2 {
 }
 
 .swiper-button-next {
-    top: 54px !important;
-    left: 45px !important;
-    transform: rotate(0deg);
+    transform: rotate(0);
+    width: 16px !important;
+    top: 35px !important;
+    left: 75px !important;
+    color: #ffffff !important;
+
 }
 
 .swiper-button-prev {
-    transform: rotate(0deg) !important;
-    top: -50px !important;
-    left: 45px !important;
+    top: -73px !important;
+    left: 75px !important;
+    transform: rotate(0) !important;
+    width: 16px !important;
+    color: #ffffff !important;
+
 }
 
 .firstcontent {
