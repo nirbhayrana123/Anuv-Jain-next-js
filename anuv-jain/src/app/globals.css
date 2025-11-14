@@ -328,6 +328,12 @@ button.prev img {
     background-attachment: fixed;
     background-size: cover;
 }
+.discriptioncontent img {
+    width: 370px;
+}
+.tiltefou img {
+    width: 405px;
+}
 
 /*********banner *********/
 
