@@ -77,8 +77,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="third-section" style={{ backgroundImage: "url('images/gig-bg.jpg')" }}>
-
+        <section className="third-section">
+    <img src="images/gig-bg.png" className="rotateanimation3 gig-bg"></img>
           <div className="main-flexsf">
             <div className="scribble-line rotateanimation">
             </div>
