@@ -852,12 +852,21 @@ ul.dates-list li {
 }
 
 section.mains-music-bg {
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
+    position: relative;
 }
 
+section.mains-music-bg::before {
+    content: "";
+    background-image: url(/images/bottom-boder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
 /***********footer *****************/
  
 

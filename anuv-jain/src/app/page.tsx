@@ -1,16 +1,15 @@
 
-
 export default function Home() {
 
   const handleScroll = () => {
-      const bottomImg = document.querySelector('img.bottom-img');
-      if (!bottomImg) return;
-      if (window.scrollY > 50) {
-        bottomImg.classList.add('active');
-      } else {
-        bottomImg.classList.remove('active');
-      }
-    };
+    const bottomImg = document.querySelector('img.bottom-img');
+    if (!bottomImg) return;
+    if (window.scrollY > 50) {
+      bottomImg.classList.add('active');
+    } else {
+      bottomImg.classList.remove('active');
+    }
+  };
   return (
     <>
       <main>
@@ -78,7 +77,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="third-section" style={{backgroundImage: "url('images/gig-bg.jpg')"}}>
+        <section className="third-section" style={{ backgroundImage: "url('images/gig-bg.jpg')" }}>
 
           <div className="main-flexsf">
             <div className="scribble-line rotateanimation">
@@ -119,12 +118,12 @@ export default function Home() {
 
                       <div className="footer-widgets">
                         <div className="nav-arrows">
-                          <span> 
-                            <img src="./images/left-arrwo.svg"/> 
-                            </span> 
-                            <span>
-                              <img src="./images/right-arrwo.svg"/>
-                              </span>
+                          <span>
+                            <img src="./images/left-arrwo.svg" />
+                          </span>
+                          <span>
+                            <img src="./images/right-arrwo.svg" />
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -133,11 +132,11 @@ export default function Home() {
 
                 </div>
                 <div className="stam circle-wrapper">
-                  <img src="./images/stam.svg " alt="stamp" className="rotating-circle"/> 
-                  </div>
+                  <img src="./images/stam.svg " alt="stamp" className="rotating-circle" />
+                </div>
 
                 <div className="shapesret">
-                  <img className="rotateanimation" src="images/gig-flower2.png"/>
+                  <img className="rotateanimation" src="images/gig-flower2.png" />
                 </div>
 
               </div>
@@ -145,7 +144,7 @@ export default function Home() {
           </div>
 
           <div className="small-card-content">
-            <img src="images/left-img.svg" alt="Small portrait" className="small-photo rotateanimation2"/>
+            <img src="images/left-img.svg" alt="Small portrait" className="small-photo rotateanimation2" />
           </div>
           <div className="green-tape"></div>
 
@@ -210,7 +209,7 @@ export default function Home() {
               </defs>
             </svg>
             <div className="letestllestion">
-              <img className="rotateanimation" src="images/maxresdefault.jpg"/>
+              <img className="rotateanimation" src="images/maxresdefault.jpg" />
             </div>
             {/* <img className="" src="images/afsos.png"/> */}
           </div>
@@ -220,11 +219,12 @@ export default function Home() {
         </section>
 
 
-         <section className="mains-music-bg" style={{ backgroundImage: "url('/images/music-video.svg')"}}>
-    <div className="music-section">
-      <div className="stamp-container">
-        <div className="stamp-image chain-wrap">
-          {/* <svg width="250" height="55" viewBox="0 0 464 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <section className="mains-music-bg">
+              <img src="images/video-slider-bg.png" className="rotateanimation3 gig-bg bottoms"></img>
+          <div className="music-section">
+            <div className="stamp-container">
+              <div className="stamp-image chain-wrap">
+                {/* <svg width="250" height="55" viewBox="0 0 464 78" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_g_486_88)">
               <path
                 d="M170.979 29.6892C171.439 30.0509 171.835 30.7043 172.166 31.6491C172.38 32.5914 172.537 33.474 172.636 34.2966C172.74 34.8849 172.728 35.4712 172.598 36.0544C172.468 36.6376 172.337 37.2212 172.207 37.8044C171.82 39.4366 171.847 40.9021 172.287 42.2009C172.608 43.6145 173.4 44.922 174.663 46.1218C175.009 46.3638 175.235 46.7787 175.339 47.3669C175.563 47.8405 175.669 48.3701 175.656 48.9558C171.35 47.5723 169.232 45.2409 169.304 41.9606C169.493 38.6827 169.629 35.1101 169.714 31.2438C168.405 32.1529 167.333 32.8918 166.5 33.4597C165.67 33.9103 165.012 34.4819 164.528 35.1745C161.059 38.3806 157.994 41.8891 155.332 45.6989C152.553 49.5062 150.178 53.5565 148.209 57.8503C147.59 59.3605 147.029 60.8726 146.527 62.3854C146.143 63.9007 145.815 65.476 145.545 67.111C145.267 69.0972 145.469 70.5666 146.151 71.5192C146.836 72.3547 148.234 72.7964 150.343 72.8425C152.332 73.0032 154.383 72.9887 156.497 72.8005C158.611 72.6123 160.672 72.1884 162.679 71.529C165.509 70.7704 168.285 69.7764 171.008 68.5466C173.848 67.3193 176.627 66.2081 179.345 65.2126C180.29 64.8816 181.178 64.4904 182.008 64.0397C182.955 63.5919 184.063 63.8508 185.331 64.8161C184.972 65.1598 184.613 65.5036 184.254 65.8474C184.009 66.3109 183.71 66.5973 183.356 66.7067C179.927 68.0383 176.496 69.4875 173.063 71.0534C169.632 72.5021 166.147 73.7155 162.609 74.6931C160.485 75.3498 158.191 75.7098 155.729 75.7731C154.44 75.745 153.21 75.7177 152.038 75.6921C150.867 75.6665 149.695 75.6415 148.523 75.6159C146.183 75.4475 144.501 74.6482 143.478 73.2194C142.563 72.1445 142.183 70.7291 142.339 68.9743C142.347 68.623 142.356 68.2132 142.366 67.7448C142.642 65.8754 143.036 63.9499 143.548 61.9685C144.06 59.987 144.745 58.1259 145.604 56.3864C147.695 51.861 150.19 47.6373 153.089 43.7155C155.871 39.791 159.058 36.1095 162.649 32.6716C163.128 32.2132 163.667 31.6976 164.266 31.1247C164.744 30.6664 165.279 30.3267 165.87 30.1052C166.695 29.8888 167.579 29.6735 168.522 29.4597C168.876 29.3502 169.229 29.2996 169.58 29.3073C170.046 29.4347 170.513 29.5618 170.979 29.6892Z"
@@ -279,56 +279,56 @@ export default function Home() {
             </defs>
           </svg> */}
 
-          <div className="slider">
-            <div className="slides">
+                <div className="slider">
+                  <div className="slides">
 
-              <div className="slide">
-                <div className="silde-dote-row">
-                  <img className="reletives" src="images/mvideosBG.svg"/>
-                  <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
-                    <defs>
-                      <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
-                    </defs>
-                    <use className="moving-chain" href="#rectPath" stroke="#000" stroke-width="10" stroke-linecap="round"
-                      stroke-linejoin="round" />
-                  </svg>
+                    <div className="slide">
+                      <div className="silde-dote-row">
+                        <img className="reletives" src="images/mvideosBG.svg" />
+                        <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
+                          <defs>
+                            <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
+                          </defs>
+                          <use className="moving-chain" href="#rectPath" stroke="#000" stroke-width="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </div>
+
+                    </div>
+
+                    <div className="slide">
+                      <div className="silde-dote-row">
+                        <img className="reletives" src="images/mvideosBG.svg" />
+                        <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
+                          <defs>
+                            <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
+                          </defs>
+                          <use className="moving-chain" href="#rectPath" stroke="#000" stroke-width="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </div>
+
+                    </div>
+
+                  </div>
                 </div>
-              
-              </div>
 
-              <div className="slide">
-                <div className="silde-dote-row">
-                  <img className="reletives" src="images/mvideosBG.svg"/>
-                  <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
-                    <defs>
-                      <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
-                    </defs>
-                    <use className="moving-chain" href="#rectPath" stroke="#000" stroke-width="10" stroke-linecap="round"
-                      stroke-linejoin="round" />
-                  </svg>
-                </div>
-                
-              </div>
+                <button className="prev"><img src="images/slider-arro.svg" /></button>
+                <button className="next"><img src="images/slider-arro.svg" /></button>
 
+
+
+              </div>
+              <a href="#" className="watch-button">Watch Now</a>
             </div>
           </div>
-          
-          <button className="prev"><img src="images/slider-arro.svg"/></button>
-          <button className="next"><img src="images/slider-arro.svg"/></button>
-
-
-
-        </div>
-          <a href="#" className="watch-button">Watch Now</a>
-      </div>
-    </div>
-      
 
 
 
 
 
-  </section>
+
+        </section>
       </main>
     </>
   );
