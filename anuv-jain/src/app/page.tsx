@@ -1,15 +1,27 @@
+"use client";
+import { useEffect } from "react";
 
 export default function Home() {
 
   const handleScroll = () => {
-    const bottomImg = document.querySelector('img.bottom-img');
+    const bottomImg = document.querySelector("img.bottom-img");
     if (!bottomImg) return;
+
     if (window.scrollY > 50) {
-      bottomImg.classList.add('active');
+      bottomImg.classList.add("active");
     } else {
-      bottomImg.classList.remove('active');
+      bottomImg.classList.remove("active");
     }
   };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+ 
   return (
     <>
       <main>
@@ -209,7 +221,7 @@ export default function Home() {
               </defs>
             </svg>
             <div className="letestllestion">
-              <img className="rotateanimation" src="images/maxresdefault.jpg" />
+              <img className="rotateanimation" src="images/maxresdefault.jpg"/>
             </div>
             {/* <img className="" src="images/afsos.png"/> */}
           </div>
@@ -314,19 +326,12 @@ export default function Home() {
                 </div>
 
                 <button className="prev"><img src="images/slider-arro.svg" /></button>
-                <button className="next"><img src="images/slider-arro.svg" /></button>
-
-
-
+                <button className="next"><img src="images/slider-arro.svg" /></button> 
               </div>
               <a href="#" className="watch-button">Watch Now</a>
             </div>
           </div>
-
-
-
-
-
+ 
 
         </section>
       </main>
