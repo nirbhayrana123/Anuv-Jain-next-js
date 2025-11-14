@@ -4,8 +4,8 @@ import"./style.css";
 import"./csscutome.css";
 import"./animation-path.css";
 import "./globals.css";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "./header/Header";
+import Footer from "./footer/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
