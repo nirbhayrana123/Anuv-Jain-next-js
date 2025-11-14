@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import"./style.css";
-import"./csscutome.css";
-import"./animation-path.css";
 import "./globals.css";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
