@@ -52,8 +52,15 @@ export default function Archives() {
                   <div className="rightcard">
                     <div className="slidercontent firstcontent">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                       Lorem ipsum dolor sit amet,<br/>
+consectetur adipiscing elit,<br/>
+sed do eiusmod tempor<br/>
+incididunt ut labore et dolore<br/>
+magna aliqua. Quis ipsum<br/>
+suspendisse ultricies gravida.<br/>
+Risus commodo viverra maecenas<br/>
+accumsan lacus vel facilisis.<br/>
+
                       </p>
                     </div>
                     <div className="cardimg">
@@ -63,12 +70,16 @@ export default function Archives() {
                   </div>
 
                   <div className="rightcard endfg">
-                    <div className="cardimg">
+                    <div className="cardimg rights">
                       <img src="/amitimg/photo213.png" />
                     </div>
                     <div className="slidercontent text-right">
                       <h5 className="caveat">
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                       lorem ipsum dolor sit amet
+consectetur adipiscing elit sed do
+eiusmod tempor incididunt ut labore
+et dolore magna aliqua
+
                       </h5>
                     </div>
                   </div>
@@ -97,7 +108,7 @@ export default function Archives() {
                     </div>
                     <div className="slidercontent text-right">
                       <h5 className="caveat">
-Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                       </h5>
                     </div>
                   </div>

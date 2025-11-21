@@ -1293,23 +1293,24 @@ main.archivemain {
 }
 
 .notebg {
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    width: 245px;
-    padding: 30px;
-    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 309px;
+    height: 90px;
+    padding: 30px 24px;
 }
 
 .notebg h5 {
-    color: #000000;
+    color: #575151;
     text-align: justify;
     text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 400;
+    letter-spacing: -6px;
+    font-family: Anuv_handwriting;
+    font-size: 22px;
+    font-weight: 600;
     transform: rotate(3deg);
-    font-family: 'Anuv_handwriting'; 
-    letter-spacing: -7px;
+    line-height: 0.8;
 }
 .tiltefou h2
  {
@@ -1396,23 +1397,27 @@ img.recording-img1 {
 }
 
 h5.caveat {
-    color: #fff; 
-    font-size: 10px;
+    color: #fff;
     text-align: justify;
     text-transform: uppercase;
     letter-spacing: 6px;
-    text-align: end; 
-        letter-spacing: -2px;
-    font-family: "Anuv_handwriting";
-    font-size: 24px;
-    font-weight: 100;
-
+    text-align: end;
+    letter-spacing: -2px;
+    font-family: Anuv_handwriting;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 0.8;
 }
 
 .cardimg {
     width: 250px;
     margin: 0 auto;
     position: relative;
+}
+.cardimg.rights {
+    left: 38px;
+    width: 330px;
+    top: 50px;
 }
 
 .slidercontent {
@@ -1428,9 +1433,9 @@ img.recording-img2 {
 
 .slidercontent.text-right {
     text-align: right;
-    display: flex;
-    align-items: end;
+    align-items: anchor-center;
     width: 300px;
+    display: flex;
 }
 
 .swiper-button-next:after,

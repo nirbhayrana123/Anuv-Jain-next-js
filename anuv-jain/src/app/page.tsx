@@ -1,5 +1,6 @@
 "use client";
 import { useEffect } from "react";
+import Footer from "./footer/Footer";
 
 export default function Home() {
 
@@ -199,6 +200,7 @@ export default function Home() {
 
         </section>
       </main>
+       <Footer />
     </>
   );
 }
