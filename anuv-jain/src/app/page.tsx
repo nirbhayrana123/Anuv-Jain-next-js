@@ -93,11 +93,11 @@ export default function Home() {
                     </div>
                     <div className="polaroid-group22">
                       <ul className="dates-list">
-                        <li>Lorem Ipsum................08.07.25</li>
-                        <li>Lorem Ipsum................08.07.25</li>
-                        <li>Lorem Ipsum................08.07.25</li>
-                        <li>Lorem Ipsum................08.07.25</li>
-                        <li>Lorem Ipsum................08.07.25</li>
+                        <li>Lorem Ipsum..............08.07.25</li>
+                        <li>Lorem Ipsum..............08.07.25</li>
+                        <li>Lorem Ipsum..............08.07.25</li>
+                        <li>Lorem Ipsum..............08.07.25</li>
+                        <li>Lorem Ipsum..............08.07.25</li>
                       </ul>
 
                       <div className="footer-widgets">
@@ -151,7 +151,7 @@ export default function Home() {
               <img src="images/video-slider-bg.png" className="rotateanimation3 gig-bg bottoms"></img>
           <div className="music-section">
             <div className="stamp-container">
-              <h4>Music Videos</h4>
+              <h4>Music <span>Videos</span> </h4>
               <div className="stamp-image chain-wrap">
                 
 

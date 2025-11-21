@@ -41,16 +41,18 @@ export default function Foryou() {
           </div>
           <div className="flexcontent">
             <div className="textanimationply">
+              <h3>He healin <br/> heart </h3>
+              <div className="contentmusiclist">
+                <h5>Baarishein . . . . . . . . . . 3:47</h5>
+              </div>
             <img src="images/text-rom2.svg "/>
+            
             </div>
 
             <div className="shaeaericon">
               <ul>
-                <li className="sheareicon"><a href="#">
-                  <img src="amitimg/share.svg" />
-                </a>
-
-
+                <li className="sheareicon">
+                  <a href="#"> <img src="amitimg/share.svg" /></a>
                   <div className="listsocial">
                     <ul>
                       <li><a href="#"><img src="amitimg/instagram.svg" /></a></li>
@@ -58,12 +60,9 @@ export default function Foryou() {
                       <li><a href="#"><img src="amitimg/whatshap.svg" /></a></li>
                     </ul>
                   </div>
-
-
                 </li>
                 <li className="unionclass"><a href="#"><img className="shearesd" src="amitimg/union.svg" /></a>
-
-                  <div className="unionsocial">
+ <div className="unionsocial">
                     <ul>
                       <li><a href="#"><img src="amitimg/Spotify.svg" /></a></li>
                       <li><a href="#"><img src="amitimg/play.svg" /></a></li>
@@ -71,12 +70,8 @@ export default function Foryou() {
                       <li><a href="#"><img src="amitimg/musci2.svg" /></a></li>
                     </ul>
                   </div>
-
-
                 </li>
               </ul>
-
-
             </div>
           </div>
         </section>
