@@ -439,12 +439,13 @@ img.text {
 .about-anuv img {
     width: 210px;
 }
-
-.about-anuv p {
-    margin-bottom: 15px;
+ 
+   .about-anuv p {
     color: #827a7a;
-    /* font-family: '__nextjs-Geist Mono'; */
-}
+    margin-bottom: 15px;
+    font-family: 'IBM Plex Mono';
+    font-size: 12px;
+} 
 
 .footer {
     background-color: #1A1A1A;
@@ -497,8 +498,7 @@ img.text {
 }
 
 ul.dates-list li {
-    color: #827a7a;
-    font-family: 'IBM Plex Mono';
+    color: #827a7a; 
 }
 
 .polaroid-group-row {
@@ -923,7 +923,7 @@ img.gig-bg {
     position: absolute;
     inset: 0;
     width: 105%;
-    height: 350vh;
+    height: 328vh;
     top: -774px;
     bottom: 0;
     left: -2%;
