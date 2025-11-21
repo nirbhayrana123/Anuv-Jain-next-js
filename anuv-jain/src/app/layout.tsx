@@ -4,7 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
-import "./font/Anuv_handwriting/stylesheet.css";
+import "./font/IBMPlexMono/stylesheet.css";
 import "./font/Anuv_handwriting/stylesheet.css";
 const geistSans = Geist({
   variable: "--font-geist-sans",
