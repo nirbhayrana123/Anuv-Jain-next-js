@@ -1111,7 +1111,7 @@ img.bottom-img.active {
     top: 1px;
     margin-right: 10px;
     box-sizing: border-box;
-        background-image: url('/images/checkbox.svg'); 
+    background-image: url('/images/checkbox.svg'); 
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
@@ -1120,10 +1120,10 @@ img.bottom-img.active {
 .checkbox-wrap input[type=checkbox]:checked+label:after {
     content: "\2713";
     color: #000000;
-    font-size: 22px;
+    font-size: 37px;
     position: absolute;
     left: 7px;
-    top: 0px;
+    top:-12px;
 }
 
 .checkbox-wrap label {
