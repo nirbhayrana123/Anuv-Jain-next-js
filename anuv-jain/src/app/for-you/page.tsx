@@ -58,10 +58,10 @@ export default function Foryou() {
             <img src="amitimg/lace.svg" />
             <div className="content-foryou">
               <div className="tiltefou">
-                <img src="./images/title.svg"></img>
+                <h2> for <span>me</span>  <span>to</span> <span>you</span></h2> 
               </div>
               <div className="discriptioncontent">
-                <img src="./images/Property 1=Variant2.svg"></img>
+                <h5>A little playlist, for the way you're feeling today</h5> 
               </div>
               <div className="buttonforyou">
                 <button className="forbutton">

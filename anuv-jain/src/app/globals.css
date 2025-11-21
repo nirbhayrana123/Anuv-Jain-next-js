@@ -71,7 +71,7 @@ body {
 
 }
 
-.auto-text svg {
+.auto-text h1 {
     animation: floatText 3s ease-in-out infinite;
 }
 
@@ -325,7 +325,9 @@ button.prev img {
     width: 405px;
 }
 
-
+.tiltefou h2 span {
+    margin-left: 63px;
+}
 .main-banner {
     width: 100%;
     z-index: 99;
@@ -353,7 +355,6 @@ img {
     text-align: center;
     align-items: center;
     display: flex;
-    font-size: 76px;
     color: #fffaee;
 }
 
@@ -418,6 +419,7 @@ img.text {
 .about-anuv p {
     margin-bottom: 15px;
     color: #827a7a;
+    /* font-family: '__nextjs-Geist Mono'; */
 }
 
 .footer {
@@ -455,6 +457,7 @@ img.text {
     cursor: pointer;
     font-weight: 500;
     font-size: 21px;
+        font-family: '__nextjs-Geist Mono';
 }
 
 .social-icons {
@@ -471,6 +474,7 @@ img.text {
 
 ul.dates-list li {
     color: #827a7a;
+    font-family: 'IBM Plex Mono';
 }
 
 .polaroid-group-row {
@@ -507,8 +511,16 @@ ul.dates-list li {
 .afsos svg {
     width: 250px;
 }
-
-
+.afsos h4 {
+    color: #ffffff;
+    font-family: 'Anuv_handwriting';
+    font-size: 85px;
+    font-weight: 500;
+    letter-spacing: -30px;
+}
+.afsos h4 span {
+margin-left: 30px;
+}
 .nav-arrows {
     width: 70%;
     display: flex;
@@ -534,6 +546,14 @@ ul.dates-list li {
     position: relative;
     top: 360px;
     left: 23%;
+}
+.footer-logo h4 {
+    color: #fff;
+    letter-spacing: -1.6rem;
+     font-family: 'Anuv_handwriting';
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 100;
 }
 
 .papers-fles {
@@ -634,12 +654,11 @@ ul.dates-list li {
 
 .dates-list {
     list-style: none;
-    padding: 10px 0;
-    font-size: 16px;
+    padding: 10px 0; 
     line-height: 2.2;
     color: #333;
 }
-
+ 
 .footer-widgets {
     display: flex;
     justify-content: space-between;
@@ -697,10 +716,17 @@ ul.dates-list li {
 }
 
 .stamp-container {
-    display: inline-block;
     margin-top: 150px;
+    display: inline-block; 
 }
-
+.stamp-container h4 {
+    color: #FFFFFF;
+    font-family: 'Anuv_handwriting';
+    font-size: 137px;
+    font-weight: 100;
+    letter-spacing: -45px;
+    line-height: 0.7;
+}
 .stamp-image {
     width: 500px;
 }
@@ -722,9 +748,8 @@ ul.dates-list li {
     padding: 10px 25px;
     border: 2px solid white;
     color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 0.9em;
+    text-decoration: none; 
+    font-size: 1.3em;
     letter-spacing: 1px;
     transition: 1s;
     justify-content: center;
@@ -735,6 +760,7 @@ ul.dates-list li {
     width: 160px;
     margin: 20px auto 0;
     box-shadow: inset 0 0 0 0 #fff;
+   font-family: '__nextjs-Geist Mono';
 }
 
 
@@ -943,11 +969,21 @@ img.rotateanimation3.gig-bg.bottoms {
 
 /*======================== animetion css ===================*/
 
-.auto-text path {
+.auto-text h1 {
     transform-box: fill-box;
     transform-origin: 50% 50%;
-    animation: pichkana 7s ease-in-out infinite;
+    animation: pichkana 3s  infinite;
     animation-delay: calc(var(--i) * 3s);
+    font-family: 'Anuv_handwriting';
+    font-weight: 100;
+    font-size: 210.3px;
+    letter-spacing: -60px;
+}
+.footer-logo h4 span {
+    margin-left: 1.6rem;
+}
+.auto-text h1 span {
+    margin-left: 60px;
 }
 
 img.top-img {
@@ -972,13 +1008,13 @@ img.bottom-img.active {
 
 
 
-@keyframes pichkana {
+ @keyframes pichkana {
     0% {
         transform: scale(1, 1);
     }
 
     25% {
-        transform: scale(1.111, 0.8);
+        transform: scale(1, 0.8);
     }
 
     50% {
@@ -986,13 +1022,13 @@ img.bottom-img.active {
     }
 
     75% {
-        transform: scale(1.1, 0.8);
+        transform: scale(1, 0.8);
     }
 
     100% {
         transform: scale(1, 1);
     }
-}
+} 
 
 /*================custom css======================*/
 
@@ -1087,7 +1123,14 @@ img.bottom-img.active {
     letter-spacing: 0.1em;
     margin-bottom: 20px;
 }
-
+.about-anuv h3 {
+    font-family: 'Anuv_handwriting';
+    font-size: 57px;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: -13px;
+    line-height: 1.5;
+}
 .content-paper p {
     font-family: "IBM Plex Mono", monospace;
     font-size: 20px;
@@ -1259,15 +1302,36 @@ main.archivemain {
 }
 
 .notebg h5 {
-    font-family: "Caveat", cursive;
-    font-size: 10px;
-    color: #00000087;
-    transform: rotate(3deg);
+    color: #000000;
     text-align: justify;
     text-transform: uppercase;
+    font-size: 24px;
     font-weight: 400;
+    transform: rotate(3deg);
+    font-family: 'Anuv_handwriting'; 
+    letter-spacing: -7px;
 }
-
+.tiltefou h2
+ {
+    font-family: 'Anuv_handwriting';
+    color: #000;
+    font-size: 190px;
+    font-weight: 100;
+    letter-spacing: -63px;
+    width: 405px;
+    line-height: 0.5;
+    margin: 0 auto;
+    position: relative;
+    left: -55px;
+    animation: rooteat 5s ease-in-out infinite;
+}
+.mainforyou img{
+     animation: rooteat 5s ease-in-out infinite;
+}
+.tiltefou {
+    text-align: center;
+    position: relative;
+}
 .noteshape {
     margin-top: -25px;
     position: relative;
@@ -1279,7 +1343,14 @@ img.recording-img1 {
     width: 270px;
     left: 3px;
 }
-
+.discriptioncontent h5 {
+    font-family: __nextjs-Geist Mono;
+    font-size: 26px;
+    max-width: 406px;
+    margin: 0 auto;
+    font-weight: 400;
+    color: #000000b0;
+}
 .flexcard {
     display: flex;
     align-items: end;
@@ -1317,22 +1388,25 @@ img.recording-img1 {
 }
 
 .slidercontent p {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     color: #fff;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: 'IBM Plex Mono';
     font-weight: 400;
 }
 
-p.caveat {
-    color: #fff;
-    font-family: "Caveat";
+h5.caveat {
+    color: #fff; 
     font-size: 10px;
     text-align: justify;
     text-transform: uppercase;
     letter-spacing: 6px;
-    text-align: end;
-    line-height: 2;
+    text-align: end; 
+        letter-spacing: -2px;
+    font-family: "Anuv_handwriting";
+    font-size: 24px;
+    font-weight: 100;
+
 }
 
 .cardimg {
@@ -1479,10 +1553,7 @@ button.forbutton {
         transform: rotate(1.5deg);
     }
 }
-
-.mainforyou img {
-    animation: rooteat 5s ease-in-out infinite;
-}
+ 
 
 .fade-section {
     opacity: 0;

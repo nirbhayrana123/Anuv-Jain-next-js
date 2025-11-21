@@ -67,9 +67,9 @@ export default function Archives() {
                       <img src="/amitimg/photo213.png" />
                     </div>
                     <div className="slidercontent text-right">
-                      <p className="caveat">
+                      <h5 className="caveat">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                      </p>
+                      </h5>
                     </div>
                   </div>
                 </div>
@@ -96,9 +96,9 @@ export default function Archives() {
                       <img src="/images/recording-img2.png" className="recording-img2" />
                     </div>
                     <div className="slidercontent text-right">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                      </p>
+                      <h5 className="caveat">
+Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                      </h5>
                     </div>
                   </div>
 
