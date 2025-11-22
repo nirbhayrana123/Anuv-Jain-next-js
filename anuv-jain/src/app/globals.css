@@ -1821,7 +1821,29 @@ section.mains-music-bg:before {
     .paycard {
         max-width: 350px;
     }
+.checkbox-wrap label {
+    font-size: 13px;
+}
+.content-paper h5 {
+    font-size: 18px;
+}
+    .paperimg {
+    width: 625px;
+}
 
+.checkbox-wrap input[type="checkbox"] + label:before {
+    background-size: 20px;
+    width: 20px;
+    height: 25px;
+}
+.checkbox-wrap input[type="checkbox"]:checked + label:after {
+    font-size: 22px;
+    top: -4px;
+    left: 3px;
+}
+.mainforyou {
+        height: 484px;
+    }
     .tiltefou svg {
         width: 260px;
         height: 100px;
@@ -1863,6 +1885,13 @@ section.mains-music-bg:before {
 
 @media screen and (max-width: 1250px) {
    
+    .paycard 
+ {
+        max-width: 280px;
+            border: 15px solid #fff;
+    border-bottom-width: 70px;
+
+    }
 
     .playlistfirstsection {
         padding: 50px 50px;
@@ -1891,10 +1920,87 @@ section.mains-music-bg:before {
 
 
     section.formeyou {
-        padding: 63px 155px;
+        padding: 0px  50px;
     }
+        .mainforyou {
+        height: 410px;
+    }
+
+        .tiltefou h2 {
+        letter-spacing: -41px;
+        width: 250px;
+        font-size: 108px;
+    }
+        .discriptioncontent h5 {
+        max-width: 265px;
+        font-size: 15px;
+    }
+.buttonforyou button.forbutton {
+        letter-spacing: .2em;
+        padding: 7px 15px;
+        font-size: 0.7em;
+    }
+.paperimg {
+    width: 570px;
 }
 
+
+
+.content-paper h5 {
+    font-size: 15px;
+}
+.checkbox-wrap label {
+    font-size: 12px;
+}
+
+
+.checkbox-wrap input[type="checkbox"] + label:before {
+    background-size: 19px;
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox-wrap input[type="checkbox"]:checked + label:after {
+ 
+    font-size: 22px;
+    top: -7px;
+    left: 2px;
+}
+
+
+}
+@media screen and (max-width: 1100px) {
+.content-paper {
+    padding: 45px 70px;
+}
+.paperimg {
+        width: 485px;
+    }
+    .checkbox-wrap label {
+        font-size: 10px;
+    }
+        .content-paper h5
+ {
+        font-size: 13px;
+    }
+    .mainforyou {
+        height: 355px;
+    }
+    .tiltefou h2 {
+        letter-spacing: -35px;
+        width: 250px;
+        font-size: 99px;
+        left: -30px;
+        line-height: 0.4;
+    }
+    .discriptioncontent h5 {
+        max-width: 210px;
+        font-size: 12px;
+    }
+    .buttonforyou button.forbutton { 
+        font-size: 0.6em;
+    }
+}
 @media screen and (max-width: 1024px) {
     .tiltefou svg {
         width: 230px;
@@ -1908,7 +2014,7 @@ section.mains-music-bg:before {
 
 @media screen and (max-width: 900px) {
     section.formeyou {
-        padding: 63px 33px;
+        padding: 0px 33px;
     }
 .textanimationply h3 {
         font-size: 70px;
@@ -1954,7 +2060,7 @@ section.mains-music-bg:before {
 
 @media screen and (max-width: 767px) {
     section.formeyou {
-        padding: 63px 0px;
+        padding: 0px 20px;
     }
        .contentmusiclist h5 {
         font-size: 15px;
