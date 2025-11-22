@@ -1,6 +1,5 @@
 
 * { margin: 0; padding: 0; }
-main {  overflow: hidden; }
 body {  background: #333;}
 
 html,
@@ -1278,6 +1277,9 @@ main.archivemain {
 
 .flexingsitems {
     max-width: 650px;
+    background-color: #ffffff;
+    border: 20px solid #fff;
+    border-bottom-width: 100px;
 }
 
 .flexingsitems img {
@@ -1770,6 +1772,13 @@ button.forbutton {
     letter-spacing: 0.2em;
 }
 
+.textanimationply h3 {
+    font-size: 90px;
+}
+.contentmusiclist h5
+ {
+    font-size: 24px;
+}
 
 
 }
