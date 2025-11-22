@@ -1057,7 +1057,18 @@ animation: roserotate 3s  infinite;
 .blackstrp{
 animation: roserotateback 3s  infinite;
 }
- 
+.large-note-paper.slide2 {
+  transition: 1s all ease;
+}
+.large-note-paper.slide2.active {
+    top: 90%;
+    right: -150%;
+    transform: rotate(-13deg);
+}
+img.nextslide.disab,img.prevslide.disab {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
 
 
  @keyframes pichkana {

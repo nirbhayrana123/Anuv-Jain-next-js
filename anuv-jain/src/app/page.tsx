@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import Footer from "./footer/Footer";
+import $ from "jquery";
 
 export default function Home() {
 
@@ -16,6 +17,20 @@ export default function Home() {
   };
 
   useEffect(() => {
+        $(document).ready(function () {
+       
+      $(".nextslide").on("click", function () {
+        $(this).addClass('disab'); 
+        $('.prevslide').removeClass('disab'); 
+        $(".slide2").addClass('active'); 
+        
+      });
+       $(".prevslide").on("click", function () {
+        $(this).addClass('disab'); 
+        $('.nextslide').removeClass('disab');
+        $(".slide2").removeClass('active'); 
+      });
+    });
     window.addEventListener("scroll", handleScroll);
     
     return () => {
