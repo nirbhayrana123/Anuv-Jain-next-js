@@ -1422,10 +1422,10 @@ img.recording-img1 {
 }
 
 .slidercontent p {
-    font-size: 18px;
     text-transform: uppercase;
     color: #fff;
-    font-family: 'IBM Plex Mono';
+    font-family: IBM Plex Mono;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -1443,7 +1443,8 @@ h5.caveat {
 }
 
 .cardimg {
-    width: 250px;
+    width: 225px;
+    top: 58px;
     margin: 0 auto;
     position: relative;
 }
