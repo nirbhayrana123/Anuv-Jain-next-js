@@ -384,12 +384,12 @@ img {
 }
 
 .rose {
-    position: absolute;
     z-index: 9;
-    top: 353px;
-    right: 0;
     pointer-events: none;
-    width: 200px;
+    width: 237px;
+    position: absolute;
+    bottom: 18px;
+    right: 20px;
 }
 
 img.text {
@@ -411,20 +411,19 @@ img.text {
     align-items: center;
     position: relative;
     z-index: 9;
-    margin-top: -221px;
+    margin-top: -340px;
     background-position: bottom center;
 }
 
 .second-section-box {
-    width: 725px;
-    margin: 0 auto;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
-    display: flex;
+    background-size: cover;
     align-items: center;
-    margin-top: 90px;
+    width: 1025px;
+    height: 658px;
+    margin: 90px auto 0;
+    display: flex;
     position: relative;
 }
 
@@ -434,7 +433,7 @@ img.text {
 
 .about-anuv {
     width: 40%;
-    padding-left: 47px;
+    padding-left: 75px;
     transform: rotate(3deg);
     padding-top: 80px;
 }
@@ -447,7 +446,7 @@ img.text {
     color: #4a4747;
     margin-bottom: 15px;
     font-family: IBM Plex Mono;
-    font-size: 10px;
+    font-size: 17px;
 }
 
 .footer {
@@ -508,39 +507,39 @@ ul.dates-list li {
 color: #131212;
     margin-bottom: 6px;
     font-family: IBM Plex Mono;
-    font-size: 13px;
+    font-size: 18px;
     letter-spacing: -0.03em;
 }
 
 .polaroid-group-row {
-    justify-content: space-around;
+justify-content: space-around;
     align-items: center;
     gap: 13px;
     display: flex;
     position: relative;
-    top: -355px;
-    left: 11px;
+    top: -470px;
+    left: -30px;
 }
 
 .angal {
-    width: 28px;
-    height: 98px;
-    position: absolute;
-    top: 37px;
-    right: 70px;
     z-index: 9;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 34px;
+    height: 117px;
+    position: absolute;
+    top: 32px;
+    right: 142px;
 }
 
 .afsos {
-    width: 33%;
+    width: 55%;
+    height: 100%;
     margin-left: auto;
     position: relative;
-    right: 20%;
     top: 15%;
-    height: 100%;
+    right: 0;
 }
 
 .afsos svg {
@@ -573,14 +572,16 @@ margin-left: 30px;
 .scribble-line.left {
     top: 569px;
     margin-left: auto;
-    left: 122px;
+    right: 122px;
 }
-
-.small-card-content {
-    width: 300px;
+.main-flexsf {
     position: relative;
-    top: 170px;
-    left: 23%;
+}
+.small-card-content {
+    width: 490px;
+    position: relative;
+    top: 300px;
+    left: 34px;
 }
 .footer-logo h4 {
     color: #fff;
@@ -598,31 +599,33 @@ margin-left: 30px;
 }
 
 .large-note-paper {
-    width: 490px;
+    width: 670px;
     position: absolute;
     top: 10px;
-    right: 15%;
+    right: 0;
+        height: 580px;
 }
 
 .about-right-img {
-    position: relative;
-    overflow: hidden;
+    background-color: #fff;
     width: 100%;
-    max-width: 273px;
-    background-color: #ffffff;
-    height: 310px;
-    margin-left: 64px;
-    transform: rotate(9deg);
-    top: -25px;
+    max-width: 390px;
+    height: 460px;
+    margin-left: 74px;
+    position: relative;
+    top: -20px;
+    overflow: hidden;
+    transform: rotate(7deg);
+    box-shadow: 4px 4px 6px #3d3d3d;
 }
 
 .about-right-img img {
     object-fit: cover;
     width: 90%;
+    height: 375px;
+    padding: 5%;
     position: absolute;
     inset: 0%;
-    padding: 5%;
-    height: 245px;
 }
 
 .polaroid-group {
@@ -632,17 +635,18 @@ margin-left: 30px;
 }
 
 .polaroid-frame {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    max-width: 230px;
-    background-color: #060606;
-    height: 230px;
-    left: -144px;
-    top: 115px;
-    transform: rotate(353deg);
-    border: 10px solid #ffffff;
     z-index: 9;
+    background-color: #060606;
+    border: 10px solid #fff;
+    width: 100%;
+    max-width: 48%;
+    height: 42%;
+    position: relative;
+    top: 120px;
+    left: -144px;
+    overflow: hidden;
+    transform: rotate(353deg);
+        box-shadow: 0 0 4px #000;
 }
 
 .polaroid-image {
@@ -668,23 +672,24 @@ margin-left: 30px;
 
 .positionrelative {
     position: relative;
+    width: 670px;
 }
 
 .blue-tape {
+    z-index: 99;
+    width: 348px;
     position: absolute;
-    top: 68px;
+    top: 60px;
     left: -104px;
     right: auto;
-    z-index: 99;
-    width: 232px;
 }
 
 .shapesret {
     z-index: 9;
-    width: 215px;
+    width: 280px;
     position: relative;
-    top: 130px;
-    left: 83px;
+    top: 157px;
+    left: 153px;
 }
 
 .dates-list {
@@ -718,10 +723,11 @@ margin-left: 30px;
 }
 
 .paper-clip {
-    width: 25px;
+    width: 41px;
     position: absolute;
-    left: 420px;
     top: 19px;
+    right: 70px;
+    z-index: 9;
 }
 
 .music-section {
@@ -762,9 +768,9 @@ margin-left: 30px;
     letter-spacing: -45px;
     line-height: 0.7;
 }
-.stamp-image {
+/* .stamp-image {
     width: 500px;
-}
+} */
 
 .stamp-image img {
     width: 100%;
@@ -800,17 +806,16 @@ margin-left: 30px;
 
 
 .stam img  {
-    width: 60px;
-    position: absolute;
-    top: 332px;
-    left: 292px;
-    right: 0;
+    width: 80px; 
 }
 
 .circle-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    right: 89px;
+    bottom: 61px;
 }
 
 .rotating-circle {
@@ -837,7 +842,7 @@ margin-left: 30px;
 
 .chain-wrap {
     position: relative;
-    width: var(--w);
+    /* width: var(--w); */
     border-radius: 16px;
     overflow: visible;
 }
@@ -896,7 +901,7 @@ margin-left: 30px;
 }
 
 .silde-dote-row {
-    width: 470px;
+    width: 690px;
     background-color: #fffaee;
     margin: 0 auto;
     position: relative;
@@ -919,7 +924,7 @@ section.mains-music-bg::before {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100px;
+    height: 133px;
     position: absolute;
     top: 0;
     z-index: 0;
@@ -930,14 +935,11 @@ section.mains-music-bg::before {
     position: relative;
 }
 
-img.gig-bg {
-    position: absolute;
-    inset: 0;
+img.gig-bg { 
     width: 105%;
-    height: 328vh;
-    top: -774px;
-    bottom: 0;
-    left: -2%;
+    height: 117.2%;
+    position: absolute;
+    inset: -154px 0 0 -37px;
 }
 
 img.rotateanimation3.gig-bg.bottoms {
@@ -1023,17 +1025,17 @@ img.rotateanimation3.gig-bg.bottoms {
 
 img.top-img {
     position: relative;
-    top: -88px;
+    top: -165px;
     z-index: -1;
 }
 
 img.bottom-img {
-    position: fixed;
-    top: -89px;
-    right: 0;
-    transition: 1.5s;
     z-index: -1;
     pointer-events: none;
+    transition: all 1.5s;
+    position: fixed;
+    top: -166px;
+    right: 0;
 }
 
 img.bottom-img.active {
@@ -1046,9 +1048,7 @@ animation: roserotate 3s  infinite;
 .blackstrp{
 animation: roserotateback 3s  infinite;
 }
-ul.dates-list li{
-    
-}
+ 
 
 /* 
  @keyframes pichkana {
@@ -1220,11 +1220,11 @@ ul.dates-list li{
     margin-bottom: 30px;
 }
 .about-anuv h3 {
-    font-family: 'Anuv_handwriting';
-    font-size: 57px;
-    font-weight: 500;
     color: #000;
-    letter-spacing: -13px;
+    letter-spacing: -15px;
+    font-family: Anuv_handwriting;
+    font-size: 75px;
+    font-weight: 500;
     line-height: 1.5;
 }
 .content-paper p {
@@ -1706,7 +1706,10 @@ button.forbutton {
     opacity: 0;
     transform: translateY(-40px);
 }
-@media screen and (max-width: 1850px) {
+.innercontainer {
+    max-width: 1370px;
+    margin: 0 auto;
+}
 
 .mainforyou {
     height: 655px;
@@ -1727,7 +1730,7 @@ button.forbutton {
 .content-foryou { 
     transform: translateY(-45%);
 } 
-}
+
 @media screen and (max-width: 1600px) {
     .paycard {
         max-width: 390px;
