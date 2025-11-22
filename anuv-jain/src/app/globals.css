@@ -1148,6 +1148,7 @@ ul.dates-list li{
     transition: 0.5s;
         display: flex;
     align-items: center;
+    bottom: 0;
 }
 
 .paper1.paperclass.show,
@@ -1208,6 +1209,7 @@ ul.dates-list li{
 .wrapper.first {
     padding: 0px 20px;
 }
+
 .content-paper h5 {
     font-family: "IBM Plex Mono";
     font-size: 20px;
