@@ -941,7 +941,7 @@ section.mains-music-bg::before {
 }
 
 img.gig-bg { 
-    width: 105%;
+    width: 102%;
     height: 117.2%;
     position: absolute;
     inset: -154px 0 0 -37px;
@@ -949,7 +949,7 @@ img.gig-bg {
 
 img.rotateanimation3.gig-bg.bottoms {
     z-index: -2;
-    height: 103vh;
+    height: 100vh;
     top: 0;
 }
 /*======================== footer CSS ===================*/ 
@@ -1268,10 +1268,6 @@ main.archivemain {
 }
 
 .playlistfirstsection {
-    display: flex;
-    align-items: center;
-    padding: 0px 150px;
-    justify-content: space-between;
     position: sticky;
     height: 100vh;
     top: 0; 
@@ -1280,12 +1276,18 @@ main.archivemain {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.fleging{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 100vh;
+}
 .paycard {
-    max-width: 600px;
+      max-width: 500px;
     background-color: #ffffff;
     border: 20px solid #fff;
     border-bottom-width: 100px;
+    transform: skew(0deg, -1.5deg);
 }
 
 .flexingsitems img {
@@ -1719,9 +1721,7 @@ button.forbutton {
 .mainforyou {
     height: 655px;
 }
-.paycard { 
-    max-width: 500px;
-}
+
 
 .tiltefou h2 { 
     font-size: 180px; 
@@ -1895,8 +1895,8 @@ section.mains-music-bg:before {
 
     }
 
-    .playlistfirstsection {
-        padding: 50px 50px;
+    .fleging {
+        padding: 50px 0px;
     }
 
     .textanimationply svg {
@@ -2016,7 +2016,7 @@ section.mains-music-bg:before {
 
 @media screen and (max-width: 900px) {
     section.formeyou {
-        padding: 0px 33px;
+        padding: 50px 0px;
     }
 .textanimationply h3 {
         font-size: 70px;
@@ -2026,15 +2026,16 @@ section.mains-music-bg:before {
     }
 
     .playlistfirstsection {
-        padding: 65px 20px;
+        height: auto;
+        position: relative;
+    }
+.fleging{
+padding: 65px 20px;
         flex-wrap: wrap;
         gap: 50px;
         align-items: start;
         justify-content: center;
-        height: auto;
-        position: relative;
-    }
-
+}
     .paycard {
         max-width: 100%;
         width: 60%;
