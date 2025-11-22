@@ -1,6 +1,8 @@
 
 * { margin: 0; padding: 0; }
-body {  background: #333;}
+body { 
+    overflow-x: hidden!important;
+     background: #333;}
 
 html,
 body {
@@ -1263,9 +1265,8 @@ main.archivemain {
 .playlistfirstsection {
     display: flex;
     align-items: center;
-    padding: 50px 150px;
-    gap: 0px 50px;
-    justify-content: center;
+    padding: 0px 150px;
+    justify-content: space-between;
     position: sticky;
     height: 100vh;
     top: 0; 
@@ -1275,8 +1276,8 @@ main.archivemain {
     background-repeat: no-repeat;
 }
 
-.flexingsitems {
-    max-width: 650px;
+.paycard {
+    max-width: 600px;
     background-color: #ffffff;
     border: 20px solid #fff;
     border-bottom-width: 100px;
@@ -1284,6 +1285,13 @@ main.archivemain {
 
 .flexingsitems img {
     max-width: 100%;
+}
+.flexingsitems
+ {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .flexcontent ul {
@@ -1703,6 +1711,9 @@ button.forbutton {
 .mainforyou {
     height: 655px;
 }
+.paycard { 
+    max-width: 500px;
+}
 
 .tiltefou h2 { 
     font-size: 180px; 
@@ -1718,7 +1729,16 @@ button.forbutton {
 } 
 }
 @media screen and (max-width: 1600px) {
-
+    .paycard {
+        max-width: 390px;
+    }
+    .textanimationply h3
+ {
+    font-size: 98px;
+}
+.contentmusiclist h5 {
+    font-size: 25px;
+}
     .mainforyou {
         height: 600px;
     }
@@ -1740,8 +1760,8 @@ button.forbutton {
 
 }
 @media screen and (max-width: 1400px) {
-    .flexingsitems {
-        max-width: 590px;
+    .paycard {
+        max-width: 350px;
     }
 
     .tiltefou svg {
@@ -1784,7 +1804,7 @@ button.forbutton {
 }
 
 @media screen and (max-width: 1250px) {
-    .flexingsitems {
+    .paycard {
         max-width: 475px;
     }
 
@@ -1842,7 +1862,7 @@ button.forbutton {
         align-items: start;
     }
 
-    .flexingsitems {
+    .paycard {
         max-width: 100%;
         width: 100%;
     }

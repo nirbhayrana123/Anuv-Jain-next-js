@@ -37,7 +37,9 @@ export default function Foryou() {
       <main className="archivemain">
         <section className=" fade-section playlistfirstsection">
           <div className="flexingsitems">
+            <div className="paycard">
             <img src="images/list1.jpg" />
+            </div>
           </div>
           <div className="flexcontent">
             <div className="textanimationply">
@@ -82,7 +84,9 @@ export default function Foryou() {
 
         <section className=" fade-section playlistfirstsection">
           <div className="flexingsitems">
+              <div className="paycard">
             <img src="images/list2.jpg" />
+            </div>
           </div>
           <div className="flexcontent">
            <div className="textanimationply">
@@ -135,7 +139,9 @@ export default function Foryou() {
 
         <section className=" fade-section playlistfirstsection">
           <div className="flexingsitems">
+              <div className="paycard">
            <img src="images/list3.jpg" />
+           </div>
           </div>
           <div className="flexcontent">
             <div className="textanimationply">
@@ -188,7 +194,9 @@ export default function Foryou() {
 
         <section className=" fade-section playlistfirstsection">
           <div className="flexingsitems">
+              <div className="paycard">
             <img src="images/list4.jpg" />
+            </div>
           </div>
           <div className="flexcontent">
             <div className="textanimationply">
@@ -238,7 +246,9 @@ export default function Foryou() {
         </section>
         <section className=" fade-section playlistfirstsection">
             <div className="flexingsitems">
+                <div className="paycard">
             <img src="images/list5.jpg" />
+            </div>
           </div>
           <div className="flexcontent">
            <div className="textanimationply">
