@@ -71,9 +71,9 @@ body {
 
 }
 
-.auto-text h1 {
+/* .auto-text h1 {
     animation: floatText 3s ease-in-out infinite;
-}
+} */
 
 @keyframes scalanimation {
     0% {
@@ -434,25 +434,31 @@ img.text {
 .about-anuv {
     width: 40%;
     padding-left: 47px;
+    transform: rotate(3deg);
+    padding-top: 80px;
 }
 
 .about-anuv img {
     width: 210px;
 }
  
-   .about-anuv p {
-    color: #827a7a;
+.about-anuv p {
+    color: #4a4747;
     margin-bottom: 15px;
-    font-family: 'IBM Plex Mono';
-    font-size: 12px;
-} 
+    font-family: IBM Plex Mono;
+    font-size: 10px;
+}
 
 .footer {
+    background-color: #1A1A1A; 
+    text-align: center;
+}
+
+.footer .footerinner{
     background-color: #1A1A1A;
     padding: 60px 20px;
     text-align: center;
 }
-
 .footer-logo svg {
     width: 290px;
 }
@@ -498,17 +504,21 @@ img.text {
 }
 
 ul.dates-list li {
-    color: #827a7a; 
+color: #131212;
+    margin-bottom: 6px;
+    font-family: IBM Plex Mono;
+    font-size: 13px;
+    letter-spacing: -0.03em;
 }
 
 .polaroid-group-row {
-    display: flex;
-    align-items: center;
     justify-content: space-around;
-    position: relative;
-    left: 30px;
+    align-items: center;
     gap: 13px;
-    top: -385px;
+    display: flex;
+    position: relative;
+    top: -355px;
+    left: 11px;
 }
 
 .angal {
@@ -568,7 +578,7 @@ margin-left: 30px;
 .small-card-content {
     width: 300px;
     position: relative;
-    top: 360px;
+    top: 170px;
     left: 23%;
 }
 .footer-logo h4 {
@@ -587,10 +597,10 @@ margin-left: 30px;
 }
 
 .large-note-paper {
-    position: absolute;
-    top: 12%;
-    right: 15%;
     width: 490px;
+    position: absolute;
+    top: 10px;
+    right: 15%;
 }
 
 .about-right-img {
@@ -669,10 +679,10 @@ margin-left: 30px;
 }
 
 .shapesret {
+    z-index: 9;
     width: 215px;
     position: relative;
-    z-index: 9;
-    top: 158px;
+    top: 130px;
     left: 83px;
 }
 
@@ -684,10 +694,10 @@ margin-left: 30px;
 }
  
 .footer-widgets {
-    display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: 40px;
+    margin-top: 20px;
+    display: flex;
 }
 
 .nav-arrows span {
@@ -788,12 +798,12 @@ margin-left: 30px;
 }
 
 
-.stam img {
+.stam img  {
     width: 60px;
     position: absolute;
-    right: 0;
+    top: 332px;
     left: 292px;
-    top: 361px;
+    right: 0;
 }
 
 .circle-wrapper {
@@ -996,7 +1006,7 @@ img.rotateanimation3.gig-bg.bottoms {
 .auto-text h1 {
     transform-box: fill-box;
     transform-origin: 50% 50%;
-    animation: pichkana 3s  infinite;
+    animation: pichkana 6s  infinite;
     animation-delay: calc(var(--i) * 3s);
     font-family: 'Anuv_handwriting';
     font-weight: 100;
@@ -1029,9 +1039,17 @@ img.bottom-img.active {
     transform: rotate(3deg);
     top: 40px;
 }
+.redstrp{
+animation: roserotate 3s  infinite;
+}
+.blackstrp{
+animation: roserotateback 3s  infinite;
+}
+ul.dates-list li{
+    
+}
 
-
-
+/* 
  @keyframes pichkana {
     0% {
         transform: scale(1, 1);
@@ -1052,7 +1070,50 @@ img.bottom-img.active {
     100% {
         transform: scale(1, 1);
     }
-} 
+}  */
+  
+ @keyframes roserotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(0.5deg);
+    }
+
+    50% {
+        transform: rotate(1deg);
+    }
+
+    75% {
+        transform: rotate(1.5deg);
+    }
+
+    100% {
+        transform: rotate(2deg);
+    }
+}
+ @keyframes roserotateback {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-0.5deg);
+    }
+
+    50% {
+        transform: rotate(-1deg);
+    }
+
+    75% {
+        transform: rotate(-1.5deg);
+    }
+
+    100% {
+        transform: rotate(-2deg);
+    }
+}   
 
 /*================custom css======================*/
 
@@ -1429,10 +1490,10 @@ img.recording-img1 {
 }
 
 .slidercontent p {
-    font-size: 18px;
     text-transform: uppercase;
     color: #fff;
-    font-family: 'IBM Plex Mono';
+    font-family: IBM Plex Mono;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -1450,8 +1511,8 @@ h5.caveat {
 }
 
 .cardimg {
-    width: 250px;
-    margin: 0 auto;
+    width: 225px;
+    top: 58px;
     position: relative;
 }
 .cardimg.rights {
@@ -1465,10 +1526,10 @@ h5.caveat {
 }
 
 img.recording-img2 {
+    width: 290px;
     position: absolute;
     bottom: -32px;
-    left: 40px;
-    width: 310px;
+    left: 23px;
 }
 
 .slidercontent.text-right {
@@ -1531,7 +1592,7 @@ img.recording-img2 {
 }
 
 .slidercontent.firstcontent {
-    width: 300px;
+    width: 270px;
 }
 
 section.formeyou {

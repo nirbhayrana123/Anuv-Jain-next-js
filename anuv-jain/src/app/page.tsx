@@ -55,8 +55,8 @@ export default function Home() {
               <img src="images/about-right-img.jpg" className="rotateanimation" />
             </div>
             <div className="rose">
-              <img src="images/red-strp.png" />
-              <img src="images/text.png" className="text" />
+              <img  className="redstrp" src="images/red-strp.png" />
+              <img src="images/text.png" className="text blackstrp" />
 
             </div>
           </div>
@@ -94,11 +94,11 @@ export default function Home() {
                     </div>
                     <div className="polaroid-group22">
                       <ul className="dates-list">
-                        <li>Lorem Ipsum..............08.07.25</li>
-                        <li>Lorem Ipsum..............08.07.25</li>
-                        <li>Lorem Ipsum..............08.07.25</li>
-                        <li>Lorem Ipsum..............08.07.25</li>
-                        <li>Lorem Ipsum..............08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
                       </ul>
 
                       <div className="footer-widgets">
@@ -121,7 +121,7 @@ export default function Home() {
                 </div>
 
                 <div className="shapesret">
-                  <img className="rotateanimation" src="images/gig-flower2.png" />
+                  <img className="rotateanimation redstrp" src="images/gig-flower2.png" />
                 </div>
 
               </div>
