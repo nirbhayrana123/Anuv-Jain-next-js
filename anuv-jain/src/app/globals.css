@@ -327,6 +327,7 @@ button.prev img {
 
 .tiltefou h2 span {
     margin-left: 72px;
+    animation: pichkana 12s  infinite;
 }
 .main-banner {
     width: 100%;
@@ -593,6 +594,7 @@ margin-left: 30px;
     font-style: normal;
     font-weight: 100;
     line-height: 0.5;
+    animation: pichkana 12s  infinite;
 }
 
 .papers-fles {
@@ -1052,10 +1054,10 @@ img.bottom-img.active {
     top: 40px;
 }
 .redstrp{
-animation: roserotate 3s  infinite;
+animation: roserotate 2s  infinite;
 }
 .blackstrp{
-animation: roserotateback 3s  infinite;
+animation: roserotateback 2s  infinite;
 }
 .large-note-paper.slide2 {
   transition: 1s all ease;
@@ -1246,6 +1248,7 @@ img.nextslide.disab,img.prevslide.disab {
     font-size: 75px;
     font-weight: 500;
     line-height: 1.5;
+    animation: pichkana 12s  infinite;
 }
 .content-paper p {
     font-family: "IBM Plex Mono";
@@ -1353,7 +1356,8 @@ height: 100vh;
     letter-spacing: -13px;
     text-transform: uppercase;
     font-weight: 100;
-    line-height: 0.8;
+    line-height: 0.8; 
+    animation: pichkana 12s  infinite;
 }
 .shaeaericon {
     position: relative;
@@ -1413,9 +1417,7 @@ height: 100vh;
     margin: 0;
 }
 
-.textanimationply {
-    animation: float 2s ease-in-out infinite;
-}
+ 
 .contentmusiclist h5
  {
     font-size: 30px;
@@ -1469,6 +1471,7 @@ height: 100vh;
 ease-in-out infinite rooteat;
     position: relative;
     left: -55px;
+    animation: pichkana 12s  infinite;
 }
 .mainforyou img{
     height: 100%;
