@@ -1,6 +1,16 @@
+'use client';
+import { useEffect } from 'react';
+import AOS from "aos";
+
 export default function Footer() {
+   useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  }, []);
   return (
-    <footer className="footer">
+    <footer className="footer" data-aos="fade-up">
     <div className="footer-logo">
       <h4> for <span>more</span>  <span>updates</span></h4>
       {/* <svg width="597" height="89" viewBox="0 0 597 89" fill="none" xmlns="http://www.w3.org/2000/svg">
