@@ -1018,7 +1018,7 @@ img.rotateanimation3.gig-bg.bottoms {
 .auto-text h1 {
     transform-box: fill-box;
     transform-origin: 50% 50%;
-    animation: pichkana 6s  infinite;
+    animation: pichkana 12s  infinite;
     animation-delay: calc(var(--i) * 3s);
     font-family: 'Anuv_handwriting';
     font-weight: 100;
@@ -1059,14 +1059,14 @@ animation: roserotateback 3s  infinite;
 }
  
 
-/* 
+
  @keyframes pichkana {
     0% {
         transform: scale(1, 1);
     }
 
     25% {
-        transform: scale(1, 0.8);
+        transform: scale(1, 0.9);
     }
 
     50% {
@@ -1074,13 +1074,13 @@ animation: roserotateback 3s  infinite;
     }
 
     75% {
-        transform: scale(1, 0.8);
+        transform: scale(1, 0.9);
     }
 
     100% {
         transform: scale(1, 1);
     }
-}  */
+} 
   
  @keyframes roserotate {
     0% {
