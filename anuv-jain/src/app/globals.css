@@ -1804,9 +1804,7 @@ button.forbutton {
 }
 
 @media screen and (max-width: 1250px) {
-    .paycard {
-        max-width: 475px;
-    }
+   
 
     .playlistfirstsection {
         padding: 50px 50px;
@@ -1854,19 +1852,30 @@ button.forbutton {
     section.formeyou {
         padding: 63px 33px;
     }
+.textanimationply h3 {
+        font-size: 70px;
+    }
+        .contentmusiclist h5 {
+        font-size: 18px;
+    }
 
     .playlistfirstsection {
-        padding: 50px 0px;
+        padding: 65px 20px;
         flex-wrap: wrap;
-        gap: 0px;
+        gap: 50px;
         align-items: start;
+        justify-content: center;
+        height: auto;
+        position: relative;
     }
 
     .paycard {
         max-width: 100%;
-        width: 100%;
+        width: 60%;
     }
-
+.flexingsitems {
+    width: 100%;
+}
     .flexcontent h4 {
         font-size: 25px;
         line-height: 1.5;
@@ -1889,7 +1898,23 @@ button.forbutton {
     section.formeyou {
         padding: 63px 0px;
     }
-
+       .contentmusiclist h5 {
+        font-size: 15px;
+    }
+.textanimationply h3 {
+        font-size: 65px;
+    }
+    .contentmusiclist
+ {
+    margin-top: 25px;
+}
+.paycard {
+    background-color: #fff;
+    border: 10px solid #fff;
+    border-bottom-width: 70px;
+     width: 100%;
+        max-width: 100%
+}
     .paperimg {
         width: 100%;
     }
