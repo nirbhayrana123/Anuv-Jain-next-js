@@ -1445,7 +1445,6 @@ h5.caveat {
 .cardimg {
     width: 225px;
     top: 58px;
-    margin: 0 auto;
     position: relative;
 }
 .cardimg.rights {
@@ -1459,10 +1458,10 @@ h5.caveat {
 }
 
 img.recording-img2 {
+    width: 290px;
     position: absolute;
     bottom: -32px;
-    left: 40px;
-    width: 310px;
+    left: 23px;
 }
 
 .slidercontent.text-right {
@@ -1525,7 +1524,7 @@ img.recording-img2 {
 }
 
 .slidercontent.firstcontent {
-    width: 300px;
+    width: 270px;
 }
 
 section.formeyou {
