@@ -42,7 +42,7 @@ export default function Home() {
           <div className="second-section-box" style={{ backgroundImage: "url('/images/second-box-img.png')" }}>
             <div className="angal" style={{ backgroundImage: "url('/images/angal.png')" }}> </div>
             <div className="about-anuv">
-              <h3>About Anuv :)</h3>
+              <h3>About Anuv </h3>
               {/* <img src="images/about-an.svg" /> */}
               <p>Anuv Jain is an Indian singer-songwriter known for his soulful,
                 acoustic indie pop. His breakout tracks like "Baarishein" and
@@ -63,6 +63,7 @@ export default function Home() {
         </section>
 
         <section className="third-section">
+          <div className="innercontainer">
     <img src="images/gig-bg.png" className="rotateanimation3 gig-bg"></img>
           <div className="main-flexsf">
             <div className="scribble-line rotateanimation">
@@ -80,13 +81,14 @@ export default function Home() {
                     <img src="./images/indie-music.png" alt="Artist singing" className="rotatfret polaroid-image" />
                   </div>
                 </div>
-                <div className="large-note-paper">
-                  <img className="bgg" src="images/Names2.svg" />
-
-                  <div className="paper-clip">
+                <div className="paper-clip">
                     <img src="./images/kundi.svg" alt="gig" />
 
                   </div>
+                <div className="large-note-paper">
+                  <img className="bgg" src="images/Names2.svg" />
+
+                  
 
                   <div className="polaroid-group-row">
                     <div className="polaroid-group">
@@ -114,11 +116,11 @@ export default function Home() {
                     </div>
 
                   </div>
-
-                </div>
-                <div className="stam circle-wrapper">
+                   <div className="stam circle-wrapper">
                   <img src="./images/stam.svg " alt="stamp" className="rotating-circle" />
                 </div>
+                </div>
+                
 
                 <div className="shapesret">
                   <img className="rotateanimation redstrp" src="images/gig-flower2.png" />
@@ -143,7 +145,7 @@ export default function Home() {
             </div>
           </div>
 
-
+</div>
 
         </section>
 
@@ -166,7 +168,7 @@ export default function Home() {
                           <defs>
                             <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
                           </defs>
-                          <use className="moving-chain" href="#rectPath" stroke="#000" stroke-width="10" stroke-linecap="round"
+                          <use className="moving-chain" href="#rectPath" stroke="#191919" stroke-width="10" stroke-linecap="round"
                             stroke-linejoin="round" />
                         </svg>
                       </div>
@@ -180,7 +182,7 @@ export default function Home() {
                           <defs>
                             <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
                           </defs>
-                          <use className="moving-chain" href="#rectPath" stroke="#000" stroke-width="10" stroke-linecap="round"
+                          <use className="moving-chain" href="#rectPath" stroke="#191919" stroke-width="10" stroke-linecap="round"
                             stroke-linejoin="round" />
                         </svg>
                       </div>
