@@ -8,7 +8,6 @@ html,
 body {
     overflow: visible;
     scroll-behavior: auto;
-    /* font-family: "Bodoni Moda", serif; */
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
