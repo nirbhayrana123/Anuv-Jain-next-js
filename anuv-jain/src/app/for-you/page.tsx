@@ -43,12 +43,6 @@ export default function Foryou() {
       });
     });
   }, []);
-  
-
-
-
-
-
   return (
     <>
     <main className="foryou">
