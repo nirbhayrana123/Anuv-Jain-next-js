@@ -37,6 +37,7 @@ export default function Foryou() {
          // Step 4 → Checkbox in paper3 → show paper4
       $(".paper4").on("change", "input[type='checkbox']", function () {
         $(".paper3").animate({ opacity: 1 }, 300);
+        $(".paper4").animate({ opacity: 0 }, 100);
         $(".paper4").show().animate({ opacity: 0 }, 300, function () {
         window.location.href = "/playlist";
       });
