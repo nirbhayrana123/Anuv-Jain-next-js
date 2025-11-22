@@ -63,13 +63,12 @@ export default function Home() {
         </section>
 
         <section className="third-section">
+          <div className="scribble-line rotateanimation"></div>
+            <div className="scribble-line rotateanimation left"></div>
           <div className="innercontainer">
     <img src="images/gig-bg.png" className="rotateanimation3 gig-bg"></img>
           <div className="main-flexsf">
-            <div className="scribble-line rotateanimation">
-            </div>
-            <div className="scribble-line rotateanimation left">
-            </div>
+            
             <div className="large-note-paper">
               <div className="positionrelative">
                 <div className="bluesimg">
@@ -85,11 +84,9 @@ export default function Home() {
                     <img src="./images/kundi.svg" alt="gig" />
 
                   </div>
-                <div className="large-note-paper">
+                  <div className="sliderlist">
+                <div className="large-note-paper slide1">
                   <img className="bgg" src="images/Names2.svg" />
-
-                  
-
                   <div className="polaroid-group-row">
                     <div className="polaroid-group">
 
@@ -103,16 +100,7 @@ export default function Home() {
                         <li>Lorem Ipsum..........08.07.25</li>
                       </ul>
 
-                      <div className="footer-widgets">
-                        <div className="nav-arrows">
-                          <span>
-                            <img src="./images/left-arrwo.svg" />
-                          </span>
-                          <span>
-                            <img src="./images/right-arrwo.svg" />
-                          </span>
-                        </div>
-                      </div>
+                      
                     </div>
 
                   </div>
@@ -120,7 +108,40 @@ export default function Home() {
                   <img src="./images/stam.svg " alt="stamp" className="rotating-circle" />
                 </div>
                 </div>
-                
+                <div className="large-note-paper slide2">
+                  <img className="bgg" src="images/Names2.svg" />
+                  <div className="polaroid-group-row">
+                    <div className="polaroid-group">
+
+                    </div>
+                    <div className="polaroid-group22">
+                      <ul className="dates-list">
+                        <li>Lorem Ipsum..........08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
+                      </ul>
+
+                      
+                    </div>
+
+                  </div>
+                   <div className="stam circle-wrapper">
+                  <img src="./images/stam.svg " alt="stamp" className="rotating-circle" />
+                </div>
+                </div>
+                </div>
+                <div className="footer-widgets">
+                        <div className="nav-arrows">
+                          <span>
+                            <img className="prevslide" src="./images/left-arrwo.svg" />
+                          </span>
+                          <span>
+                            <img className="nextslide" src="./images/right-arrwo.svg" />
+                          </span>
+                        </div>
+                      </div>
 
                 <div className="shapesret">
                   <img className="rotateanimation redstrp" src="images/gig-flower2.png" />
