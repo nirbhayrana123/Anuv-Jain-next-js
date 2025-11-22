@@ -1805,6 +1805,13 @@ button.forbutton {
 
 @media screen and (max-width: 1250px) {
    
+    .paycard 
+ {
+        max-width: 280px;
+            border: 15px solid #fff;
+    border-bottom-width: 70px;
+
+    }
 
     .playlistfirstsection {
         padding: 50px 50px;
