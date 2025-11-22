@@ -71,9 +71,9 @@ body {
 
 }
 
-.auto-text h1 {
+/* .auto-text h1 {
     animation: floatText 3s ease-in-out infinite;
-}
+} */
 
 @keyframes scalanimation {
     0% {
@@ -434,18 +434,20 @@ img.text {
 .about-anuv {
     width: 40%;
     padding-left: 47px;
+    transform: rotate(3deg);
+    padding-top: 80px;
 }
 
 .about-anuv img {
     width: 210px;
 }
  
-   .about-anuv p {
-    color: #827a7a;
+.about-anuv p {
+    color: #4a4747;
     margin-bottom: 15px;
-    font-family: 'IBM Plex Mono';
-    font-size: 12px;
-} 
+    font-family: IBM Plex Mono;
+    font-size: 10px;
+}
 
 .footer {
     background-color: #1A1A1A;
@@ -996,7 +998,7 @@ img.rotateanimation3.gig-bg.bottoms {
 .auto-text h1 {
     transform-box: fill-box;
     transform-origin: 50% 50%;
-    animation: pichkana 3s  infinite;
+    animation: pichkana 6s  infinite;
     animation-delay: calc(var(--i) * 3s);
     font-family: 'Anuv_handwriting';
     font-weight: 100;
@@ -1029,9 +1031,17 @@ img.bottom-img.active {
     transform: rotate(3deg);
     top: 40px;
 }
+.redstrp{
+animation: roserotate 3s  infinite;
+}
+.blackstrp{
+animation: roserotateback 3s  infinite;
+}
+ul.dates-list li{
+    
+}
 
-
-
+/* 
  @keyframes pichkana {
     0% {
         transform: scale(1, 1);
@@ -1052,7 +1062,50 @@ img.bottom-img.active {
     100% {
         transform: scale(1, 1);
     }
-} 
+}  */
+  
+ @keyframes roserotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(0.5deg);
+    }
+
+    50% {
+        transform: rotate(1deg);
+    }
+
+    75% {
+        transform: rotate(1.5deg);
+    }
+
+    100% {
+        transform: rotate(2deg);
+    }
+}
+ @keyframes roserotateback {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-0.5deg);
+    }
+
+    50% {
+        transform: rotate(-1deg);
+    }
+
+    75% {
+        transform: rotate(-1.5deg);
+    }
+
+    100% {
+        transform: rotate(-2deg);
+    }
+}   
 
 /*================custom css======================*/
 
