@@ -1048,9 +1048,7 @@ animation: roserotate 3s  infinite;
 .blackstrp{
 animation: roserotateback 3s  infinite;
 }
-ul.dates-list li{
-    
-}
+ 
 
 /* 
  @keyframes pichkana {
@@ -1732,7 +1730,7 @@ button.forbutton {
 .content-foryou { 
     transform: translateY(-45%);
 } 
-}
+
 @media screen and (max-width: 1600px) {
     .paycard {
         max-width: 390px;
