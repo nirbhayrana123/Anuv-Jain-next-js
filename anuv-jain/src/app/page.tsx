@@ -94,11 +94,11 @@ export default function Home() {
                     </div>
                     <div className="polaroid-group22">
                       <ul className="dates-list">
-                        <li>Lorem Ipsum..............08.07.25</li>
-                        <li>Lorem Ipsum..............08.07.25</li>
-                        <li>Lorem Ipsum..............08.07.25</li>
-                        <li>Lorem Ipsum..............08.07.25</li>
-                        <li>Lorem Ipsum..............08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
+                        <li>Lorem Ipsum..........08.07.25</li>
                       </ul>
 
                       <div className="footer-widgets">

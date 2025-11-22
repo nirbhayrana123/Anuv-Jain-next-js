@@ -450,11 +450,15 @@ img.text {
 }
 
 .footer {
+    background-color: #1A1A1A; 
+    text-align: center;
+}
+
+.footer .footerinner{
     background-color: #1A1A1A;
     padding: 60px 20px;
     text-align: center;
 }
-
 .footer-logo svg {
     width: 290px;
 }
@@ -500,17 +504,21 @@ img.text {
 }
 
 ul.dates-list li {
-    color: #827a7a; 
+color: #131212;
+    margin-bottom: 6px;
+    font-family: IBM Plex Mono;
+    font-size: 13px;
+    letter-spacing: -0.03em;
 }
 
 .polaroid-group-row {
-    display: flex;
-    align-items: center;
     justify-content: space-around;
-    position: relative;
-    left: 30px;
+    align-items: center;
     gap: 13px;
-    top: -385px;
+    display: flex;
+    position: relative;
+    top: -355px;
+    left: 11px;
 }
 
 .angal {
@@ -570,7 +578,7 @@ margin-left: 30px;
 .small-card-content {
     width: 300px;
     position: relative;
-    top: 360px;
+    top: 170px;
     left: 23%;
 }
 .footer-logo h4 {
@@ -589,10 +597,10 @@ margin-left: 30px;
 }
 
 .large-note-paper {
-    position: absolute;
-    top: 12%;
-    right: 15%;
     width: 490px;
+    position: absolute;
+    top: 10px;
+    right: 15%;
 }
 
 .about-right-img {
@@ -671,10 +679,10 @@ margin-left: 30px;
 }
 
 .shapesret {
+    z-index: 9;
     width: 215px;
     position: relative;
-    z-index: 9;
-    top: 158px;
+    top: 130px;
     left: 83px;
 }
 
@@ -686,10 +694,10 @@ margin-left: 30px;
 }
  
 .footer-widgets {
-    display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: 40px;
+    margin-top: 20px;
+    display: flex;
 }
 
 .nav-arrows span {
@@ -790,12 +798,12 @@ margin-left: 30px;
 }
 
 
-.stam img {
+.stam img  {
     width: 60px;
     position: absolute;
-    right: 0;
+    top: 332px;
     left: 292px;
-    top: 361px;
+    right: 0;
 }
 
 .circle-wrapper {
