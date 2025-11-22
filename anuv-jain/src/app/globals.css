@@ -341,8 +341,7 @@ button.prev img {
     cursor: pointer;
     background-color: #0000;
     border: none;
-    color: #000000;
-    letter-spacing: 1px;
+    color: #00000099;
     text-align: center;
     border: 2px solid #000000;
     border-radius: 100px;
@@ -350,13 +349,14 @@ button.prev img {
     align-items: center;
     margin: 20px auto 0;
     padding: 10px 25px 10px;
-    font-family: __nextjs-Geist Mono;
+      font-family: '__nextjs-Geist Mono';
     font-size: 1.3em;
     text-decoration: none;
     transition: all 1s;
     display: flex;
     box-shadow: inset 0 0 #fff;
     text-transform: uppercase;
+        letter-spacing: 0.4rem;
 }
 img {
     width: 100%;
@@ -488,7 +488,7 @@ img.text {
     cursor: pointer;
     font-weight: 500;
     font-size: 21px;
-        font-family: '__nextjs-Geist Mono';
+    font-family: '__nextjs-Geist Mono';
 }
 
 .social-icons {
@@ -1146,6 +1146,8 @@ ul.dates-list li{
     left: 0;
     right: 0;
     transition: 0.5s;
+        display: flex;
+    align-items: center;
 }
 
 .paper1.paperclass.show,
@@ -1181,12 +1183,14 @@ ul.dates-list li{
 }
 
 .checkbox-wrap input[type=checkbox]:checked+label:after {
-    content: "\2713";
-    color: #000000;
-    font-size: 37px;
+   content: "✓";
+    color: #000;
+    font-size: 30px;
     position: absolute;
-    left: 7px;
-    top:-12px;
+    top: -9px;
+    left: 8px;
+    font-weight: 100;
+    font-family: cursive;
 }
 
 .checkbox-wrap label {
@@ -1201,14 +1205,16 @@ ul.dates-list li{
     letter-spacing: 0.1em;
     align-items: center;
 }
-
+.wrapper.first {
+    padding: 0px 20px;
+}
 .content-paper h5 {
     font-family: "IBM Plex Mono";
     font-size: 20px;
     color: #000000;
     font-weight: 400;
     letter-spacing: 0.1em;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .about-anuv h3 {
     font-family: 'Anuv_handwriting';
@@ -1226,6 +1232,7 @@ ul.dates-list li{
     margin-bottom: 20px;
     letter-spacing: 0.1em;
     margin-left: -30px;
+    display: none;
 }
 
 .paperimg {
@@ -1233,7 +1240,7 @@ ul.dates-list li{
     position: relative;
     width: 700px;
     margin: 45px auto;
-    height: 100vh;
+    height: 100%;
     align-items: center;
 }
 
@@ -1242,8 +1249,7 @@ section.formeyou.hide {
 }
 
 .content-paper {
-    position: absolute;
-    top: 20%;
+    position: absolute; 
     left: 0;
     right: 0;
     padding: 45px 100px 45px 100px;
@@ -1419,15 +1425,19 @@ main.archivemain {
  {
     color: #000;
     letter-spacing: -63px;
-    width: 426px;
+    width: 470px;
     margin: 0 auto;
     font-family: Anuv_handwriting;
-    font-size: 180px;
+    font-size: 200px;
     font-weight: 100;
-    line-height: 0.5;
-    animation: 5s ease-in-out infinite rooteat;
+    line-height: .4;
+    animation: 5s 
+ease-in-out infinite rooteat;
     position: relative;
     left: -55px;
+}
+.mainforyou img{
+    height: 100%;
 }
 .mainforyou img{
      animation: rooteat 5s ease-in-out infinite;
@@ -1448,12 +1458,12 @@ img.recording-img1 {
     left: 3px;
 }
 .discriptioncontent h5 {
-    font-family: __nextjs-Geist Mono;
-    font-size: 26px;
-    max-width: 406px;
-    margin: 0 auto;
-    font-weight: 400;
     color: #000000b0;
+    max-width: 424px;
+    margin: 0 auto;
+      font-family: '__nextjs-Geist Mono';
+    font-size: 27px;
+    font-weight: 400;
 }
 .flexcard {
     display: flex;
@@ -1598,12 +1608,17 @@ img.recording-img2 {
 }
 
 section.formeyou {
-    padding: 63px 270px;
-    display: flex;
+   justify-content: center;
     align-items: stretch;
-    justify-content: center;
+    padding: 0px 270px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
 }
-
+.mainforyou {
+    height: 756px;
+    position: relative;
+}
 .imgforyou {
     position: relative;
     text-align: center;
@@ -1619,7 +1634,7 @@ section.formeyou {
     left: 0;
     right: 0;
     margin: 0 auto;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
 }
 
 button.forbutton {
@@ -1679,7 +1694,47 @@ button.forbutton {
     opacity: 0;
     transform: translateY(-40px);
 }
+@media screen and (max-width: 1850px) {
 
+.mainforyou {
+    height: 655px;
+}
+
+.tiltefou h2 { 
+    font-size: 180px; 
+}
+.discriptioncontent h5 
+ { 
+    font-size: 25px; 
+}
+
+
+.content-foryou { 
+    transform: translateY(-45%);
+} 
+}
+@media screen and (max-width: 1600px) {
+
+    .mainforyou {
+        height: 600px;
+    }
+.tiltefou h2 {
+        font-size: 162px;
+    }
+        .discriptioncontent h5
+ {width: 350px;
+        font-size: 20px;
+    }
+
+
+.buttonforyou button.forbutton
+ {
+    letter-spacing: 0.2rem;
+    padding: 9px 25px;
+    font-size: 0.8em;
+}
+
+}
 @media screen and (max-width: 1400px) {
     .flexingsitems {
         max-width: 590px;
@@ -1710,7 +1765,7 @@ button.forbutton {
 }
 .buttonforyou button.forbutton { 
     padding: 7px 25px; 
-    font-size: 1.2em; 
+    letter-spacing: 0.2em;
 }
 
 
