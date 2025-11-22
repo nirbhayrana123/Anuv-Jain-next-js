@@ -10,8 +10,8 @@ export default function Footer() {
     });
   }, []);
   return (
-    <footer className="footer">
-      <div className='footerinner' data-aos="fade-up">
+    <footer className="footer" data-aos="fade-up">
+      <div className='footerinner'>
       <div className="footer-logo">
         <h4> for <span>more</span>  <span>updates</span></h4>
         
