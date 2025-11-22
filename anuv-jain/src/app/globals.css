@@ -548,9 +548,11 @@ justify-content: space-around;
 .afsos h4 {
     color: #ffffff;
     font-family: 'Anuv_handwriting';
-    font-size: 85px;
+    font-size: 107px;
     font-weight: 500;
     letter-spacing: -30px;
+    line-height: 1;
+    margin-left: -30px;
 }
 .afsos h4 span {
 margin-left: 30px;
@@ -731,12 +733,12 @@ margin-left: 30px;
 }
 
 .music-section {
-    width: 100%;
-    height: 100vh;
+    width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+        padding-bottom: 100px;
 }
 
 .stamp-image {
@@ -745,7 +747,7 @@ margin-left: 30px;
     z-index: 0;
 }
 
-.stamp-image::after {
+/* .stamp-image::after {
     content: "";
     position: absolute;
     top: 83px;
@@ -754,11 +756,12 @@ margin-left: 30px;
     height: 67%;
     background-color: black;
     z-index: -3;
-}
+} */
 
 .stamp-container {
-    margin-top: 150px;
-    display: inline-block; 
+    margin-top: 200px;
+    display: inline-block;
+    padding-bottom: 0px;
 }
 .stamp-container h4 {
     color: #FFFFFF;
@@ -1760,8 +1763,60 @@ button.forbutton {
     padding: 9px 25px;
     font-size: 0.8em;
 }
+.second-section-box { 
+    width: 840px;
+    height: 550px; 
+}
+.about-anuv p { 
+    font-size: 13px;
+}
+.about-right-img { 
+    max-width: 330px;
+    height: 374px;
+    margin-left: 40px; 
+}
+.about-right-img img { 
+    height: 315px; 
+}
+.angal { 
+    width: 30px;
+    height: 97px; 
+    top: 32px;
+    right: 101px;
+}
+.rose { 
+    width: 180px; 
+    bottom: 5px;
+    right: 13px;
+}
+.paper-clip { 
+    top: 30px; 
+}
+.innercontainer {
+    max-width: 1220px; 
+}
+.small-card-content {
+    width: 376px; 
+    top: 290px; 
+}
+section.mains-music-bg:before { 
+    background-size: 100%;
+    width: 100%;
+    height: 110px; 
+}
+.silde-dote-row { 
+    width: 490px; 
+    padding: 15px; 
+}
+.prev, .next { 
+    width: 40px;
+}
+.watch-button { 
+    padding: 9px 15px 10px;  
+}
 
 }
+
 @media screen and (max-width: 1400px) {
     .paycard {
         max-width: 350px;
