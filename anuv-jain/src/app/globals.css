@@ -1117,7 +1117,7 @@ ul.dates-list li{
 
 /*================custom css======================*/
 
-.paper1 {
+/* .paper1 {
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.6s ease;
@@ -1127,7 +1127,7 @@ ul.dates-list li{
     display: block;
     opacity: 1;
     visibility: visible;
-}
+} */
 
 .checkbox-wrap {
     position: relative;
@@ -1137,6 +1137,7 @@ ul.dates-list li{
 
 }
 
+.paper1.paperclass,
 .paper2.paperclass,
 .paper3.paperclass,
 .paper4.paperclass {
@@ -1147,6 +1148,7 @@ ul.dates-list li{
     transition: 0.5s;
 }
 
+.paper1.paperclass.show,
 .paper2.paperclass.show,
 .paper3.paperclass.show,
 .paper4.paperclass.show {
