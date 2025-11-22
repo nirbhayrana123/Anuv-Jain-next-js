@@ -2,7 +2,7 @@
 * { margin: 0; padding: 0; }
 body { 
     overflow-x: hidden!important;
-     background: #333;}
+     background: #1a1a1a;}
 
 html,
 body {
@@ -452,11 +452,12 @@ img.text {
 .footer {
     background-color: #1A1A1A; 
     text-align: center;
+    box-shadow: 0 0 10px #0a0909;
 }
 
 .footer .footerinner{
     background-color: #1A1A1A;
-    padding: 60px 20px;
+    padding:90px 20px;
     text-align: center;
 }
 .footer-logo svg {
@@ -477,7 +478,7 @@ img.text {
     outline: none;
     background: #1A1A1A;
     color: #fff;
-    width: 250px;
+    width: 350px;
 }
 
 .newsletter button {
@@ -492,7 +493,7 @@ img.text {
 }
 
 .social-icons {
-    margin-top: 30px;
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -500,7 +501,7 @@ img.text {
 }
 
 .social-icons a img {
-    width: 30px;
+    width: 40px;
 }
 
 ul.dates-list li {
@@ -587,11 +588,12 @@ margin-left: 30px;
 }
 .footer-logo h4 {
     color: #fff;
-    letter-spacing: -1.6rem;
-     font-family: 'Anuv_handwriting';
-    font-size: 85px;
+    letter-spacing: -2.9rem;
+    font-family: Anuv_handwriting;
+    font-size: 141px;
     font-style: normal;
     font-weight: 100;
+    line-height: 0.5;
 }
 
 .papers-fles {
@@ -869,7 +871,7 @@ margin-left: 30px;
 }
 
 .moving-chain {
-    animation: moveChain 8.8s linear infinite, pulse 0.8s ease-in-out infinite;
+    animation: moveChain 15.8s linear infinite, pulse 0.8s ease-in-out infinite;
 }
 
 @keyframes moveChain {
