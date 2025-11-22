@@ -36,6 +36,8 @@ export default function Foryou() {
     <>
       <main className="archivemain">
         <section className=" fade-section playlistfirstsection">
+          <div className="innercontainer">
+            <div className="fleging">
           <div className="flexingsitems">
             <div className="paycard">
             <img src="images/list1.jpg" />
@@ -78,11 +80,15 @@ export default function Foryou() {
               </ul>
             </div>
           </div>
+          </div>
+          </div>
         </section>
 
 
 
         <section className=" fade-section playlistfirstsection">
+           <div className="innercontainer">
+            <div className="fleging">
           <div className="flexingsitems">
               <div className="paycard">
             <img src="images/list2.jpg" />
@@ -135,9 +141,13 @@ export default function Foryou() {
 
             </div>
           </div>
+          </div>
+          </div>
         </section>
 
         <section className=" fade-section playlistfirstsection">
+          <div className="innercontainer">
+            <div className="fleging">
           <div className="flexingsitems">
               <div className="paycard">
            <img src="images/list3.jpg" />
@@ -190,9 +200,13 @@ export default function Foryou() {
 
             </div>
           </div>
+          </div>
+          </div>
         </section>
 
         <section className=" fade-section playlistfirstsection">
+          <div className="innercontainer">
+            <div className="fleging">
           <div className="flexingsitems">
               <div className="paycard">
             <img src="images/list4.jpg" />
@@ -243,8 +257,12 @@ export default function Foryou() {
 
             </div>
           </div>
+          </div>
+          </div>
         </section>
         <section className=" fade-section playlistfirstsection">
+          <div className="innercontainer">
+            <div className="fleging">
             <div className="flexingsitems">
                 <div className="paycard">
             <img src="images/list5.jpg" />
@@ -295,6 +313,8 @@ export default function Foryou() {
 
 
             </div>
+          </div>
+          </div>
           </div>
         </section>
       </main>
