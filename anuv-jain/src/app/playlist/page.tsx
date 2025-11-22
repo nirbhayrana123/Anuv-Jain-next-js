@@ -37,15 +37,19 @@ export default function Foryou() {
       <main className="archivemain">
         <section className=" fade-section playlistfirstsection">
           <div className="flexingsitems">
-            <img src="amitimg/forthahart.svg" />
+            <div className="paycard">
+            <img src="images/list1.jpg" />
+            </div>
           </div>
           <div className="flexcontent">
             <div className="textanimationply">
-              <h3>He healin <br/> heart </h3>
+              <h3>The Silent <br/> RomAntic </h3>
               <div className="contentmusiclist">
-                <h5>Baarishein . . . . . . . . . . 3:47</h5>
+                <h5>Baarishein..........3:47</h5>
+                <h5>Mishri..............3:47</h5>
+                <h5>Jul.................3:47</h5>
+                <h5>Maula................3:47</h5>
               </div>
-            <img src="images/text-rom2.svg "/>
             
             </div>
 
@@ -80,12 +84,20 @@ export default function Foryou() {
 
         <section className=" fade-section playlistfirstsection">
           <div className="flexingsitems">
-            <img src="amitimg/playlist2.svg" />
+              <div className="paycard">
+            <img src="images/list2.jpg" />
+            </div>
           </div>
           <div className="flexcontent">
-            <div className="textanimationply">
-            <img src="images/text-rom2.svg "/>
-
+           <div className="textanimationply">
+              <h3>He Healin <br/> Heart </h3>
+              <div className="contentmusiclist">
+                <h5>Baarishein..........3:47</h5>
+                <h5>Mishri..............3:47</h5>
+                <h5>Roz Roz.............3:47</h5>
+                <h5>Husn................3:47</h5>
+              </div>
+            
             </div>
 
             <div className="shaeaericon">
@@ -127,12 +139,20 @@ export default function Foryou() {
 
         <section className=" fade-section playlistfirstsection">
           <div className="flexingsitems">
-            <img src="amitimg/playlist3.svg" />
+              <div className="paycard">
+           <img src="images/list3.jpg" />
+           </div>
           </div>
           <div className="flexcontent">
             <div className="textanimationply">
-              <img src="images/text-rom2.svg "/>
-
+              <h3>The Quiet <br/> Ob Server </h3>
+              <div className="contentmusiclist">
+                <h5>Mula................3:47</h5>
+                <h5>Guzara..............3:47</h5>
+                <h5>Alag Aasmaan........3:47</h5>
+                <h5>Riha................3:47</h5>
+              </div>
+            
             </div>
 
             <div className="shaeaericon">
@@ -174,13 +194,19 @@ export default function Foryou() {
 
         <section className=" fade-section playlistfirstsection">
           <div className="flexingsitems">
-            <img src="amitimg/playlist4.svg" />
+              <div className="paycard">
+            <img src="images/list4.jpg" />
+            </div>
           </div>
           <div className="flexcontent">
             <div className="textanimationply">
-              <img src="images/text-rom2.svg "/>
-
-
+ <h3>` E Hopele <br/> Dreamer </h3>
+              <div className="contentmusiclist">
+                <h5>Ocena...............3:47</h5>
+                <h5>Mishri..............3:47</h5>
+                <h5>Husn................3:47</h5>
+                <h5>Gul.................3:47</h5>
+              </div>
             </div>
             <div className="shaeaericon">
               <ul>
@@ -219,13 +245,20 @@ export default function Foryou() {
           </div>
         </section>
         <section className=" fade-section playlistfirstsection">
-          <div className="flexingsitems">
-            <img src="amitimg/playlist5.svg" />
+            <div className="flexingsitems">
+                <div className="paycard">
+            <img src="images/list5.jpg" />
+            </div>
           </div>
           <div className="flexcontent">
-            <div className="textanimationply">
-             <img src="images/text-rom2.svg "/>
-
+           <div className="textanimationply">
+ <h3>` E Midni Gi <br/> Thinker </h3>
+              <div className="contentmusiclist">
+                <h5>Roz Roz.............3:47</h5>
+                 <h5>Guzara.............3:47</h5>
+                <h5>Antariksk...........3:47</h5>
+                <h5>Baarishein..........3:47</h5>
+              </div>
             </div>
 
             <div className="shaeaericon">
