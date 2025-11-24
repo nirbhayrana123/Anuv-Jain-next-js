@@ -392,6 +392,9 @@ img {
     z-index: 999;
     left: -29px;
 }
+.scribble-line.rotateanimation.left{
+    background-image: url(/images/BGLine.svg);
+}
 
 .auto-text {
     position: absolute;
