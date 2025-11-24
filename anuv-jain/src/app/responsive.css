@@ -151,4 +151,26 @@
         margin: 0 auto;
     }
 
+
+.paper1.paperclass, .paper2.paperclass, .paper3.paperclass, .paper4.paperclass {  
+    left: 0;
+    top: 0;
+    right: -205%;
+    transition: all 1s;
+}
+
+.paper1.paperclass.show, .paper2.paperclass.show, .paper3.paperclass.show, .paper4.paperclass.show {
+    right: 0%;
+    top: auto;
+}
+
+
+
+
+
+
+
+
+
+
 }
