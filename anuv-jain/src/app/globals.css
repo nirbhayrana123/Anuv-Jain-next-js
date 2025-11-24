@@ -958,6 +958,7 @@ ul.dates-list li {
 section.mains-music-bg {
     position: relative;
     overflow: hidden;
+    z-index: 9;
 }
 
 section.mains-music-bg::before {
@@ -1828,8 +1829,6 @@ button.forbutton {
 
 .third-section {
     position: relative;
-    overflow: hidden;
-
 }
 
 .stamp-container h4 span {
