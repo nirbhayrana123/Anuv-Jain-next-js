@@ -1429,15 +1429,15 @@ height: 100vh;
 }
 
 .notebg h5 {
-    color: #575151;
+    color: #000000;
     text-align: justify;
     text-transform: uppercase;
     letter-spacing: -6px;
     font-family: Anuv_handwriting;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 500;
+    line-height: .8;
     transform: rotate(3deg);
-    line-height: 0.8;
 }
 .tiltefou h2
  {
