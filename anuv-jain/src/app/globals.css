@@ -2442,8 +2442,8 @@ ul.dates-list li {
         object-fit: cover;
     }
     .second-section {
-        height: 567px;
-        margin-top: -272px;
+        height: 740px;
+        margin-top: -390px;
     }
     .scribble-line { 
         width: 180px; 
@@ -2454,6 +2454,32 @@ ul.dates-list li {
     .scribble-line.left { 
       bottom: 42%; 
    }
+   .stamp-image.chain-wrap {
+    max-width: 524px;
+}
+    .about-right-img {
+        max-width: 342px;
+        height: 374px;
+        margin-left: 50px;
+    }
+.about-right-imgouter {
+        max-width: 40%;
+    }
+    .rose {
+        width: 180px;
+        bottom: 37px;
+        right: 13px;
+    }
+.small-card-content {
+        width: 297px;
+        top: 368px;
+    }    
+.afsos {
+        width: 50%;
+        margin-top: 200px;
+        top: 15%;
+        right: 25px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -2560,6 +2586,14 @@ ul.dates-list li {
         width: 100%;
         height: 490px;
         margin-right: -46%; 
+    }
+    .about-right-imgouter {
+        max-width: 49%; 
+        top: -260px;
+        left: -28%;
+    }
+    .second-section-box { 
+        margin-right: -55%;
     }
 }
 @media screen and (max-width: 540px) {
