@@ -1,5 +1,6 @@
 @media screen and (max-width: 767px) {
-/*======== navbar =========*/
+
+    /*======== navbar =========*/
     .navbar {
         transform-origin: 100%;
         z-index: 9999;
@@ -31,20 +32,115 @@
         transform: rotate(90deg);
     }
 
+    .navbox {
+        inset: -34px 0% auto !important;
+    }
+
+    /*======== archives page =========*/
+    .swiper-slide {
+        display: none;
+    }
+
+    .swiper-pagination,
+    .sliderarrow {
+        display: none;
+    }
+
+    .scontaerd {
+        padding: 5%;
+    }
+
+    .swiper-slide {
+        min-height: 1050px;
+        background-position: 24% 190px;
+    }
+
+    .flexcard {
+        display: block;
+    }
+
+    .mainrightcard {
+        width: 100%;
+        display: block;
+    }
 
 
-/*======== archives page =========*/
 
-.swiper-pagination,.sliderarrow {
-    display: none; 
+    .notebg {
+        position: absolute;
+        top: 230px;
+        margin: 0 auto;
+        width: 45%;
+        left: 25%;
+    }
+
+
+    .cardimg {
+        width: 225px;
+        position: absolute;
+        top: 70%;
+    }
+
+    .cardimg.rights {
+        width: 230px;
+        position: absolute;
+        top: 96%;
+        left: 180px;
+    }
+
+    .slidercontent.firstcontent {
+        text-align: center;
+        width: 50%;
+        top: 54px;
+        margin: 0 auto;
+    }
+
+
+    .swiper-slide.swiper-slide-active {
+        display: block;
+    }
+
+
+    .slidercontent p br {
+        display: none;
+    }
+
+    .swiper-wrapper {
+        transform: translate3d(0, 0, 0) !important;
+    }
+
+    /* सिर्फ पहला slide दिखाओ */
+    .swiper-slide:not(:first-child) {
+        display: none !important;
+    }
+
+    /* Arrows & pagination hide */
+    .sliderarrow,
+    .swiper-pagination {
+        display: none !important;
+    }
+
+
 }
 
 
 
+@media screen and (max-width: 570px) {
 
+    .mainforyou img {
+        transform: rotate(90deg) !important;
+        min-width: 540px;
+    }
 
+    .imgpaper img {
+        transform: rotate(90deg) !important;
+        min-width: 540px;
+    }
 
-
+.content-paper {
+        padding: 0;
+        left: 23%;
+    }
 
 
 }
