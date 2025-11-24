@@ -2530,8 +2530,8 @@ button.forbutton {
     }
 
     .second-section {
-        height: 567px;
-        margin-top: -272px;
+        height: 740px;
+        margin-top: -390px;
     }
 
     .scribble-line {
@@ -2541,9 +2541,39 @@ button.forbutton {
     img.bottom-img.active {
         top: 480px;
     }
-
-    .scribble-line.left {
-        bottom: 42%;
+    .scribble-line.left { 
+      bottom: 42%; 
+   }
+   .stamp-image.chain-wrap {
+    max-width: 524px;
+}
+    .about-right-img {
+        max-width: 330px;
+        height: 249px;
+        margin-left: 25px;
+    }
+.about-right-imgouter {
+        max-width: 40%;
+    }
+    .rose {
+        width: 180px;
+        bottom: 37px;
+        right: 13px;
+    }
+.small-card-content {
+        width: 297px;
+        top: 368px;
+    }    
+.afsos {
+        width: 50%;
+        margin-top: 200px;
+        top: 15%;
+        right: 25px;
+    }
+    .rose {
+        width: 180px;
+        bottom: 20px;
+        right: 0px;
     }
 }
 
@@ -2656,12 +2686,201 @@ button.forbutton {
         height: 490px;
         margin-right: -46%;
     }
+    .about-right-imgouter {
+        max-width: 49%; 
+        top: -260px;
+        left: -28%;
+    }
+    .second-section-box { 
+        margin-right: -55%;
+    }
+      .second-section-box {
+        background-size: cover;
+        background-position: left center;
+        height: 420px;
+        margin-right: 0%;
+    }
 }
 
 @media screen and (max-width: 540px) {
 
-    .second-section-box {
-        margin-right: -53%;
+       .second-section-box {
+        margin-right: -15%;
+        margin-top: 200px;
+    }
+    
+        .about-right-img {
+        height: 390px; 
+    }
+        .rose {
+        width: 201px;
+        bottom: 33px;
+        right: 35px;
+    }
+    .angal {
+        background-size: contain;
+        width: 49px;
+        height: 97px;
+        top: -26px;
+        right: 49px;
+        transform: rotate(-8deg);
+    }
+    .about-anuv {
+        width: 64%; 
+    }
+        .about-anuv p {
+        font-size: 11px;
+    }
+    .about-right-imgouter {
+        max-width: 100%;
+        top: -315px;
+        left: -19%;
+    }
+    .sliderlist {
+    width: 100%;
+    height: 350px; 
+}
+    .large-note-paper {
+        width: 100%;
+        height: 342px;
+    }
+       .circle-wrapper {
+        bottom: 38px;
+        right: 51px;
+    }
+    .stam img {
+        width: 49px;
+    }
+   .sliderlist {
+        width: 85%;
+        height: 294px;
+    }
+        .paper-clip {
+        top: 25px;
+        right: 43px;
+    }
+         .circle-wrapper {
+        bottom: 84px;
+        right: 44px;
+    }.stam img {
+        width: 40px;
+    }
+.footer-widgets { 
+    bottom: 0px; 
+}
+    .polaroid-frame {
+        top: 80px;
+        left: 14px;
+        max-width: 38%;
+        height: 22%;
+    }
+    .blue-tape {
+        width: 174px;
+        top: 51px;
+        left: 30px;
+    }
+    .shapesret {
+        width: 179px;
+        top: 90px;
+        left: 160px;
+    }
+.footer-widgets { 
+    bottom: -115px; 
+}
+    .scribble-line {
+        width: 80px;
+        top: 23%;
+        left: 0;
+    }
+
+.small-card-content {
+        width: 250px;
+        top: 387px;
+        transform: rotate(-9deg);
+        left: -7px;
+    }
+
+.afsos {
+        width: 90%;
+        margin-top: 457px;
+        top: 0;
+        right: 5%;
+    }
+
+.afsos h4 {
+        margin-left: -20px;
+        font-size: 86px;
+        line-height: .5;
+    }
+ 
+    .letestllestion { 
+        border-width: 11px 10px 38px 10px;
+        margin-top: 10px;
+        padding: 15px 15px 15px 24px; 
+        transform: rotate(-5deg);
+    }
+    section.mains-music-bg:before {
+        background-size: cover;
+        width: 100%;
+        height: 107px;
+    }
+.footer-logo h4 { 
+    letter-spacing: -2rem; 
+    font-size: 85px; 
+}
+.social-icons a img {
+    width: 30px;
+}
+.social-icons a {
+    width: 32px;
+    height: 30px; 
+}
+.social-icons { 
+    margin-top: 20px; 
+}
+.footer .footerinner { 
+    padding: 40px 20px;
+}
+.newsletter button { 
+    padding: 10px 15px; 
+    font-size: 14px; 
+}
+ 
+}
+@media screen and (max-width: 390px) {
+.second-section {
+        margin-top: -140px;
+        padding-top: 60%;
+    }
+       .about-right-img {
+        height: 320px;
+        max-width: 250px;
+    }
+        .angal {
+        background-size: contain;
+        width: 28px;
+        height: 74px;
+        top: -24px;
+        right: 110px;
+        transform: rotate(-8deg);
+    }
+.rose {
+        width: 150px;
+        bottom: 25px;
+        right: 112px;
+    }
+    .second-section { 
+        padding-bottom: 40px;
+    }
+.polaroid-frame { 
+    border: 8px solid #e0e0e0; 
+}
+    .small-card-content {
+        width: 250px; 
+        left: 20px; 
+    }
+    .letestllestion { 
+        transform: rotate(-3deg);
     }
 
 }
