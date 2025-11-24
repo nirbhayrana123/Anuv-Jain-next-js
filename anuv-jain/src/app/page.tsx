@@ -1,9 +1,25 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Footer from "./footer/Footer";
 import $ from "jquery";
 
 export default function Home() {
+
+  const [isOpen, setIsOpen] = useState(false);
+  const [iframeSrc, setIframeSrc] = useState("");
+
+  const openModal = (e?: React.MouseEvent) => {
+    if (e) e.preventDefault();
+    setIframeSrc("https://www.youtube.com/embed/bP8ATWCvqzw?autoplay=1&rel=0&modestbranding=1");
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+    // remove src to stop playback when modal closes
+    setTimeout(() => setIframeSrc(""), 300);
+  };
+
 
 const handleScroll = () => {
   const bottomImg = document.querySelector("img.bottom-img");
@@ -241,12 +257,67 @@ const handleScroll = () => {
                 <button className="prev"><img src="images/slider-arro.svg" /></button>
                 <button className="next"><img src="images/slider-arro.svg" /></button> 
               </div>
-              <a href="#" className="watch-button">Watch Now</a>
+              <a href="#" className="watch-button" onClick={openModal}>Watch Now</a>
             </div>
           </div>
  
 
         </section>
+        {isOpen && (
+          <div
+            style={{
+              position: "fixed",
+              inset: 0,
+              background: "rgba(0,0,0,0.7)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              zIndex: 9999,
+            }}
+            onClick={closeModal}
+          >
+            <div
+              role="dialog"
+              aria-modal="true"
+              style={{
+                width: "90%",
+                maxWidth: 960,
+                aspectRatio: "16/9",
+                background: "#000",
+                position: "relative",
+                boxShadow: "0 10px 40px rgba(0,0,0,0.6)",
+              }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button
+                aria-label="Close video"
+                onClick={closeModal}
+                style={{
+                  position: "absolute",
+                  right: 8,
+                  top: 8,
+                  zIndex: 2,
+                  background: "transparent",
+                  border: "none",
+                  color: "#fff",
+                  fontSize: 28,
+                  lineHeight: 1,
+                  cursor: "pointer",
+                }}
+              >
+                ×
+              </button>
+
+              <iframe
+                src={iframeSrc}
+                title="YouTube video player"
+                style={{ width: "100%", height: "100%", border: 0 }}
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        )}
       </main>
        <Footer />
     </>
