@@ -2481,10 +2481,10 @@ button.forbutton {
         font-size: 18px;
     }
 
-    /* .playlistfirstsection {
+    .playlistfirstsection {
         height: auto;
         position: relative;
-    } */
+    }
 
     .fleging {
         padding: 65px 20px;
@@ -2499,8 +2499,8 @@ button.forbutton {
         width: 60%;
     }
 
-   .flexingsitems {
-        width: 75%;
+    .flexingsitems {
+        width: 100%;
     }
 
     .flexcontent h4 {
