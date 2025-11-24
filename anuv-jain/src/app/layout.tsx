@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import { Geist, Geist_Mono } from "next/font/google";
 import 'aos/dist/aos.css';
 import "./globals.css";
+import "./responsive.css";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
 import "./font/IBMPlexMono/stylesheet.css";
