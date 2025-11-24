@@ -333,6 +333,7 @@ button.prev img {
     width: 100%;
     z-index: 9999;
     position: relative;
+    overflow: hidden;
 }
 .discriptioncontent {
     margin-bottom: 24px;
@@ -676,8 +677,7 @@ margin-left: 30px;
 }
 
 .positionrelative {
-    position: relative;
-    width: 670px;
+    position: relative; 
 }
 
 .blue-tape {
@@ -1767,7 +1767,9 @@ button.forbutton {
 .third-section{
     position: relative;
 }
- 
+ .stamp-container h4 span {
+    margin-left: 40px;
+}
 
 @media screen and (max-width: 1600px) {
     .paycard {
@@ -1852,6 +1854,7 @@ section.mains-music-bg:before {
 img.gig-bg { 
     height: 121%; 
 }
+
 }
 
 @media screen and (max-width: 1400px) {
@@ -1916,7 +1919,95 @@ img.gig-bg {
  {
     font-size: 24px;
 }
-
+.second-section { 
+    margin-top: -284px; 
+}
+.about-right-img {
+        max-width: 280px;
+        height: 330px; 
+    }
+.second-section-box {
+        width: 747px;
+        height: 516px;
+    }
+.about-anuv { 
+    padding-top: 80px;
+    padding-left: 50px; 
+}
+    .about-anuv p {
+        font-size: 11px;
+    }
+        .about-right-img img {
+        height: 267px;
+    }
+    .angal {
+        width: 24px;
+        height: 78px;
+        top: 37px;
+        right: 101px;
+    }
+        .about-right-img { 
+        margin-left: 68px;
+    }
+   .innercontainer {
+        max-width: 1060px;
+    }
+    .large-note-paper {
+    width: 580px;
+    height: 520px; 
+}
+    .polaroid-group-row {
+        transform: rotate(2deg);
+    }
+ul.dates-list li { 
+    font-size: 17px;
+}
+.polaroid-group-row { 
+    top: -427px;
+    left: -15px;
+}
+.polaroid-frame { 
+    top: 120px;
+    left: -115px; 
+}
+.blue-tape { 
+    width: 290px; 
+    top: 68px;
+    left: -78px; 
+}
+.shapesret { 
+    width: 225px; 
+    top: 150px;
+    left: 200px;
+}
+.circle-wrapper { 
+    bottom: 68px;
+    right: 75px;
+}
+.stam img {
+    width: 73px;
+}
+ .small-card-content {
+        width: 330px;
+        top: 450px;
+ }
+ .afsos {
+    width: 56%; 
+    top: 15%;
+    right: 0;
+    margin-top: 200px;
+}
+.afsos h4 { 
+    margin-left: -50px; 
+    font-size: 107px; 
+    line-height: 0.5;
+}
+.second-section { 
+    height: 140vh; 
+}
+.second-section-box { 
+    margin: 0px auto 0px;
+}
 
 }
 
@@ -2004,6 +2095,26 @@ img.gig-bg {
     left: 2px;
 }
 
+    .second-section-box {
+        width: 670px;
+        height: 450px;
+    }
+    .second-section-box {
+        width: 629px;
+        height: 410px;
+    }
+    .about-anuv h3 { 
+    font-size: 61px; 
+    line-height: 1; 
+}
+.about-right-img {
+        max-width: 244px;
+        height: 282px;
+        margin-left: 36px;
+    }
+  .about-right-img img {
+        height: 230px;
+    }
 
 }
 @media screen and (max-width: 1100px) {
@@ -2037,6 +2148,101 @@ img.gig-bg {
     .buttonforyou button.forbutton { 
         font-size: 0.6em;
     }
+      .rose {
+        width: 135px;
+        bottom: 28px;
+        right: 0px;
+    }
+    img.text {
+            width: 54px; 
+            top: -25px;
+            left: 25px;
+        }
+    .second-section-box {
+        width: 560px;
+        height: 370px;
+    }
+   .about-right-img {
+        max-width: 38%;
+        height: 240px;
+        margin-left: 30px;
+    }
+        .about-anuv p {
+        font-size: 9px;
+    }
+   .about-right-img img {
+        height: 190px;
+    }
+ .angal {
+        width: 16px;
+        height: 66px;
+        top: 17px;
+        right: 80px;
+        background-size: contain;
+    }
+ .large-note-paper {
+        width: 462px;
+        height: 437px;
+    }
+        ul.dates-list li {
+        font-size: 14px;
+    }
+    ul.dates-list li {
+        font-size: 12px;
+    }
+    .polaroid-group-row {
+        top: -328px;
+        left: 0px;
+    }
+    .polaroid-frame {
+        top: 90px;
+        left: -94px;
+    }
+.blue-tape {
+        width: 230px;
+        top: 53px;
+        left: -54px;
+    }
+    .nav-arrows
+ {
+    justify-content: space-between;
+    width: 170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    display: flex;
+}
+    .circle-wrapper {
+        bottom: 77px;
+        right: 61px;
+    }
+    .stam img {
+        width: 57px;
+    }
+    .paper-clip { 
+    width: 26px; 
+}
+  .innercontainer {
+        max-width: 820px;
+    }
+  .small-card-content {
+        width: 236px;
+        top: 350px;
+    }
+ .shapesret {
+        width: 170px;
+        top: 119px;
+        left: 170px;
+    }
+          .polaroid-group-row {
+        top: -344px;
+        left: 0;
+    }
+    ul.dates-list li {
+        font-size: 13px;
+    }
+        .stamp-container {
+            margin-top: 119px; 
+        }
 }
 @media screen and (max-width: 1024px) {
     .tiltefou svg {
