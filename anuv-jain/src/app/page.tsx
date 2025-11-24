@@ -5,16 +5,24 @@ import $ from "jquery";
 
 export default function Home() {
 
-  const handleScroll = () => {
-    const bottomImg = document.querySelector("img.bottom-img");
-    if (!bottomImg) return;
+const handleScroll = () => {
+  const bottomImg = document.querySelector("img.bottom-img");
+  if (!bottomImg) return;
 
-    if (window.scrollY > 50) {
-      bottomImg.classList.add("active");
-    } else {
-      bottomImg.classList.remove("active");
-    }
-  };
+  // Add "active" after 50px
+  if (window.scrollY > 50) {
+    bottomImg.classList.add("active");
+  } else {
+    bottomImg.classList.remove("active");
+  }
+
+  // Add "hide" after 100px
+  if (window.scrollY > 0) {
+    bottomImg.classList.add("hide");
+  } else {
+    bottomImg.classList.remove("hide");
+  }
+};
 
   useEffect(() => {
         $(document).ready(function () {
@@ -55,7 +63,7 @@ export default function Home() {
 
         <section className="second-section" style={{ backgroundImage: "url('/images/bg1.png')" }}>
           <div className="second-section-box" style={{ backgroundImage: "url('/images/second-box-img.png')" }}>
-            <div className="angal" style={{ backgroundImage: "url('/images/angal.png')" }}> </div>
+            
             <div className="about-anuv">
               <h3>About Anuv </h3>
               {/* <img src="images/about-an.svg" /> */}
@@ -66,6 +74,8 @@ export default function Home() {
                 loyal fanbase. Anuv gained popularity through YouTube and Spotify.
                 He remains an independent artist known for his authenticity.</p>
             </div>
+            <div className="about-right-imgouter">
+            <div className="angal" style={{ backgroundImage: "url('/images/angal.png')" }}> </div>
             <div className="about-right-img">
               <img src="images/about-right-img.jpg" className="rotateanimation" />
             </div>
@@ -73,6 +83,7 @@ export default function Home() {
               <img  className="redstrp" src="images/red-strp.png" />
               <img src="images/text.png" className="text blackstrp" />
 
+            </div>
             </div>
           </div>
         </section>
@@ -97,7 +108,6 @@ export default function Home() {
                 </div>
                 <div className="paper-clip">
                     <img src="./images/kundi.svg" alt="gig" />
-
                   </div>
                   <div className="sliderlist">
                 <div className="large-note-paper slide1">
