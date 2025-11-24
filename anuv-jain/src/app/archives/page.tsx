@@ -7,7 +7,7 @@ export default function Archives() {
   useEffect(() => {
     new Swiper(".mySwiper", {
       direction: "vertical",
-      mousewheel: true,    
+      mousewheel: true,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -53,14 +53,14 @@ export default function Archives() {
                   <div className="rightcard">
                     <div className="slidercontent firstcontent">
                       <p>
-                       Lorem ipsum dolor sit amet,<br/>
-consectetur adipiscing elit,<br/>
-sed do eiusmod tempor<br/>
-incididunt ut labore et dolore<br/>
-magna aliqua. Quis ipsum<br/>
-suspendisse ultricies gravida.<br/>
-Risus commodo viverra maecenas<br/>
-accumsan lacus vel facilisis.<br/>
+                        Lorem ipsum dolor sit amet,<br />
+                        consectetur adipiscing elit,<br />
+                        sed do eiusmod tempor<br />
+                        incididunt ut labore et dolore<br />
+                        magna aliqua. Quis ipsum<br />
+                        suspendisse ultricies gravida.<br />
+                        Risus commodo viverra maecenas<br />
+                        accumsan lacus vel facilisis.<br />
 
                       </p>
                     </div>
@@ -76,10 +76,10 @@ accumsan lacus vel facilisis.<br/>
                     </div>
                     <div className="slidercontent text-right">
                       <h5 className="caveat">
-                       lorem ipsum dolor sit amet
-consectetur adipiscing elit sed do
-eiusmod tempor incididunt ut labore
-et dolore magna aliqua
+                        lorem ipsum dolor sit amet
+                        consectetur adipiscing elit sed do
+                        eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua
 
                       </h5>
                     </div>
