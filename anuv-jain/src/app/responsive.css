@@ -1,6 +1,5 @@
 @media screen and (max-width: 767px) {
-  
-
+/*======== navbar =========*/
     .navbar {
         transform-origin: 100%;
         z-index: 9999;
@@ -34,10 +33,11 @@
 
 
 
+/*======== archives page =========*/
 
-
-
-
+.swiper-pagination,.sliderarrow {
+    display: none; 
+}
 
 
 
