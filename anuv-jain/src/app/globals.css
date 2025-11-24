@@ -17,7 +17,9 @@ body {
     font-weight: 400;
     font-style: normal;
 }
-
+img.mobile {
+    display: none;
+}
 
 .scribble-line {
     animation: wave2 1.8s steps(4, end) infinite alternate;
