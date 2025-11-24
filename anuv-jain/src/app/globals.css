@@ -228,8 +228,7 @@ button.prev img {
     top: 0;
     z-index: 99999;
 }
-img.menu-icon {
-    width: 17px;
+.menu-icon img { 
     display: none;
 }
 .navbox {
