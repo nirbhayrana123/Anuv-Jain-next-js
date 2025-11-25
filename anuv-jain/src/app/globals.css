@@ -529,16 +529,31 @@ section {
 }
 
 .social-icons {
-    margin-top: 70px;
-    display: flex;
     justify-content: center;
-    gap: 30px;
     align-items: center;
+    gap: 65px;
+    margin-top: 80px;
+    display: flex;
 }
 
-.social-icons a img {
-    width: 40px;
+ 
+
+img.spotify3 {
+    width: 46px;
+    height: 46px;
 }
+
+img.youtube2 {
+    width: 64px;
+    height: 46px;
+}
+
+img.x1 {
+    width: 52px;
+    height: 46px;
+}
+
+
 
 ul.dates-list li {
     color: #131212;
@@ -1579,12 +1594,12 @@ img.recording-img1 {
 }
 
 .discriptioncontent h5 {
-    color: #000000b0;
+    color: #000000;
     max-width: 424px;
     margin: 0 auto;
-    font-family: '__nextjs-Geist Mono';
+    font-family: __nextjs-Geist Mono;
     font-size: 27px;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 .flexcard {
@@ -1873,6 +1888,33 @@ button.forbutton {
 }
 
 @media screen and (max-width: 1600px) {
+.social-icons { 
+    gap: 40px; 
+}
+
+
+img.spotify3 {
+    width: 37px;
+    height: 37px;
+}
+
+img.youtube2 {
+    width: 55px;
+    height: 37px;
+}
+
+img.x1 {
+    width: 43px;
+    height: 37px;
+}
+
+
+
+
+
+
+
+
     .paycard {
         max-width: 390px;
     }
