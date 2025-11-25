@@ -81,7 +81,12 @@ const handleScroll = () => {
           <div className="second-section-box" style={{ backgroundImage: "url('/images/second-box-img.png')" }}>
             
             <div className="about-anuv">
-              <h3>About Anuv </h3>
+            <div className="h3-anuv">
+              <h3>About</h3>
+              <h3 className="pl-2">Anuv</h3>
+              <h3 className="dottt">:</h3>
+              <h3>)</h3>
+               </div>
               {/* <img src="images/about-an.svg" /> */}
               <p>Anuv Jain is an Indian singer-songwriter known for his soulful,
                 acoustic indie pop. His breakout tracks like "Baarishein" and

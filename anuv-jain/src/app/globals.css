@@ -17,6 +17,7 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
 img.mobile {
     display: none;
 }
@@ -392,7 +393,8 @@ img {
     z-index: 999;
     left: -29px;
 }
-.scribble-line.rotateanimation.left{
+
+.scribble-line.rotateanimation.left {
     background-image: url(/images/BGLine.svg);
 }
 
@@ -493,11 +495,13 @@ section {
 }
 
 .newsletter {
-    display: inline-flex;
     border: 1px solid #fff;
     border-radius: 30px;
-    overflow: hidden;
     margin-bottom: 30px;
+    display: inline-flex;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
 }
 
 .newsletter input[type="email"] {
@@ -507,6 +511,10 @@ section {
     background: #1A1A1A;
     color: #fff;
     width: 350px;
+        letter-spacing: -.03em;
+    margin-bottom: 6px;
+    font-family: IBM Plex Mono;
+    font-size: 18px;
 }
 
 .newsletter button {
@@ -681,13 +689,18 @@ ul.dates-list li {
     overflow: hidden;
     transform: rotate(353deg);
     box-shadow: 0 0 4px #000;
+    min-width: 310px;
+    height: 335px;
 }
 
 .polaroid-image {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
-    filter: grayscale(100%);
+    filter: grayscale();
+    width: 119%;
+    height: 116%;
+    position: absolute;
+    inset: 0;
+    left: -12px;
 }
 
 .gig-dates-title {
@@ -966,7 +979,7 @@ section.third-section::before {
     background-image: url(/images/bottom-boder.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%; 
+    width: 100%;
     height: 134px;
     position: absolute;
     bottom: -107px;
@@ -1284,16 +1297,30 @@ img.prevslide.disab {
     letter-spacing: 0.1em;
     margin-bottom: 30px;
 }
-
+.h3-anuv {
+    display: flex;
+    align-items: center;
+}
 .about-anuv h3 {
     color: #000;
-    letter-spacing: -15px;
+    letter-spacing: -24px;
     font-family: Anuv_handwriting;
     font-size: 75px;
     font-weight: 500;
     line-height: 1.5;
-    animation: pichkana 12s infinite;
+    animation: 12s infinite pichkana;
 }
+h3.pl-2 {
+    padding-left: 22px;
+}
+h3.dottt {
+    font-size: 27px;
+    padding-left: 8px;
+    position: relative;
+    top: -16px;
+    left: 9px;
+}
+
 
 .content-paper p {
     font-family: "IBM Plex Mono";
@@ -1510,9 +1537,9 @@ main.archivemain {
     transform: rotate(3deg);
 }
 
-.tiltefou h2 {
+.tiltefou h2 {   
     color: #000;
-    letter-spacing: -63px;
+    letter-spacing: -50px;
     width: 470px;
     margin: 0 auto;
     font-family: Anuv_handwriting;
@@ -1522,6 +1549,7 @@ main.archivemain {
     animation: 5s ease-in-out infinite rooteat;
     position: relative;
     left: -55px;
+        top: 22px;
     animation: pichkana 12s infinite;
 }
 
@@ -1862,7 +1890,7 @@ button.forbutton {
     }
 
     .tiltefou h2 {
-        font-size: 162px;
+       font-size: 155px;
     }
 
     .discriptioncontent h5 {
@@ -2228,7 +2256,8 @@ button.forbutton {
     .about-right-img img {
         height: 230px;
     }
-.angal {
+
+    .angal {
         width: 20px;
         height: 70px;
         top: 22px;
@@ -2548,35 +2577,43 @@ button.forbutton {
     img.bottom-img.active {
         top: 480px;
     }
-    .scribble-line.left { 
-      bottom: 42%; 
-   }
-   .stamp-image.chain-wrap {
-    max-width: 524px;
-}
+
+    .scribble-line.left {
+        bottom: 42%;
+    }
+
+    .stamp-image.chain-wrap {
+        max-width: 524px;
+    }
+
     .about-right-img {
         max-width: 330px;
         height: 249px;
         margin-left: 25px;
     }
-.about-right-imgouter {
+
+    .about-right-imgouter {
         max-width: 40%;
     }
+
     .rose {
         width: 180px;
         bottom: 37px;
         right: 13px;
     }
-.small-card-content {
+
+    .small-card-content {
         width: 297px;
         top: 368px;
-    }    
-.afsos {
+    }
+
+    .afsos {
         width: 50%;
         margin-top: 200px;
         top: 15%;
         right: 25px;
     }
+
     .rose {
         width: 180px;
         bottom: 20px;
@@ -2614,7 +2651,7 @@ button.forbutton {
     }
 
 
-  
+
 
     img.bottom-img {
         display: none;
@@ -2693,20 +2730,24 @@ button.forbutton {
         height: 490px;
         margin-right: -46%;
     }
+
     .about-right-imgouter {
-        max-width: 49%; 
+        max-width: 49%;
         top: -260px;
         left: -28%;
     }
-    .second-section-box { 
+
+    .second-section-box {
         margin-right: -55%;
     }
-      .second-section-box {
+
+    .second-section-box {
         background-size: cover;
         background-position: left center;
         height: 420px;
         margin-right: 0%;
     }
+
     img.gig-bg {
         height: 116%;
         inset: -154px 0 0 0px;
@@ -2715,19 +2756,21 @@ button.forbutton {
 
 @media screen and (max-width: 540px) {
 
-       .second-section-box {
+    .second-section-box {
         margin-right: -15%;
         margin-top: 200px;
     }
-    
-        .about-right-img {
-        height: 390px; 
+
+    .about-right-img {
+        height: 390px;
     }
-        .rose {
+
+    .rose {
         width: 201px;
         bottom: 33px;
         right: 35px;
     }
+
     .angal {
         background-size: contain;
         width: 49px;
@@ -2736,138 +2779,166 @@ button.forbutton {
         right: 49px;
         transform: rotate(-8deg);
     }
+
     .about-anuv {
-        width: 64%; 
+        width: 64%;
     }
-        .about-anuv p {
+
+    .about-anuv p {
         font-size: 11px;
     }
+
     .about-right-imgouter {
         max-width: 100%;
         top: -315px;
         left: -19%;
     }
+
     .sliderlist {
-    width: 100%;
-    height: 350px; 
-}
+        width: 100%;
+        height: 350px;
+    }
+
     .large-note-paper {
         width: 100%;
         height: 342px;
     }
-       .circle-wrapper {
+
+    .circle-wrapper {
         bottom: 38px;
         right: 51px;
     }
+
     .stam img {
         width: 49px;
     }
-   .sliderlist {
+
+    .sliderlist {
         width: 85%;
         height: 294px;
     }
-        .paper-clip {
+
+    .paper-clip {
         top: 25px;
         right: 43px;
     }
-         .circle-wrapper {
+
+    .circle-wrapper {
         bottom: 84px;
         right: 44px;
-    }.stam img {
+    }
+
+    .stam img {
         width: 40px;
     }
-.footer-widgets { 
-    bottom: 0px; 
-}
+
+    .footer-widgets {
+        bottom: 0px;
+    }
+
     .polaroid-frame {
         top: 80px;
         left: 14px;
         max-width: 38%;
         height: 22%;
     }
+
     .blue-tape {
         width: 174px;
         top: 51px;
         left: 30px;
     }
+
     .shapesret {
         width: 179px;
         top: 90px;
         left: 160px;
     }
-.footer-widgets { 
-    bottom: -115px; 
-}
+
+    .footer-widgets {
+        bottom: -115px;
+    }
+
     .scribble-line {
         width: 80px;
         top: 23%;
         left: 0;
     }
 
-.small-card-content {
+    .small-card-content {
         width: 250px;
         top: 387px;
         transform: rotate(-9deg);
         left: -7px;
     }
 
-.afsos {
+    .afsos {
         width: 90%;
         margin-top: 457px;
         top: 0;
         right: 5%;
     }
 
-.afsos h4 {
+    .afsos h4 {
         margin-left: -20px;
         font-size: 86px;
         line-height: .5;
     }
- 
-    .letestllestion { 
+
+    .letestllestion {
         border-width: 11px 10px 38px 10px;
         margin-top: 10px;
-        padding: 15px 15px 15px 24px; 
+        padding: 15px 15px 15px 24px;
         transform: rotate(-5deg);
     }
+
     section.mains-music-bg:before {
         background-size: cover;
         width: 100%;
         height: 107px;
     }
-.footer-logo h4 { 
-    letter-spacing: -2rem; 
-    font-size: 85px; 
+
+    .footer-logo h4 {
+        letter-spacing: -2rem;
+        font-size: 85px;
+    }
+
+    .social-icons a img {
+        width: 30px;
+    }
+
+    .social-icons a {
+        width: 32px;
+        height: 30px;
+    }
+
+    .social-icons {
+        margin-top: 20px;
+    }
+
+    .footer .footerinner {
+        padding: 40px 20px;
+    }
+
+    .newsletter button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
 }
-.social-icons a img {
-    width: 30px;
-}
-.social-icons a {
-    width: 32px;
-    height: 30px; 
-}
-.social-icons { 
-    margin-top: 20px; 
-}
-.footer .footerinner { 
-    padding: 40px 20px;
-}
-.newsletter button { 
-    padding: 10px 15px; 
-    font-size: 14px; 
-}
- 
-}
+
 @media screen and (max-width: 390px) {
-.second-section {
+    .second-section {
         margin-top: -140px;
         padding-top: 60%;
     }
-       .about-right-img {
+
+    .about-right-img {
         height: 320px;
         max-width: 250px;
     }
-        .angal {
+
+    .angal {
         background-size: contain;
         width: 28px;
         height: 74px;
@@ -2875,22 +2946,27 @@ button.forbutton {
         right: 110px;
         transform: rotate(-8deg);
     }
-.rose {
+
+    .rose {
         width: 150px;
         bottom: 25px;
         right: 112px;
     }
-    .second-section { 
+
+    .second-section {
         padding-bottom: 40px;
     }
-.polaroid-frame { 
-    border: 8px solid #e0e0e0; 
-}
-    .small-card-content {
-        width: 250px; 
-        left: 20px; 
+
+    .polaroid-frame {
+        border: 8px solid #e0e0e0;
     }
-    .letestllestion { 
+
+    .small-card-content {
+        width: 250px;
+        left: 20px;
+    }
+
+    .letestllestion {
         transform: rotate(-3deg);
     }
 
