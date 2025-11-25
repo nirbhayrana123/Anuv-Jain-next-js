@@ -1,3 +1,5 @@
+
+
 @media screen and (max-width: 767px) {
 
     /*======== navbar =========*/
@@ -70,8 +72,8 @@
         position: absolute;
         top: 230px;
         margin: 0 auto;
-        width: 45%;
-        left: 25%;
+        width: 90%;
+        left: 2%;
     }
 
 
@@ -89,12 +91,9 @@
     }
 
     .slidercontent.firstcontent {
-        text-align: center;
-        width: 50%;
-        top: 54px;
-        margin: 0 auto;
+        text-align: left;
+        width: 90%;
     }
-
 
     .swiper-slide.swiper-slide-active {
         display: block;
@@ -109,12 +108,10 @@
         transform: translate3d(0, 0, 0) !important;
     }
 
-    /* सिर्फ पहला slide दिखाओ */
     .swiper-slide:not(:first-child) {
         display: none !important;
     }
 
-    /* Arrows & pagination hide */
     .sliderarrow,
     .swiper-pagination {
         display: none !important;
@@ -142,7 +139,7 @@
         height: 100%;
     }
 
-.content-paper {
+    .content-paper {
         padding: 30px;
         left: 0%;
     }
@@ -152,17 +149,65 @@
     }
 
 
-.paper1.paperclass, .paper2.paperclass, .paper3.paperclass, .paper4.paperclass {  
-    left: 0;
-    top: 0;
-    right: -205%;
-    transition: all 1s;
-}
+    .paper1.paperclass,
+    .paper2.paperclass,
+    .paper3.paperclass,
+    .paper4.paperclass {
+        left: 0;
+        top: 0;
+        right: -205%;
+        transition: all 1s;
+    }
 
-.paper1.paperclass.show, .paper2.paperclass.show, .paper3.paperclass.show, .paper4.paperclass.show {
-    right: 0%;
-    top: auto;
-}
+    .paper1.paperclass.show,
+    .paper2.paperclass.show,
+    .paper3.paperclass.show,
+    .paper4.paperclass.show {
+        right: 0%;
+        top: auto;
+    }
+
+    .polaroid-group-row {
+        top: -277px;
+    }
+
+
+    .nav-arrows img {
+        filter: invert(1);
+    }
+
+    img.spotify3 {
+        width: 15px;
+        height: 15px;
+    }
+
+    img.youtube2 {
+        width: 20px;
+        height: 15px;
+    }
+
+    img.x1 {
+        width: 16px;
+        height: 15px;
+    }
+
+    .social-icons {
+        gap: 20px;
+    }
+
+
+    .draw-circle {
+        width: 25px;
+        height: 25px;
+        bottom: -38px;
+    }
+
+
+
+    .tiltefou h2 {
+        font-size: 88px;
+    }
+
 
 
 

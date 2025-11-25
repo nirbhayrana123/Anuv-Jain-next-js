@@ -63,15 +63,10 @@ export default function Archives() {
   return (
     <>
       <div className="swiper mySwiper">
-        <div className="swiper-wrapper">
+        <div className="swiper-wrapper"> 
 
           {/* SLIDE 1 */}
-          <div
-            className="swiper-slide"
-            style={{
-              backgroundImage: "url('/amitimg/sliderbg1.png')",
-            }}
-          >
+          <div className="swiper-slide"style={{backgroundImage: "url('/amitimg/sliderbg1.png')", }} >
             <div className="scontaerd">
               <div className="flexcard">
 
@@ -133,12 +128,7 @@ export default function Archives() {
           </div>
 
           {/* SLIDE 2 */}
-          <div
-            className="swiper-slide"
-            style={{
-              backgroundImage: "url('/amitimg/sliderbg2.png')",
-            }}
-          >
+          <div className="swiper-slide"style={{backgroundImage: "url('/amitimg/sliderbg2.png')", }}>
             <div className="scontaerd">
               <div className="flexcard tow">
 
