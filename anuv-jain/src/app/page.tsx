@@ -64,7 +64,7 @@ const handleScroll = () => {
  
   return (
     <>
-      <main>
+      <main className="overflow2">
         <section className="main-banner">
           <img className="top-img" src="images/banner-top.png" />
 

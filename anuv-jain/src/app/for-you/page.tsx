@@ -1,8 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import $ from "jquery";
-
-
+ 
 export default function Foryou() {
 
   useEffect(() => {
@@ -114,8 +113,7 @@ export default function Foryou() {
           </div>
         </section>
 
-        <section className="paper2 paperclass">
-
+        <section className="paper2 paperclass"> 
           <div className="paperimg">
 
             <div className="imgpaper">
@@ -158,8 +156,7 @@ export default function Foryou() {
           </div>
         </section>
 
-        <section className="paper3 paperclass">
-
+        <section className="paper3 paperclass"> 
           <div className="paperimg">
 
             <div className="imgpaper">
@@ -202,8 +199,7 @@ export default function Foryou() {
           </div>
         </section>
 
-        <section className="paper4 paperclass">
-
+        <section className="paper4 paperclass"> 
           <div className="paperimg">
 
             <div className="imgpaper">
@@ -244,9 +240,7 @@ export default function Foryou() {
 
             </div>
           </div>
-        </section>
-
-
+        </section> 
 
       </main>
     </>

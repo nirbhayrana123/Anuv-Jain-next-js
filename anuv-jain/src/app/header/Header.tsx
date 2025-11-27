@@ -38,35 +38,48 @@ export default function Header() {
   }, []);
 
   return (
-    <div className={`navbar ${open ? "open" : ""}`}>
 
-      <div className="menu-icon" onClick={() => setOpen(!open)}>
-        <img src="/images/menu-arro.svg"/>
-      </div>
 
-      <div className="navbox home-nav">
-        <div className="relative">
-          <Link href="/" className="link _1">Home</Link>
-        </div>
-      </div>
 
-      <div className="navbox merch-nav">
-        <div className="relative">
-          <Link href="/merch" className="link _2">Merch</Link>
-        </div>
-      </div>
+<div className={`navbar ${open ? "open" : ""}`}>
+  <div className="menu-icon" onClick={() => setOpen(!open)}>
+    <img src="/images/menu-arro.svg" />
+  </div>
 
-      <div className="navbox archives-nav">
-        <div className="relative">
-          <Link href="/archives" className="link _3">Archives</Link>
-        </div>
-      </div>
-
-      <div className="navbox for-you-nav">
-        <div className="relative">
-          <Link href="/for-you" className="link _4">For You</Link>
-        </div>
-      </div>
+  <div className="navbox home-nav">
+    <div className="relative">
+      <Link href="/" className="link _1" onClick={() => setOpen(false)}>
+        Home
+      </Link>
     </div>
+  </div>
+
+  <div className="navbox merch-nav">
+    <div className="relative">
+      <Link href="/merch" className="link _2" onClick={() => setOpen(false)}>
+        Merch
+      </Link>
+    </div>
+  </div>
+
+  <div className="navbox archives-nav">
+    <div className="relative">
+      <Link href="/archives" className="link _3" onClick={() => setOpen(false)}>
+        Archives
+      </Link>
+    </div>
+  </div>
+
+  <div className="navbox for-you-nav">
+    <div className="relative">
+      <Link href="/for-you" className="link _4" onClick={() => setOpen(false)}>
+        For You
+      </Link>
+    </div>
+  </div>
+</div>
+
+ 
+
   );
 }

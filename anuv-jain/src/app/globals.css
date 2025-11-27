@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+main.overflow2 {
+    overflow: hidden;
+}
+
 body {
     overflow-x: hidden !important;
     background: #1a1a1a;
@@ -511,7 +515,7 @@ section {
     background: #1A1A1A;
     color: #fff;
     width: 350px;
-        letter-spacing: -.03em;
+    letter-spacing: -.03em;
     margin-bottom: 6px;
     font-family: IBM Plex Mono;
     font-size: 18px;
@@ -536,7 +540,7 @@ section {
     display: flex;
 }
 
- 
+
 
 img.spotify3 {
     width: 46px;
@@ -703,7 +707,7 @@ ul.dates-list li {
     left: -144px;
     overflow: hidden;
     transform: rotate(353deg);
-    box-shadow: 0 0 4px #000; 
+    box-shadow: 0 0 4px #000;
 }
 
 .polaroid-image {
@@ -1308,10 +1312,12 @@ img.prevslide.disab {
     letter-spacing: 0.1em;
     margin-bottom: 30px;
 }
+
 .h3-anuv {
     display: flex;
     align-items: center;
 }
+
 .about-anuv h3 {
     color: #000;
     letter-spacing: -24px;
@@ -1321,9 +1327,11 @@ img.prevslide.disab {
     line-height: 1.5;
     animation: 12s infinite pichkana;
 }
+
 h3.pl-2 {
     padding-left: 22px;
 }
+
 h3.dottt {
     font-size: 27px;
     padding-left: 8px;
@@ -1548,7 +1556,7 @@ main.archivemain {
     transform: rotate(3deg);
 }
 
-.tiltefou h2 {   
+.tiltefou h2 {
     color: #000;
     letter-spacing: -50px;
     width: 470px;
@@ -1560,7 +1568,7 @@ main.archivemain {
     animation: 5s ease-in-out infinite rooteat;
     position: relative;
     left: -55px;
-        top: 22px;
+    top: 22px;
     animation: pichkana 12s infinite;
 }
 
@@ -1884,25 +1892,25 @@ button.forbutton {
 }
 
 @media screen and (max-width: 1600px) {
-.social-icons { 
-    gap: 40px; 
-}
+    .social-icons {
+        gap: 40px;
+    }
 
 
-img.spotify3 {
-    width: 37px;
-    height: 37px;
-}
+    img.spotify3 {
+        width: 37px;
+        height: 37px;
+    }
 
-img.youtube2 {
-    width: 55px;
-    height: 37px;
-}
+    img.youtube2 {
+        width: 55px;
+        height: 37px;
+    }
 
-img.x1 {
-    width: 43px;
-    height: 37px;
-}
+    img.x1 {
+        width: 43px;
+        height: 37px;
+    }
 
 
 
@@ -1928,7 +1936,7 @@ img.x1 {
     }
 
     .tiltefou h2 {
-       font-size: 155px;
+        font-size: 155px;
     }
 
     .discriptioncontent h5 {
@@ -2685,11 +2693,26 @@ img.x1 {
     }
 
     .paperimg {
-        width: 100%;
+        width: 88%;
+    }
+
+    .checkbox-wrap input[type="checkbox"]+label:before {
+        margin-right: 5px;
+    }
+
+    .checkbox-wrap input[type="checkbox"]+label:before {
+        background-size: 15px;
+        width: 16px;
+        height: 16px;
+        top: -1px;
     }
 
 
-
+    .checkbox-wrap input[type="checkbox"]:checked+label:after {
+        font-size: 13px;
+        top: -1px;
+        left: 2px;
+    }
 
     img.bottom-img {
         display: none;
@@ -2941,7 +2964,7 @@ img.x1 {
         font-size: 85px;
     }
 
-  
+
     .social-icons a {
         width: 32px;
         height: 30px;

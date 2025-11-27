@@ -1,5 +1,3 @@
-
-
 @media screen and (max-width: 767px) {
 
     /*======== navbar =========*/
@@ -10,12 +8,14 @@
         width: auto;
         height: auto;
         position: fixed;
-        top: 89%;
+        top: 590px;
         right: -31px;
         transform: translateY(-50%) rotate(90deg);
         transition: 1s;
     }
-
+.wrapper.first {
+    padding: 0;
+}
     .navbar.open {
         right: 0px;
     }
@@ -66,8 +66,6 @@
         display: block;
     }
 
-
-
     .notebg {
         position: absolute;
         top: 230px;
@@ -75,7 +73,6 @@
         width: 90%;
         left: 2%;
     }
-
 
     .cardimg {
         width: 225px;
@@ -140,7 +137,7 @@
     }
 
     .content-paper {
-        padding: 30px;
+        padding: 40px;
         left: 0%;
     }
 
@@ -163,8 +160,9 @@
     .paper2.paperclass.show,
     .paper3.paperclass.show,
     .paper4.paperclass.show {
-        right: 0%;
         top: auto;
+        right: 0%;
+        height: 100%;
     }
 
     .polaroid-group-row {
@@ -207,12 +205,6 @@
     .tiltefou h2 {
         font-size: 88px;
     }
-
-
-
-
-
-
 
 
 
