@@ -55,10 +55,10 @@ export default function Header() {
   </div>
 
   <div className="navbox merch-nav">
-    <div className="relative">
-      <Link href="/merch" className="link _2" onClick={() => setOpen(false)}>
-        Merch
-      </Link>
+    <div className="relative"> 
+      <Link href="/" className="link _2"onClick={() => setOpen(false)} target="_blank" rel="noopener noreferrer">
+       Merch
+      </Link> 
     </div>
   </div>
 
