@@ -3006,7 +3006,7 @@ button.forbutton {
     }
 
 }
-@media screen and (max-width: 390px){
+@media screen and (max-width: 400px){
     .about-right-imgouter {
         top: -230px;
     }
