@@ -2906,9 +2906,9 @@ button.forbutton {
         right: 43px;
     }
 
-    .circle-wrapper {
-        bottom: 84px;
-        right: 44px;
+       .circle-wrapper {
+        bottom: 70px;
+        right: 48px;
     }
 
     .stam img {
@@ -3054,5 +3054,27 @@ button.forbutton {
     .letestllestion {
         transform: rotate(-3deg);
     }
-
+.shapesret { 
+        left: 102px;
+    }
+        .circle-wrapper {
+        bottom: 103px;
+        right: 38px;
+    }
+        ul.dates-list li 
+ {
+        font-size: 8px;
+    }
+   
+    .polaroid-frame {
+        max-width: 30%;
+    }
+    .blue-tape {
+        width: 145px;
+    }
+}
+@media screen and (max-width: 350px) {
+ .polaroid-group22 { 
+        padding-top: 72px;
+    }
 }
