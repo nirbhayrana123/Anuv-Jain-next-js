@@ -45,7 +45,13 @@ export default function Archives() {
 
   const [selectedTrack] = useState(tracks[0]);
 
-  useEffect(() => {
+ useEffect(() => {
+  if (typeof window !== "undefined") {
+    if (window.innerWidth < 768) {
+      return;
+    }
+
+    // Desktop slider
     new Swiper(".mySwiper", {
       direction: "vertical",
       mousewheel: true,
@@ -58,7 +64,8 @@ export default function Archives() {
         prevEl: ".swiper-button-prev",
       },
     });
-  }, []);
+  }
+}, []);
 
   return (
     <>
