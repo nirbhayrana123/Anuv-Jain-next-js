@@ -58,7 +58,7 @@ export default function Foryou() {
             <div className="shaeaericon">
               <ul>
                 <li className="sheareicon">
-                  <a href="#"> <img src="amitimg/share.svg" /></a>
+                  <a href="javascript:void(0)"> <img src="amitimg/share.svg" /></a>
                   <div className="listsocial">
                     <ul>
                       <li><a href="#"><img src="amitimg/instagram.svg" /></a></li>
@@ -67,7 +67,7 @@ export default function Foryou() {
                     </ul>
                   </div>
                 </li>
-                <li className="unionclass"><a href="#"><img className="shearesd" src="amitimg/union.svg" /></a>
+                <li className="unionclass"><a href="javascript:void(0)"><img className="shearesd" src="amitimg/union.svg" /></a>
  <div className="unionsocial">
                     <ul>
                       <li><a href="#"><img src="amitimg/Spotify.svg" /></a></li>
@@ -108,7 +108,7 @@ export default function Foryou() {
 
             <div className="shaeaericon">
               <ul>
-                <li className="sheareicon"><a href="#">
+                <li className="sheareicon"><a href="javascript:void(0)">
                   <img src="amitimg/share.svg" />
                 </a>
 
@@ -123,7 +123,7 @@ export default function Foryou() {
 
 
                 </li>
-                <li className="unionclass"><a href="#"><img className="shearesd" src="amitimg/union.svg" /></a>
+                <li className="unionclass"><a href="javascript:void(0)"><img className="shearesd" src="amitimg/union.svg" /></a>
 
                   <div className="unionsocial">
                     <ul>
@@ -167,7 +167,7 @@ export default function Foryou() {
 
             <div className="shaeaericon">
               <ul>
-                <li className="sheareicon"><a href="#">
+                <li className="sheareicon"><a href="javascript:void(0)">
                   <img src="amitimg/share.svg" />
                 </a>
 
@@ -182,7 +182,7 @@ export default function Foryou() {
 
 
                 </li>
-                <li className="unionclass"><a href="#"><img className="shearesd" src="amitimg/union.svg" /></a>
+                <li className="unionclass"><a href="javascript:void(0)"><img className="shearesd" src="amitimg/union.svg" /></a>
 
                   <div className="unionsocial">
                     <ul>
@@ -224,7 +224,7 @@ export default function Foryou() {
             </div>
             <div className="shaeaericon">
               <ul>
-                <li className="sheareicon"><a href="#">
+                <li className="sheareicon"><a href="javascript:void(0)">
                   <img src="amitimg/share.svg" />
                 </a>
 
@@ -239,7 +239,7 @@ export default function Foryou() {
 
 
                 </li>
-                <li className="unionclass"><a href="#"><img className="shearesd" src="amitimg/union.svg" /></a>
+                <li className="unionclass"><a href="javascript:void(0)"><img className="shearesd" src="amitimg/union.svg" /></a>
 
                   <div className="unionsocial">
                     <ul>
@@ -281,7 +281,7 @@ export default function Foryou() {
 
             <div className="shaeaericon">
               <ul>
-                <li className="sheareicon"><a href="#">
+                <li className="sheareicon"><a href="javascript:void(0)">
                   <img src="amitimg/share.svg" />
                 </a>
 
@@ -296,7 +296,7 @@ export default function Foryou() {
 
 
                 </li>
-                <li className="unionclass"><a href="#"><img className="shearesd" src="amitimg/union.svg" /></a>
+                <li className="unionclass"><a href="javascript:void(0)"><img className="shearesd" src="amitimg/union.svg" /></a>
 
                   <div className="unionsocial">
                     <ul>
