@@ -3006,6 +3006,11 @@ button.forbutton {
     }
 
 }
+@media screen and (max-width: 390px){
+    .about-right-imgouter {
+        top: -230px;
+    }
+}
  
 @media screen and (max-width: 390px) {
     .second-section {
