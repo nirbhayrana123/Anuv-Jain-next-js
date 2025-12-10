@@ -55,29 +55,39 @@ export default function Foryou() {
             
             </div>
 
-            <div className="shaeaericon">
+          <div className="shaeaericon">
               <ul>
-                <li className="sheareicon">
-                  <a href="javascript:void(0)"> <img src="amitimg/share.svg" /></a>
+                <li className="sheareicon"><a href="javascript:void(0)">
+                  <img src="amitimg/share.svg" />
+                </a>
+
+
                   <div className="listsocial">
                     <ul>
-                      <li><a href="#"><img src="amitimg/instagram.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/twitter.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/whatshap.svg" /></a></li>
+                      <li><a target="_blank" href="https://www.instagram.com/anuvjain?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="amitimg/instagram.svg" /></a></li>
+                      <li><a target="_blank" href="http://facebook.com/AnuvJain95?ref=hl"><img src="amitimg/twitter.svg" /></a></li>
+                      <li><a target="_blank" href="#"><img src="amitimg/whatshap.svg" /></a></li>
                     </ul>
                   </div>
+
+
                 </li>
                 <li className="unionclass"><a href="javascript:void(0)"><img className="shearesd" src="amitimg/union.svg" /></a>
- <div className="unionsocial">
+
+                  <div className="unionsocial">
                     <ul>
-                      <li><a href="#"><img src="amitimg/Spotify.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/play.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/musci.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/musci2.svg" /></a></li>
+                      <li><a target="_blank" href="https://open.spotify.com/artist/4gdMJYnopf2nEUcanAwstx?si=Se-6PHDVRiCLGDGsQAxiQw"><img src="amitimg/Spotify.svg" /></a></li>
+                      <li><a target="_blank" href="#"><img src="amitimg/play.svg" /></a></li>
+                      <li><a target="_blank" href="https://music.apple.com/us/artist/anuv-jain/1388609753"><img src="amitimg/musci.svg" /></a></li>
+                      <li><a target="_blank" href="https://music.amazon.com/artists/B07R21DNQ7/anuv-jain?marketplaceId=A3K6Y4MI8GDYMT&musicTerritory=IN&ref=dm_sh_3LTR7v7zBQrlqOmTySimFkaus"><img src="amitimg/musci2.svg" /></a></li>
                     </ul>
                   </div>
+
+
                 </li>
               </ul>
+
+
             </div>
           </div>
           </div>
@@ -106,7 +116,7 @@ export default function Foryou() {
             
             </div>
 
-            <div className="shaeaericon">
+           <div className="shaeaericon">
               <ul>
                 <li className="sheareicon"><a href="javascript:void(0)">
                   <img src="amitimg/share.svg" />
@@ -115,9 +125,9 @@ export default function Foryou() {
 
                   <div className="listsocial">
                     <ul>
-                      <li><a href="#"><img src="amitimg/instagram.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/twitter.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/whatshap.svg" /></a></li>
+                      <li><a target="_blank" href="https://www.instagram.com/anuvjain?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="amitimg/instagram.svg" /></a></li>
+                      <li><a target="_blank" href="http://facebook.com/AnuvJain95?ref=hl"><img src="amitimg/twitter.svg" /></a></li>
+                      <li><a target="_blank" href="#"><img src="amitimg/whatshap.svg" /></a></li>
                     </ul>
                   </div>
 
@@ -127,10 +137,10 @@ export default function Foryou() {
 
                   <div className="unionsocial">
                     <ul>
-                      <li><a href="#"><img src="amitimg/Spotify.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/play.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/musci.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/musci2.svg" /></a></li>
+                      <li><a target="_blank" href="https://open.spotify.com/artist/4gdMJYnopf2nEUcanAwstx?si=Se-6PHDVRiCLGDGsQAxiQw"><img src="amitimg/Spotify.svg" /></a></li>
+                      <li><a target="_blank" href="#"><img src="amitimg/play.svg" /></a></li>
+                      <li><a target="_blank" href="https://music.apple.com/us/artist/anuv-jain/1388609753"><img src="amitimg/musci.svg" /></a></li>
+                      <li><a target="_blank" href="https://music.amazon.com/artists/B07R21DNQ7/anuv-jain?marketplaceId=A3K6Y4MI8GDYMT&musicTerritory=IN&ref=dm_sh_3LTR7v7zBQrlqOmTySimFkaus"><img src="amitimg/musci2.svg" /></a></li>
                     </ul>
                   </div>
 
@@ -165,7 +175,7 @@ export default function Foryou() {
             
             </div>
 
-            <div className="shaeaericon">
+        <div className="shaeaericon">
               <ul>
                 <li className="sheareicon"><a href="javascript:void(0)">
                   <img src="amitimg/share.svg" />
@@ -174,9 +184,9 @@ export default function Foryou() {
 
                   <div className="listsocial">
                     <ul>
-                      <li><a href="#"><img src="amitimg/instagram.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/twitter.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/whatshap.svg" /></a></li>
+                      <li><a target="_blank" href="https://www.instagram.com/anuvjain?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="amitimg/instagram.svg" /></a></li>
+                      <li><a target="_blank" href="http://facebook.com/AnuvJain95?ref=hl"><img src="amitimg/twitter.svg" /></a></li>
+                      <li><a target="_blank" href="#"><img src="amitimg/whatshap.svg" /></a></li>
                     </ul>
                   </div>
 
@@ -186,10 +196,10 @@ export default function Foryou() {
 
                   <div className="unionsocial">
                     <ul>
-                      <li><a href="#"><img src="amitimg/Spotify.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/play.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/musci.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/musci2.svg" /></a></li>
+                      <li><a target="_blank" href="https://open.spotify.com/artist/4gdMJYnopf2nEUcanAwstx?si=Se-6PHDVRiCLGDGsQAxiQw"><img src="amitimg/Spotify.svg" /></a></li>
+                      <li><a target="_blank" href="#"><img src="amitimg/play.svg" /></a></li>
+                      <li><a target="_blank" href="https://music.apple.com/us/artist/anuv-jain/1388609753"><img src="amitimg/musci.svg" /></a></li>
+                      <li><a target="_blank" href="https://music.amazon.com/artists/B07R21DNQ7/anuv-jain?marketplaceId=A3K6Y4MI8GDYMT&musicTerritory=IN&ref=dm_sh_3LTR7v7zBQrlqOmTySimFkaus"><img src="amitimg/musci2.svg" /></a></li>
                     </ul>
                   </div>
 
@@ -231,9 +241,9 @@ export default function Foryou() {
 
                   <div className="listsocial">
                     <ul>
-                      <li><a href="#"><img src="amitimg/instagram.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/twitter.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/whatshap.svg" /></a></li>
+                      <li><a target="_blank" href="https://www.instagram.com/anuvjain?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="amitimg/instagram.svg" /></a></li>
+                      <li><a target="_blank" href="http://facebook.com/AnuvJain95?ref=hl"><img src="amitimg/twitter.svg" /></a></li>
+                      <li><a target="_blank" href="#"><img src="amitimg/whatshap.svg" /></a></li>
                     </ul>
                   </div>
 
@@ -243,10 +253,10 @@ export default function Foryou() {
 
                   <div className="unionsocial">
                     <ul>
-                      <li><a href="#"><img src="amitimg/Spotify.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/play.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/musci.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/musci2.svg" /></a></li>
+                      <li><a target="_blank" href="https://open.spotify.com/artist/4gdMJYnopf2nEUcanAwstx?si=Se-6PHDVRiCLGDGsQAxiQw"><img src="amitimg/Spotify.svg" /></a></li>
+                      <li><a target="_blank" href="#"><img src="amitimg/play.svg" /></a></li>
+                      <li><a target="_blank" href="https://music.apple.com/us/artist/anuv-jain/1388609753"><img src="amitimg/musci.svg" /></a></li>
+                      <li><a target="_blank" href="https://music.amazon.com/artists/B07R21DNQ7/anuv-jain?marketplaceId=A3K6Y4MI8GDYMT&musicTerritory=IN&ref=dm_sh_3LTR7v7zBQrlqOmTySimFkaus"><img src="amitimg/musci2.svg" /></a></li>
                     </ul>
                   </div>
 
@@ -288,9 +298,9 @@ export default function Foryou() {
 
                   <div className="listsocial">
                     <ul>
-                      <li><a href="#"><img src="amitimg/instagram.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/twitter.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/whatshap.svg" /></a></li>
+                      <li><a target="_blank" href="https://www.instagram.com/anuvjain?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="amitimg/instagram.svg" /></a></li>
+                      <li><a target="_blank" href="http://facebook.com/AnuvJain95?ref=hl"><img src="amitimg/twitter.svg" /></a></li>
+                      <li><a target="_blank" href="#"><img src="amitimg/whatshap.svg" /></a></li>
                     </ul>
                   </div>
 
@@ -300,10 +310,10 @@ export default function Foryou() {
 
                   <div className="unionsocial">
                     <ul>
-                      <li><a href="#"><img src="amitimg/Spotify.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/play.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/musci.svg" /></a></li>
-                      <li><a href="#"><img src="amitimg/musci2.svg" /></a></li>
+                      <li><a target="_blank" href="https://open.spotify.com/artist/4gdMJYnopf2nEUcanAwstx?si=Se-6PHDVRiCLGDGsQAxiQw"><img src="amitimg/Spotify.svg" /></a></li>
+                      <li><a target="_blank" href="#"><img src="amitimg/play.svg" /></a></li>
+                      <li><a target="_blank" href="https://music.apple.com/us/artist/anuv-jain/1388609753"><img src="amitimg/musci.svg" /></a></li>
+                      <li><a target="_blank" href="https://music.amazon.com/artists/B07R21DNQ7/anuv-jain?marketplaceId=A3K6Y4MI8GDYMT&musicTerritory=IN&ref=dm_sh_3LTR7v7zBQrlqOmTySimFkaus"><img src="amitimg/musci2.svg" /></a></li>
                     </ul>
                   </div>
 

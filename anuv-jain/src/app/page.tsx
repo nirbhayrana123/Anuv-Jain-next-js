@@ -1,10 +1,22 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Footer from "./footer/Footer";
 import $ from "jquery";
-
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 export default function Home() {
+  const sliderRef = useRef<any>(null);
 
+  const settings = {
+    dots: true,       // below dots
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,     // next/prev arrows
+    autoplay: false,
+  };
   const [isOpen, setIsOpen] = useState(false);
   const [iframeSrc, setIframeSrc] = useState("");
 
@@ -62,6 +74,8 @@ export default function Home() {
     };
   }, []);
 
+
+
   return (
     <>
       <main className="overflow2">
@@ -98,7 +112,7 @@ export default function Home() {
             <div className="about-right-imgouter">
               <div className="angal" style={{ backgroundImage: "url('/images/angal.png')" }}> </div>
               <div className="about-right-img">
-                <img src="images/about-right-img.jpg" className="rotateanimation" />
+                <img src="images/aboutanvi.jpg" className="rotateanimation" />
               </div>
               <div className="rose">
                 <img className="redstrp" src="images/red-strp.png" />
@@ -139,11 +153,14 @@ export default function Home() {
                         </div>
                         <div className="polaroid-group22">
                           <ul className="dates-list">
-                            <li>Lorem Ipsum..........08.07.25</li>
-                            <li>Lorem Ipsum..........08.07.25</li>
-                            <li>Lorem Ipsum..........08.07.25</li>
-                            <li>Lorem Ipsum..........08.07.25</li>
-                            <li>Lorem Ipsum..........08.07.25</li>
+                            <li><a href="https://in.bookmyshow.com/events/music-at-repertwahr-festival/ET00465232" target="_blank">Lucknow....19th Dec 2025</a></li>
+                             <li><a href="https://in.bookmyshow.com/events/the-sneak-n-street-fest-6-0/ET00472057" target="_blank"> Ludhiana....25th Dec 2025</a></li>
+                            <li><a href="#" target="_blank" >Goa....31st Dec 2025</a></li>
+                            <li><a target="_blank" href="https://in.bookmyshow.com/events/anuv-jain-live-in-chennai/ET00472732" >Chennai....4th Jan 2026</a></li>
+                            <li><a href="https://link.district.in/DSTRKT/4tehg3y0" target="_blank">Guwahati....13th Jan 2026</a> </li>
+                            <li><a href="https://in.bookmyshow.com/events/anuv-jain-dastakhat-india-tour-delhi/ET00470692" target="_blank">Delhi....16 Jan 2026</a></li>
+                            <li><a href="https://in.bookmyshow.com/events/anuv-jain-dastakhat-india-tour-ahmedabad/ET00470481" target="_blank">Ahmedabad....18th Jan 2026</a> </li>
+
                           </ul>
 
 
@@ -162,11 +179,14 @@ export default function Home() {
                         </div>
                         <div className="polaroid-group22">
                           <ul className="dates-list">
-                            <li>Lorem Ipsum..........08.07.25</li>
-                            <li>Lorem Ipsum..........08.07.25</li>
-                            <li>Lorem Ipsum..........08.07.25</li>
-                            <li>Lorem Ipsum..........08.07.25</li>
-                            <li>Lorem Ipsum..........08.07.25</li>
+                            <li><a href="https://in.bookmyshow.com/events/anuv-jain-dastakhat-india-tour-pune/ET00470688" target="_blank">Pune....23rd Jan 2026</a> </li>
+                            <li><a href="https://in.bookmyshow.com/events/anuv-jain-dastakhat-india-tour-chandigarh/ET00470682" target="_blank">Chandigarh....30th Jan 2026</a> </li>
+                            <li><a href="https://in.bookmyshow.com/events/anuv-jain-dastakhat-india-tour-kolkata/ET00470691" target="_blank">Kolkata....1st Feb 2026</a> </li>
+                            <li><a href="https://in.bookmyshow.com/events/anuv-jain-dastakhat-india-tour-hyderabad/ET00470690" target="_blank">Hyderabad....6th Feb 2026</a> </li>
+                            <li><a href="https://in.bookmyshow.com/events/anuv-jain-dastakhat-india-tour-indore/ET00470486" target="_blank">Indore....8th Feb 2026</a> </li>
+                            <li><a href="https://in.bookmyshow.com/events/anuv-jain-dastakhat-india-tour-mumbai/ET00470487" target="_blank">Mumbai....14th Feb 2026</a> </li>
+                            <li><a href="https://in.bookmyshow.com/events/anuv-jain-dastakhat-india-tour-jaipur/ET00470489" target="_blank">Jaipur....20th Feb 2026</a> </li>
+                            <li><a href="https://in.bookmyshow.com/events/anuv-jain-dastakhat-india-tour-bengaluru/ET00470482" target="_blank">Bengaluru....22nd Feb 2026</a> </li>
                           </ul>
 
 
@@ -208,7 +228,9 @@ export default function Home() {
               <h4>latest <span> release </span></h4>
 
               <div className="letestllestion">
-                <img className="rotateanimation" src="images/maxresdefault.jpg" />
+                <a href="https://linktr.ee/DastakhatWorldTour2026" target="_blank">
+                <img className="rotateanimation" src="images/latestrelease.png" />
+                </a>
               </div>
             </div>
 
@@ -227,39 +249,98 @@ export default function Home() {
 
                 <div className="slider">
 
-                  <div className="slides"> 
+                  <div className="slides">
+                    <Slider ref={sliderRef} {...settings}>
+                      <div className="slide">
+                        <div className="silde-dote-row">
+                          <iframe className="reletives" src="https://youtu.be/ilNt2bikxDI?si=hu8w6urE9rN_3LEX"></iframe>
+                          {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
+                          <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
+                            <defs>
+                              <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
+                            </defs>
+                            <use className="moving-chain" href="#rectPath" stroke="#191919" stroke-width="10" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div className="slide">
+                        <div className="silde-dote-row">
+                          <iframe className="reletives" src="https://youtu.be/gJLVTKhTnog?si=OaiPBRodBbtHTLG7"></iframe>
+                          {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
+                          <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
+                            <defs>
+                              <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
+                            </defs>
+                            <use className="moving-chain" href="#rectPath" stroke="#191919" stroke-width="10" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div className="slide">
+                        <div className="silde-dote-row">
+                          <iframe className="reletives" src="https://youtu.be/zx0YGEi32r0?si=ExVjQeBoXCaphx-A"></iframe>
+                          {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
+                          <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
+                            <defs>
+                              <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
+                            </defs>
+                            <use className="moving-chain" href="#rectPath" stroke="#191919" stroke-width="10" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </div>
 
-                    <div className="slide">
-                      <div className="silde-dote-row">
-                        <img className="reletives" src="images/mvideosBG.svg" />
-                        <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
-                          <defs>
-                            <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
-                          </defs>
-                          <use className="moving-chain" href="#rectPath" stroke="#191919" stroke-width="10" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        </svg>
-                      </div> 
-                    </div>
-
-                    <div className="slide">
-                      <div className="silde-dote-row">
-                        <img className="reletives" src="images/mvideosBG.svg" />
-                        <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
-                          <defs>
-                            <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
-                          </defs>
-                          <use className="moving-chain" href="#rectPath" stroke="#191919" stroke-width="10" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        </svg>
-                      </div> 
-                    </div>
-
+                      <div className="slide">
+                        <div className="silde-dote-row">
+                          <iframe className="reletives" src="https://youtu.be/41yIVNzGye8?si=UFrfoOApri8r5JZy"></iframe>
+                          {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
+                          <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
+                            <defs>
+                              <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
+                            </defs>
+                            <use className="moving-chain" href="#rectPath" stroke="#191919" stroke-width="10" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div className="slide">
+                        <div className="silde-dote-row">
+                          <iframe className="reletives" src="https://youtu.be/hUORvCLETbI?si=ALH023KlhGRQ7wUO"></iframe>
+                          {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
+                          <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
+                            <defs>
+                              <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
+                            </defs>
+                            <use className="moving-chain" href="#rectPath" stroke="#191919" stroke-width="10" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div className="slide">
+                        <div className="silde-dote-row">
+                          <iframe allowFullScreen className="reletives" src="https://www.youtube.com/watch?v=bP8ATWCvqzw"></iframe>
+                          {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
+                          <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
+                            <defs>
+                              <path id="rectPath" d="M10 10 H510 V310 H10 Z" fill="none" />
+                            </defs>
+                            <use className="moving-chain" href="#rectPath" stroke="#191919" stroke-width="10" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </div>
+                    </Slider>
                   </div>
                 </div>
 
-                <button className="prev"><img src="images/slider-arro.svg" /></button>
-                <button className="next"><img src="images/slider-arro.svg" /></button>
+                <button className="prev" onClick={() => sliderRef.current?.slickPrev()}>
+                  <img src="images/slider-arro.svg" />
+                </button>
+
+                <button className="next" onClick={() => sliderRef.current?.slickNext()}>
+                  <img src="images/slider-arro.svg" />
+                </button>
               </div>
               <a href="#" className="watch-button" onClick={openModal}>Watch Now</a>
             </div>

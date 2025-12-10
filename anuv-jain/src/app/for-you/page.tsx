@@ -80,7 +80,7 @@ export default function Foryou() {
 
             <div className="content-paper">
               <p>1.</p>
-              <h5>Your ideal evening looks like...</h5>
+              <h5>When's the most you have heard me?</h5>
 
               <div className="wrapper first">
                 <div className="checkbox-wrap">
@@ -123,7 +123,7 @@ export default function Foryou() {
 
             <div className="content-paper">
               <p>2.</p>
-              <h5>What do you find comfort in the most?</h5>
+              <h5>What was your breakout song towards me?</h5>
 
               <div className="wrapper first">
                 <div className="checkbox-wrap">
@@ -166,8 +166,7 @@ export default function Foryou() {
 
             <div className="content-paper">
               <p>3.</p>
-              <h5>What best describes your current
-                state of mind?</h5>
+              <h5>⁠Which one of my songs is on your priority list?</h5>
 
               <div className="wrapper first">
                 <div className="checkbox-wrap">
@@ -209,7 +208,7 @@ export default function Foryou() {
 
             <div className="content-paper">
               <p>4.</p>
-              <h5>When you listen to music, you’re usually...</h5>
+              <h5>What do you want me to do next?</h5>
 
               <div className="wrapper first">
                 <div className="checkbox-wrap">
