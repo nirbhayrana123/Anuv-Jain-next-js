@@ -253,7 +253,11 @@ export default function Home() {
                     <Slider ref={sliderRef} {...settings}>
                       <div className="slide">
                         <div className="silde-dote-row">
-                          <iframe className="reletives" src="https://youtu.be/ilNt2bikxDI?si=hu8w6urE9rN_3LEX"></iframe>
+                          <iframe
+  className="reletives"
+  src="https://www.youtube.com/embed/ilNt2bikxDI"
+  allowFullScreen
+></iframe>
                           {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
                           <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
                             <defs>
@@ -266,7 +270,7 @@ export default function Home() {
                       </div>
                       <div className="slide">
                         <div className="silde-dote-row">
-                          <iframe className="reletives" src="https://youtu.be/gJLVTKhTnog?si=OaiPBRodBbtHTLG7"></iframe>
+                          <iframe className="reletives" src="https://www.youtube.com/embed/gJLVTKhTnog?si=OaiPBRodBbtHTLG7"></iframe>
                           {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
                           <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
                             <defs>
@@ -279,7 +283,7 @@ export default function Home() {
                       </div>
                       <div className="slide">
                         <div className="silde-dote-row">
-                          <iframe className="reletives" src="https://youtu.be/zx0YGEi32r0?si=ExVjQeBoXCaphx-A"></iframe>
+                          <iframe className="reletives" src="https://www.youtube.com/embed/zx0YGEi32r0?si=ExVjQeBoXCaphx-A"></iframe>
                           {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
                           <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
                             <defs>
@@ -293,7 +297,7 @@ export default function Home() {
 
                       <div className="slide">
                         <div className="silde-dote-row">
-                          <iframe className="reletives" src="https://youtu.be/41yIVNzGye8?si=UFrfoOApri8r5JZy"></iframe>
+                          <iframe className="reletives" src="https://www.youtube.com/embed/41yIVNzGye8?si=UFrfoOApri8r5JZy"></iframe>
                           {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
                           <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
                             <defs>
@@ -306,7 +310,7 @@ export default function Home() {
                       </div>
                       <div className="slide">
                         <div className="silde-dote-row">
-                          <iframe className="reletives" src="https://youtu.be/hUORvCLETbI?si=ALH023KlhGRQ7wUO"></iframe>
+                          <iframe className="reletives" src="https://www.youtube.com/embed/hUORvCLETbI?si=ALH023KlhGRQ7wUO"></iframe>
                           {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
                           <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
                             <defs>
@@ -319,7 +323,7 @@ export default function Home() {
                       </div>
                       <div className="slide">
                         <div className="silde-dote-row">
-                          <iframe allowFullScreen className="reletives" src="https://www.youtube.com/watch?v=bP8ATWCvqzw"></iframe>
+                          <iframe allowFullScreen className="reletives" src="https://www.youtube.com/embed/bP8ATWCvqzw?si=4bsekpdctkLCZZJR"></iframe>
                           {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
                           <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
                             <defs>

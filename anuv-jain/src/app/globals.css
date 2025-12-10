@@ -812,6 +812,8 @@ ul.dates-list li a {
 .silde-dote-row iframe.reletives{
     width: 100%;
     height: 280px;
+    position: relative;
+    z-index: 9;
 }
 /* .stamp-image::after {
     content: "";
