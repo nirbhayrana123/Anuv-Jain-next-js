@@ -20,15 +20,14 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   const [iframeSrc, setIframeSrc] = useState("");
 
-  const openModal = (e?: React.MouseEvent) => {
-    if (e) e.preventDefault();
-    setIframeSrc("https://www.youtube.com/embed/bP8ATWCvqzw?autoplay=1&rel=0&modestbranding=1");
+  const openModal = (e: React.MouseEvent, videoUrl: string) => {
+    e.preventDefault();
+    setIframeSrc(videoUrl + "?autoplay=1&rel=0&modestbranding=1");
     setIsOpen(true);
   };
 
   const closeModal = () => {
     setIsOpen(false);
-    // remove src to stop playback when modal closes
     setTimeout(() => setIframeSrc(""), 300);
   };
 
@@ -154,7 +153,7 @@ export default function Home() {
                         <div className="polaroid-group22">
                           <ul className="dates-list">
                             <li><a href="https://in.bookmyshow.com/events/music-at-repertwahr-festival/ET00465232" target="_blank">Lucknow....19th Dec 2025</a></li>
-                             <li><a href="https://in.bookmyshow.com/events/the-sneak-n-street-fest-6-0/ET00472057" target="_blank"> Ludhiana....25th Dec 2025</a></li>
+                            <li><a href="https://in.bookmyshow.com/events/the-sneak-n-street-fest-6-0/ET00472057" target="_blank"> Ludhiana....25th Dec 2025</a></li>
                             <li><a href="#" target="_blank" >Goa....31st Dec 2025</a></li>
                             <li><a target="_blank" href="https://in.bookmyshow.com/events/anuv-jain-live-in-chennai/ET00472732" >Chennai....4th Jan 2026</a></li>
                             <li><a href="https://link.district.in/DSTRKT/4tehg3y0" target="_blank">Guwahati....13th Jan 2026</a> </li>
@@ -229,7 +228,7 @@ export default function Home() {
 
               <div className="letestllestion">
                 <a href="https://linktr.ee/DastakhatWorldTour2026" target="_blank">
-                <img className="rotateanimation" src="images/latestrelease.png" />
+                  <img className="rotateanimation" src="images/latestrelease.png" />
                 </a>
               </div>
             </div>
@@ -254,10 +253,10 @@ export default function Home() {
                       <div className="slide">
                         <div className="silde-dote-row">
                           <iframe
-  className="reletives"
-  src="https://www.youtube.com/embed/ilNt2bikxDI"
-  allowFullScreen
-></iframe>
+                            className="reletives"
+                            src="https://www.youtube.com/embed/ilNt2bikxDI"
+                            allowFullScreen
+                          ></iframe>
                           {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
                           <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
                             <defs>
@@ -267,6 +266,13 @@ export default function Home() {
                               stroke-linejoin="round" />
                           </svg>
                         </div>
+                        <a
+                          href="#"
+                          className="watch-button"
+                          onClick={(e) => openModal(e, "https://www.youtube.com/embed/ilNt2bikxDI")}
+                        >
+                          Watch Now
+                        </a>
                       </div>
                       <div className="slide">
                         <div className="silde-dote-row">
@@ -280,6 +286,13 @@ export default function Home() {
                               stroke-linejoin="round" />
                           </svg>
                         </div>
+                        <a
+                          href="#"
+                          className="watch-button"
+                          onClick={(e) => openModal(e, "https://www.youtube.com/embed/gJLVTKhTnog?si=OaiPBRodBbtHTLG7")}
+                        >
+                          Watch Now
+                        </a>
                       </div>
                       <div className="slide">
                         <div className="silde-dote-row">
@@ -293,6 +306,13 @@ export default function Home() {
                               stroke-linejoin="round" />
                           </svg>
                         </div>
+                        <a
+                          href="#"
+                          className="watch-button"
+                          onClick={(e) => openModal(e, "https://www.youtube.com/embed/zx0YGEi32r0?si=ExVjQeBoXCaphx-A")}
+                        >
+                          Watch Now
+                        </a>
                       </div>
 
                       <div className="slide">
@@ -307,6 +327,13 @@ export default function Home() {
                               stroke-linejoin="round" />
                           </svg>
                         </div>
+                        <a
+                          href="#"
+                          className="watch-button"
+                          onClick={(e) => openModal(e, "https://www.youtube.com/embed/41yIVNzGye8?si=UFrfoOApri8r5JZy")}
+                        >
+                          Watch Now
+                        </a>
                       </div>
                       <div className="slide">
                         <div className="silde-dote-row">
@@ -320,6 +347,13 @@ export default function Home() {
                               stroke-linejoin="round" />
                           </svg>
                         </div>
+                        <a
+                          href="#"
+                          className="watch-button"
+                          onClick={(e) => openModal(e, "https://www.youtube.com/embed/hUORvCLETbI?si=ALH023KlhGRQ7wUO")}
+                        >
+                          Watch Now
+                        </a>
                       </div>
                       <div className="slide">
                         <div className="silde-dote-row">
@@ -333,6 +367,13 @@ export default function Home() {
                               stroke-linejoin="round" />
                           </svg>
                         </div>
+                        <a
+                          href="#"
+                          className="watch-button"
+                          onClick={(e) => openModal(e, "https://www.youtube.com/embed/bP8ATWCvqzw?si=4bsekpdctkLCZZJR")}
+                        >
+                          Watch Now
+                        </a>
                       </div>
                     </Slider>
                   </div>
@@ -346,7 +387,6 @@ export default function Home() {
                   <img src="images/slider-arro.svg" />
                 </button>
               </div>
-              <a href="#" className="watch-button" onClick={openModal}>Watch Now</a>
             </div>
           </div>
 
