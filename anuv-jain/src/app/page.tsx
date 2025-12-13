@@ -241,9 +241,9 @@ export default function Home() {
             <div className="afsos">
               <h4>latest <span> release </span></h4>
 
-              <div className="letestllestion rotateanimation">
+              <div className="letestllestion ">
                 <a href="https://linktr.ee/DastakhatWorldTour2026" target="_blank">
-                  <img  src="images/latestrelease.png" />
+                  <img className="rotateanimation" src="images/latestrelease.png" />
                 </a>
               </div>
             </div>
