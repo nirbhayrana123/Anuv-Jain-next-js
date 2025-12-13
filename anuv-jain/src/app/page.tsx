@@ -85,9 +85,8 @@ export default function Home() {
             muted
             loop
             playsInline
-            poster="images/banneimg.jpg"
+            poster="images/section-one.jpg"
           >
-            <source src="images/bannervideo.mp4" type="video/mp4" />
 
             {/* fallback image if video not supported */}
             <img src="images/section-one.jpg" alt="Banner" />
@@ -242,9 +241,9 @@ export default function Home() {
             <div className="afsos">
               <h4>latest <span> release </span></h4>
 
-              <div className="letestllestion">
+              <div className="letestllestion rotateanimation">
                 <a href="https://linktr.ee/DastakhatWorldTour2026" target="_blank">
-                  <img className="rotateanimation" src="images/latestrelease.png" />
+                  <img  src="images/latestrelease.png" />
                 </a>
               </div>
             </div>
