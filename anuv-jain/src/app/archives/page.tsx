@@ -73,7 +73,7 @@ export default function Archives() {
         <div className="swiper-wrapper"> 
 
           {/* SLIDE 1 */}
-          <div className="swiper-slide"style={{backgroundImage: "url('/images/playlistimgbg.jpg')", }} >
+          <div className="swiper-slide"style={{backgroundImage: "url('/images/playlistimgbg.png')", }} >
             <div className="scontaerd">
               <div className="flexcard">
 

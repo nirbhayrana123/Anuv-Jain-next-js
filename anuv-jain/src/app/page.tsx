@@ -85,16 +85,16 @@ export default function Home() {
             muted
             loop
             playsInline
-            poster="images/section-one.jpg"
+            poster="images/section-one.png"
           >
 
             {/* fallback image if video not supported */}
-            <img src="images/section-one.jpg" alt="Banner" />
+            <img src="images/section-one.png" alt="Banner" />
           </video>
 
 
 
-          <img className="top-img" src="images/section-one.jpg" />
+          <img className="top-img" src="images/section-one.png" />
 
           <img className="bottom-img" src="images/banner-bottom.png" />
 
@@ -126,7 +126,7 @@ export default function Home() {
             <div className="about-right-imgouter">
               <div className="angal" style={{ backgroundImage: "url('/images/angal.png')" }}> </div>
               <div className="about-right-img">
-                <img src="images/aboutanvi.jpg" className="rotateanimation" />
+                <img src="images/aboutanvi.png" className="rotateanimation" />
               </div>
               <div className="rose">
                 <img className="redstrp" src="images/red-strp.png" />

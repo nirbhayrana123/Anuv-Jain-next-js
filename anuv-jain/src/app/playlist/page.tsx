@@ -45,12 +45,11 @@ export default function Foryou() {
           </div>
           <div className="flexcontent">
             <div className="textanimationply">
-              <h3>The Silent <br/> RomAntic </h3>
+              <h3>hope this reaches  <br/> to you </h3>
               <div className="contentmusiclist">
-                <h5>Baarishein..........3:47</h5>
-                <h5>Mishri..............3:47</h5>
-                <h5>Jul.................3:47</h5>
-                <h5>Maula................3:47</h5>
+                <h5>Gul.............3:37</h5>
+                <h5>Arz Kiya Hai....4:54</h5>
+                <h5>Jo Tum Mere Ho..4:11</h5>
               </div>
             
             </div>
@@ -76,7 +75,7 @@ export default function Foryou() {
 
                   <div className="unionsocial">
                     <ul>
-                      <li><a target="_blank" href="https://open.spotify.com/artist/4gdMJYnopf2nEUcanAwstx?si=Se-6PHDVRiCLGDGsQAxiQw"><img src="amitimg/Spotify.svg" /></a></li>
+                      <li><a target="_blank" href="https://open.spotify.com/playlist/6uLYko9JSO0ar0dJhlariP?si=c80164f555cc4806"><img src="amitimg/Spotify.svg" /></a></li>
                       <li><a target="_blank" href="#"><img src="amitimg/play.svg" /></a></li>
                       <li><a target="_blank" href="https://music.apple.com/us/artist/anuv-jain/1388609753"><img src="amitimg/musci.svg" /></a></li>
                       <li><a target="_blank" href="https://music.amazon.com/artists/B07R21DNQ7/anuv-jain?marketplaceId=A3K6Y4MI8GDYMT&musicTerritory=IN&ref=dm_sh_3LTR7v7zBQrlqOmTySimFkaus"><img src="amitimg/musci2.svg" /></a></li>

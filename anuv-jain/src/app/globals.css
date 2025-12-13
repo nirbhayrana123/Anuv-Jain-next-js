@@ -55,6 +55,7 @@ img.mobile {
     border-bottom-width: 50px;
     margin-top: 28px;
     overflow: hidden;
+        transform: rotate(-1deg);
 }
 .main-banner video.banner-video {
     width: 100%;
@@ -64,7 +65,9 @@ img.mobile {
     transition-timing-function: ease-out !important;
 }
 
-
+.textanimationply {
+    text-align: center;
+}
 
 .dates-list {
     animation: fadeAll 3s ease-in-out infinite;
