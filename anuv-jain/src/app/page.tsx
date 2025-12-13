@@ -90,12 +90,12 @@ export default function Home() {
             <source src="images/bannervideo.mp4" type="video/mp4" />
 
             {/* fallback image if video not supported */}
-            <img src="images/banner-fallback.jpg" alt="Banner" />
+            <img src="images/section-one.jpg" alt="Banner" />
           </video>
 
 
 
-          <img className="top-img" src="images/banner-top.png" />
+          <img className="top-img" src="images/section-one.jpg" />
 
           <img className="bottom-img" src="images/banner-bottom.png" />
 
