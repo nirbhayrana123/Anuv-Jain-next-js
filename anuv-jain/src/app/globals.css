@@ -1392,7 +1392,7 @@ main.archivemain {
 }
 
 .paycard {
-    max-width: 500px;
+    max-width: 320px;
     background-color: #ffffff;
     border: 20px solid #fff;
     border-bottom-width: 100px;
@@ -1915,11 +1915,7 @@ button.forbutton {
 
 
 
-
-
-    .paycard {
-        max-width: 390px;
-    }
+ 
 
     .textanimationply h3 {
         font-size: 98px;
@@ -2022,7 +2018,7 @@ button.forbutton {
 
 @media screen and (max-width: 1400px) {
     .paycard {
-        max-width: 350px;
+        max-width: 245px;
     }
 
     .checkbox-wrap label {
@@ -2193,7 +2189,7 @@ button.forbutton {
 @media screen and (max-width: 1250px) {
 
     .paycard {
-        max-width: 280px;
+        max-width: 190px;
         border: 15px solid #fff;
         border-bottom-width: 70px;
 

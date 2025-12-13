@@ -87,7 +87,7 @@ export default function Home() {
             playsInline
             poster="images/section-one.png"
           >
-
+ <source src="images/bannervideo.mp4" type="video/mp4" />
             {/* fallback image if video not supported */}
             <img src="images/section-one.png" alt="Banner" />
           </video>
