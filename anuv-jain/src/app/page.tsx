@@ -79,6 +79,22 @@ export default function Home() {
     <>
       <main className="overflow2">
         <section className="main-banner">
+          <video
+            className="banner-video"
+            autoPlay
+            muted
+            loop
+            playsInline
+            poster="images/banneimg.jpg"
+          >
+            <source src="images/bannervideo.mp4" type="video/mp4" />
+
+            {/* fallback image if video not supported */}
+            <img src="images/banner-fallback.jpg" alt="Banner" />
+          </video>
+
+
+
           <img className="top-img" src="images/banner-top.png" />
 
           <img className="bottom-img" src="images/banner-bottom.png" />
@@ -251,8 +267,12 @@ export default function Home() {
                   <div className="slides">
                     <Slider ref={sliderRef} {...settings}>
                       <div className="slide">
-                        <div className="silde-dote-row">
+                        <div className="silde-dote-row"
+                         onClick={(e) =>
+    openModal(e, "https://www.youtube.com/embed/ilNt2bikxDI")  }
+                        >
                           <iframe
+                        
                             className="reletives"
                             src="https://www.youtube.com/embed/ilNt2bikxDI"
                             allowFullScreen
@@ -275,7 +295,8 @@ export default function Home() {
                         </a>
                       </div>
                       <div className="slide">
-                        <div className="silde-dote-row">
+                        <div className="silde-dote-row"
+                        onClick={(e) => openModal(e, "https://www.youtube.com/embed/gJLVTKhTnog?si=OaiPBRodBbtHTLG7")}>
                           <iframe className="reletives" src="https://www.youtube.com/embed/gJLVTKhTnog?si=OaiPBRodBbtHTLG7"></iframe>
                           {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
                           <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
@@ -295,7 +316,7 @@ export default function Home() {
                         </a>
                       </div>
                       <div className="slide">
-                        <div className="silde-dote-row">
+                        <div className="silde-dote-row"  onClick={(e) => openModal(e, "https://www.youtube.com/embed/zx0YGEi32r0?si=ExVjQeBoXCaphx-A")} >
                           <iframe className="reletives" src="https://www.youtube.com/embed/zx0YGEi32r0?si=ExVjQeBoXCaphx-A"></iframe>
                           {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
                           <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
@@ -316,7 +337,7 @@ export default function Home() {
                       </div>
 
                       <div className="slide">
-                        <div className="silde-dote-row">
+                        <div className="silde-dote-row"   onClick={(e) => openModal(e, "https://www.youtube.com/embed/41yIVNzGye8?si=UFrfoOApri8r5JZy")} >
                           <iframe className="reletives" src="https://www.youtube.com/embed/41yIVNzGye8?si=UFrfoOApri8r5JZy"></iframe>
                           {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
                           <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
@@ -336,7 +357,8 @@ export default function Home() {
                         </a>
                       </div>
                       <div className="slide">
-                        <div className="silde-dote-row">
+                        <div className="silde-dote-row"
+                        onClick={(e) => openModal(e, "https://www.youtube.com/embed/hUORvCLETbI?si=ALH023KlhGRQ7wUO")} >
                           <iframe className="reletives" src="https://www.youtube.com/embed/hUORvCLETbI?si=ALH023KlhGRQ7wUO"></iframe>
                           {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
                           <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
@@ -356,7 +378,7 @@ export default function Home() {
                         </a>
                       </div>
                       <div className="slide">
-                        <div className="silde-dote-row">
+                        <div className="silde-dote-row" onClick={(e) => openModal(e, "https://www.youtube.com/embed/bP8ATWCvqzw?si=4bsekpdctkLCZZJR")} >
                           <iframe allowFullScreen className="reletives" src="https://www.youtube.com/embed/bP8ATWCvqzw?si=4bsekpdctkLCZZJR"></iframe>
                           {/* <img className="reletives" src="images/mvideosBG.svg" /> */}
                           <svg className="chain-svg" viewBox="0 0 520 320" preserveAspectRatio="none" aria-hidden="true">
